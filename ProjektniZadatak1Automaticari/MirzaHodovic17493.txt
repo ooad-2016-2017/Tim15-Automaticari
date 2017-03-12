@@ -1,5 +1,3 @@
 1. Mirza Hodovic
-<<<<<<< HEAD
 2. Danijel Cuturic
-=======
->>>>>>> e53c148055678f8569b8d8a3cd96bbbe1cf3a90a
+
