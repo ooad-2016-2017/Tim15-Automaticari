@@ -6,6 +6,7 @@ Clanovi Tima:
 3. Danijel Cuturic
 
 Sistem za brzu naplatu cestarine
+
 Opis teme
 Vremenom raste broj automobila samim tim rastu gužve na autocestama i javlja se potreba za uvođenje jednostavnije ekonomski prihvatljivije naplate cestarine. Također potrebna je i modernizacija usluge kako bi se išlo u korak sa vremenom i standardima koje su postavile razvijenije države. Da bi se to ostvarilo, potrebna je aplikacija koja će istovremeno biti efikasna,  jednostavna za korištenje i ekonomski isplativa. Cilj je da se pronađe najjednostavniji način za naplatu  cestarine i da se samim tim smanje gužve na ulazima.
 
