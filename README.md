@@ -29,7 +29,7 @@ Vremenom raste broj vozila, a samim tim rastu gužve na autoputevima i javlja se
 - Ukoliko je korisnički račun napravljen na licu mjesta, administrator daje uređaj službeniku koje ga proslijeđuje korisniku.
 - Korisnik ulazi na autoput, približava se naplatnoj kućici i nailazi na senzor koji očitava podatke s kartice koja se nalazi u vozilu.  
 - Kamera zabilježi registracijske oznake na vozilu i uporedi ih s registracijskim oznakama koji su zabilježene na kartici.  
-- Senzor za težinu očitava težinu vozila i upoređuje istu s tipom vozila koju je korisnik unio prilikom registracije.
+- Senzor za težinu očitava težinu vozila i upoređuje istu s tipom vozila koju je korisnik unio prilikom registracije korisničkog računa.
 - Senzor koji očitava podatke na karticu prosljeđuje podatke sistemu koji ih obrađuje i provjerava stanje na računu korisnika tj. je li stanje dovoljno za naplatu.
 - Korisniku se dozvoljava  odlazak u minus jednu transakciju. Ako korisnik ima minimalna sredstva na računu, npr. 1 KM, dozvoljen mu je ulazak na autocestu te izlazak s autoceste bez obzira na iznos cestarine prijeđene dionice i ispisuje mu se poruka upozorenja na displej pokraj rampe. Navedeni sustav u funkciji je iz razloga jer ne znamo hoće li korisnik, koji na računu ima npr. 10 KM, izaći na dionici koja košta 3 KM ili na dionici koja košta 181 KM.  
 - Ukoliko stanje na računu nije dovoljno za napatu prolasaka autoputom, korisnik se obavještava putem SMS-a na broj telefona koji je ostavio u podacima na korisnićkom računu da se ne može uključiti na autoput i da odmah izvrši dopunu na račun koja je dovoljna za naplatu ili izvrši uplatu gotovinom kod službenika na kućici označenoj za naplatu u ovim slučajevima.
