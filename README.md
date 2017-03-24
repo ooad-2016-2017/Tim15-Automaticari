@@ -22,9 +22,10 @@ Vremenom raste broj vozila, a samim tim rastu gužve na autoputevima i javlja se
   * Nadoplata Vašeg računa u može se izvršiti kreditnom karticom. Prvi  korak u nadoplati računa je prijava na aplikaciju. Odabirom izbornika „nadoplata računa“ morate utipkati željeni iznos nadoplate i utipkati podatke o korisniku i kreditnoj kartici (AMEX, Diners, Visa ili MasterCard) te ostale podatke koje Vas izbornik traži. Nakon što se izvrši navedena procedura, korisniku se skida iznos nadoplate s kreditne kartice.
   * Nadoplata računa putem SMS bona je vrlo jednostavna te je potrebno slijediti upute otisnute na samom bonu.
 - Eksterni sistem je sistem za plaćanje - payment system.  
-- Administrator prosljeđuje uređaj dostavljaču.  
-- Dostavljač dostavlja uređaj na adresu korisnika i popunjava obrazac da je isti dostavio.      
-- Korisnik popunjava obrazac da je zaprimio uređaj i plača ga.  
+- Isporuka uređaja  
+  * Administrator prosljeđuje uređaj dostavljaču.  
+  * Dostavljač dostavlja uređaj na adresu korisnika i popunjava obrazac da je isti dostavio.      
+  * Korisnik popunjava obrazac da je zaprimio uređaj i plaća ga.  
 - Ukoliko je korisnički račun napravljen na licu mjesta, administrator daje uređaj službeniku koje ga proslijeđuje korisniku.
 - Korisnik ulazi na autoput, približava se naplatnoj kućici i nailazi na senzor koji očitava podatke s kartice koja se nalazi u vozilu.  
 - Kamera zabilježi registracijske oznake na vozilu i uporedi ih sa registracijskim oznakama koji su zabilježene na kartici.
