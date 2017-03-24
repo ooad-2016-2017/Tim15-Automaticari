@@ -42,5 +42,7 @@ Vremenom raste broj vozila, a samim tim rastu gužve na autoputevima i javlja se
 
 
 **Korisnik** - osoba koja predaje zahtjev za korisnički račun  
-**Službenik** - naplaćuje cestarinu ukoliko nema dovoljno stanja na računu; daje uređaj korisniku ako korisnik pravi račun na licu mjesta  **Administrator** - vrši validaciju podataka; daje urešaj službeniku ukoliko se radi na licu mjesta ili dostavljaču ukoliko račun nije napravljen na licu mjesta  
+**Službenik** - naplaćuje cestarinu ukoliko nema dovoljno
+stanja na računu; daje uređaj korisniku ako korisnik pravi račun na licu mjesta  
+**Administrator** - vrši validaciju podataka; daje urešaj službeniku ukoliko se radi na licu mjesta ili dostavljaču ukoliko račun nije napravljen na licu mjesta  
 **Dostavljač** - dostavlja uređaj korisniku ukoliko nije napravio račun na licu mjesta  
