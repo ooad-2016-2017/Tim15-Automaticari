@@ -3,7 +3,7 @@
 
 1. Mirza Hodović
 2. Ahmed Ahmedić
-3. Danijel Cuturić
+3. Danijel Čuturić
 
 #Sistem za brzu naplatu putarine
 
@@ -13,7 +13,8 @@ Vremenom raste broj vozila, a samim tim rastu gužve na autoputevima i javlja se
 
 ### Procesi
 
-- Korisnik pravi korisnički račun i daje podatke o sebi i vozilu
+* Registracija korisnika prijava u sistem  
+  * Korisnik pravi korisnički račun i daje podatke o sebi i vozilu
 - Podaci se upisuju u bazu podataka
 - Korisnik predaje zahtjev za dopunu računa.
 - Uplaćuje određeni iznos na račun.
