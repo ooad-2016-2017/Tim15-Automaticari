@@ -4,13 +4,13 @@
 1. Mirza Hodović
 2. Ahmed Ahmedić
 3. Danijel Čuturić
-
-#Sistem za brzu naplatu putarine
-
+---
+## Sistem za brzu naplatu putarine
+---
 ### Opis teme
 Vremenom raste broj vozila, a samim tim rastu gužve na autoputevima i javlja se potreba za uvođenje jednostavnije ekonomski prihvatljivije naplate putarine. Također potrebna je i modernizacija usluge kako bi se išlo u korak sa vremenom i standardima koje su postavile razvijenije države. Kako bi se to ostvarilo, potrebna je aplikacija koja će istovremeno biti efikasna, jednostavna za korištenje i ekonomski isplativa. Cilj je pronaći najjednostavniji način za naplatu putarinee i smanjiti gužve na ulazima na autoputeve.
 
-
+---
 ### Procesi
 
 * Registracija korisnika prijava u sistem  
@@ -28,7 +28,7 @@ Vremenom raste broj vozila, a samim tim rastu gužve na autoputevima i javlja se
 - Ukoliko je stanje na računu dovoljno, sistem podiže rampu i korisnik se može uključiti na autoput.
 - Prilikom izlaska s autoputa, skida se određena cijena u odnosu na kilometre koje je korisnik prešao od trenutka priključenja na autoput (1km - 0,10 KM ) i tipa vozila (1km - nx0,10 KM).  
 - Kad sistem završi transakciju, rampa se podiže i korisnik može napustiti autoput.  
- 
+--- 
 ### Funkcionalnosti
 
 - Prijava korisnika na sistem.  
@@ -38,7 +38,7 @@ Vremenom raste broj vozila, a samim tim rastu gužve na autoputevima i javlja se
 - Upoređivanje registarskih tablica.
 
 
-
+---
 ### Akteri
 
 
