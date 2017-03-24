@@ -31,9 +31,7 @@ Vremenom raste broj vozila, a samim tim rastu gužve na autoputevima i javlja se
 ### Funkcionalnosti
 
 Prijava korisnika na sistem.
-
-Dopuna stanja na računu.
-
+Dopuna stanja na računu.  
 Kreiranje naloga za dostavljača (šta dostavlja, potvrda isporuke i potvrda da je korisnik dobio dostavu).
 
 Očitavanje registarskih tablica.
