@@ -1,9 +1,9 @@
-# Automaticari
-## Clanovi Tima:
+# Automatičari
+## Članovi Tima:
 
-1. Mirza Hodovic
-2. Ahmed Ahmedic
-3. Danijel Cuturic
+1. Mirza Hodović
+2. Ahmed Ahmedić
+3. Danijel Cuturić
 
 Sistem za brzu naplatu cestarine
 
