@@ -1,5 +1,5 @@
-Automaticari
-Clanovi Tima:
+# Automaticari
+## Clanovi Tima:
 
 1. Mirza Hodovic
 2. Ahmed Ahmedic
@@ -7,13 +7,14 @@ Clanovi Tima:
 
 Sistem za brzu naplatu cestarine
 
-Opis teme
+### Opis teme
 Vremenom raste broj automobila samim tim rastu gužve na autocestama i javlja se potreba za uvođenje jednostavnije ekonomski prihvatljivije naplate cestarine. Također potrebna je i modernizacija usluge kako bi se išlo u korak sa vremenom i standardima koje su postavile razvijenije države. Da bi se to ostvarilo, potrebna je aplikacija koja će istovremeno biti efikasna,  jednostavna za korištenje i ekonomski isplativa. Cilj je da se pronađe najjednostavniji način za naplatu  cestarine i da se samim tim smanje gužve na ulazima.
 
 
-Procesi
+### Procesi
 
 Korisnik pravi korisnički račun i daje podatke o sebi i automobilu.
+
 Podaci se upisuju u bazu podataka.
 Korisnik predaje zahtjev za dopunu računa.
 Uplaćuje određeni iznos na račun.
@@ -28,14 +29,19 @@ Prilikom izlaska s autoputa, skida se određena cijena u odnosu na kilometre koj
 Kad sistem završi transakciju, rampa se podiže i korisnik može napustiti autoput.  
  
  
-Funkcionalnosti
+### Funkcionalnosti
 
 
 
 
 
-Akteri
+### Akteri
+
+
 Korisnik - osoba koja predaje zahtjev za korisnički račun
+
 Službenik - naplaćuje cestarinu ukoliko nema dovoljno stanja na računu; daje uređaj korisniku ako korisnik pravi račun na licu mjesta
+
 Administrator - vrši validaciju podataka; daje urešaj službeniku ukoliko se radi na licu mjesta ili dostavljaču ukoliko račun nije napravljen na licu mjesta
+
 Dostavljač - dostavlja uređaj korisniku ukoliko nije napravio račun na licu mjesta
