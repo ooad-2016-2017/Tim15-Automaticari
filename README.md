@@ -13,11 +13,21 @@ Vremenom raste broj vozila, a samim tim rastu gužve na autoputevima i javlja se
 ---
 ### Procesi
 
-* Registracija korisnika prijava u sistem  
+* Registracija korisnika i prijava u sistem.  
   * Korisnik pravi korisnički račun i daje podatke o sebi i vozilu.
   * Podaci se upisuju u bazu podataka.
 - Korisnik predaje zahtjev za dopunu računa.
 - Uplaćuje određeni iznos na račun.
+  *Korisnik može nadoplatiti račun bonom tako da najprije unese broj registarske tablice a zatim unese tajni kod sa kupljenog bona.
+  *Nadoplata Vašeg računa u može se izvršiti kreditnom karticom. Prvi  korak u nadoplati računa je prijava na aplikaciju. Odabirom izbornika „nadoplata računa“ morate utipkati željeni iznos nadoplate i utipkati podatke o korisniku i kreditnoj kartici (AMEX, Diners, Visa ili MasterCard) te ostale podatke koje Vas izbornik traži. Nakon što se izvrši navedena procedura, korisniku se skida iznos nadoplate s kreditne kartice.
+  *Nadoplata računa putem SMS bona je vrlo jednostavna te je potrebno slijediti upute otisnute na samom bonu:
+1)  	utipkajte riječ NADOPLATA
+2)  	utipkajte razmak 
+3)  	utipkajte broj uređaja (srednjih 10 znamenki) 
+4)  	utipkajte razmak 
+5)  	utipkajte kod za nadoplatu 
+6)  	pošaljite SMS poruku na broj 000-000-000 
+7)  	uslijedit će poruka o uspješno obavljenoj transakciji o nadoplati Vašeg računa
 - Eksterni sistem je sistem za plaćanje - payment system.
 - Administrator šalje odgovarajući uređaj na adresu korisnika ukoliko je isti putem interneta napravio korisnički račun. 
 - Ukoliko je korisnički račun napravljen na licu mjesta, administrator daje uređaj službeniku koje ga proslijeđuje korisniku.
