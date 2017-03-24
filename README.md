@@ -23,7 +23,7 @@ Uplaćuje određeni iznos na račun.
 
 Eksterni sistem je sistem za plaćanje - payment system.
 
-Administrator šalje odgovarajući uređaj na adresu korisnika ukoliko je isti putem intereneta napravio korisnički račun. 
+Administrator šalje odgovarajući uređaj na adresu korisnika ukoliko je isti putem interneta napravio korisnički račun. 
 
 Ukoliko je korisnički račun napravljen na licu mjesta, administrator daje uređaj službeniku koje ga proslijeđuje korisniku.
 
