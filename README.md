@@ -14,8 +14,8 @@ Vremenom raste broj vozila, a samim tim rastu gužve na autoputevima i javlja se
 ### Procesi
 
 * Registracija korisnika prijava u sistem  
-  * Korisnik pravi korisnički račun i daje podatke o sebi i vozilu
-- Podaci se upisuju u bazu podataka
+  * Korisnik pravi korisnički račun i daje podatke o sebi i vozilu.
+  * Podaci se upisuju u bazu podataka.
 - Korisnik predaje zahtjev za dopunu računa.
 - Uplaćuje određeni iznos na račun.
 - Eksterni sistem je sistem za plaćanje - payment system.
