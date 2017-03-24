@@ -41,9 +41,11 @@ Vremenom raste broj vozila, a samim tim rastu gužve na autoputevima i javlja se
 
 - Prijava korisnika na sistem.  
 - Dopuna stanja na računu.  
-- Kreiranje naloga za dostavljača (šta dostavlja, potvrda isporuke i potvrda da je korisnik dobio dostavu).  
-- Očitavanje registarskih tablica.  
-- Upoređivanje registarskih tablica.
+- Kreiranje naloga za dostavljača (šta dostavlja, potvrda isporuke i potvrda da je korisnik dobio dostavu).
+- Očitavanje uređaja.
+- Očitavanje registarskih tablica i težine.  
+- Upoređivanje registarskih tablica i težine.
+- Ispisivanje poruke na displeju. 
 
 
 ---
