@@ -13,8 +13,8 @@ Vremenom raste broj vozila, a samim tim rastu gužve na autoputevima i javlja se
 
 ### Procesi
 
--Korisnik pravi korisnički račun i daje podatke o sebi i vozilu
--Podaci se upisuju u bazu podataka
+- Korisnik pravi korisnički račun i daje podatke o sebi i vozilu
+- Podaci se upisuju u bazu podataka
 
 -Korisnik predaje zahtjev za dopunu računa.
 
