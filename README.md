@@ -44,7 +44,15 @@ Kad sistem završi transakciju, rampa se podiže i korisnik može napustiti auto
  
 ### Funkcionalnosti
 
+Prijava korisnika na sistem.
 
+Dopuna stanja na računu.
+
+Kreiranje naloga za dostavljača (šta dostavlja, potvrda isporuke i potvrda da je korisnik dobio dostavu).
+
+Očitavanje registarskih tablica.
+
+Upoređivanje registarskih tablica.
 
 
 
