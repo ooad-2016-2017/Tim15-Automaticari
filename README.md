@@ -5,7 +5,7 @@
 2. Ahmed Ahmedić
 3. Danijel Cuturić
 
-Sistem za brzu naplatu putarine
+#Sistem za brzu naplatu putarine
 
 ### Opis teme
 Vremenom raste broj vozila, a samim tim rastu gužve na autoputevima i javlja se potreba za uvođenje jednostavnije ekonomski prihvatljivije naplate putarine. Također potrebna je i modernizacija usluge kako bi se išlo u korak sa vremenom i standardima koje su postavile razvijenije države. Kako bi se to ostvarilo, potrebna je aplikacija koja će istovremeno biti efikasna, jednostavna za korištenje i ekonomski isplativa. Cilj je pronaći najjednostavniji način za naplatu putarinee i smanjiti gužve na ulazima na autoputeve.
