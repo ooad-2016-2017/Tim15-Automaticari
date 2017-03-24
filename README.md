@@ -30,12 +30,10 @@ Vremenom raste broj vozila, a samim tim rastu gužve na autoputevima i javlja se
  
 ### Funkcionalnosti
 
-Prijava korisnika na sistem.
+Prijava korisnika na sistem.  
 Dopuna stanja na računu.  
-Kreiranje naloga za dostavljača (šta dostavlja, potvrda isporuke i potvrda da je korisnik dobio dostavu).
-
-Očitavanje registarskih tablica.
-
+Kreiranje naloga za dostavljača (šta dostavlja, potvrda isporuke i potvrda da je korisnik dobio dostavu).  
+Očitavanje registarskih tablica.  
 Upoređivanje registarskih tablica.
 
 
@@ -43,10 +41,7 @@ Upoređivanje registarskih tablica.
 ### Akteri
 
 
-Korisnik - osoba koja predaje zahtjev za korisnički račun
-
-Službenik - naplaćuje cestarinu ukoliko nema dovoljno stanja na računu; daje uređaj korisniku ako korisnik pravi račun na licu mjesta
-
-Administrator - vrši validaciju podataka; daje urešaj službeniku ukoliko se radi na licu mjesta ili dostavljaču ukoliko račun nije napravljen na licu mjesta
-
-Dostavljač - dostavlja uređaj korisniku ukoliko nije napravio račun na licu mjesta
+Korisnik - osoba koja predaje zahtjev za korisnički račun  
+Službenik - naplaćuje cestarinu ukoliko nema dovoljno stanja na računu; daje uređaj korisniku ako korisnik pravi račun na licu mjesta  
+Administrator - vrši validaciju podataka; daje urešaj službeniku ukoliko se radi na licu mjesta ili dostavljaču ukoliko račun nije napravljen na licu mjesta  
+Dostavljač - dostavlja uređaj korisniku ukoliko nije napravio račun na licu mjesta  
