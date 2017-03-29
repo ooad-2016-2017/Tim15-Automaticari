@@ -15,8 +15,8 @@ Vremenom raste broj vozila, a samim tim rastu gužve na autoputevima i javlja se
 ### Procesi
 
 * Registracija korisnika (pravno ili fizičko lice) i prijava u sistem.  
-  * Fizičko lice pravi korisnički račun i daje podatke o sebi i vozilu (ime i prezime, tip vozila, vozilo, registarske oznake, kontakt telefon).
-  * Pravno lice pravi korisnički račun jedino putem mobilne aplikacije i daje podatke (naziv pravnog lica, ID broj pravnog lica, žiro račun pravnog lica, broj vozila, tip svakog od vozila, registarske oznake svakog od vozila, kontakt telefon).
+  * Fizičko lice pravi korisnički račun i daje podatke o sebi i vozilu (ime i prezime, kontakt telefon, email adresa, tip vozila, vozilo, registarske oznake).
+  * Pravno lice pravi korisnički račun jedino putem mobilne aplikacije i daje podatke (naziv pravnog lica, ID broj pravnog lica, žiro račun pravnog lica, email adresa, kontakt telefon, broj vozila, tip svakog od vozila, registarske oznake svakog od vozila).
   * Prilikom pravljenja korisničkog računa za pravno lice, pravno lice s administratorom potpisuje ugovor u kojem se definiraju sve specifikacije njihove saradnje. 
   * Podaci se upisuju u bazu podataka.
 * Svako vozilo pravnog lica posjeduje svoj vlastiti uređaj.
