@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Project Author="Toshiba" CommentTableSortAscending="false" CommentTableSortColumn="Date Time" Description="&lt;html&gt;&#13;&#10;  &lt;head&gt;&#13;&#10;    &lt;style type=&quot;text/css&quot;&gt;&#10;      &lt;!--&#10;        body { color: #000000; font-family: Dialog; font-size: 12px }&#10;      --&gt;&#10;    &lt;/style&gt;&#13;&#10;    &#13;&#10;  &lt;/head&gt;&#13;&#10;  &lt;body&gt;&#13;&#10;  &lt;/body&gt;&#13;&#10;&lt;/html&gt;&#13;&#10;" DocumentationType="html" ExportedFromDifferentName="false" ExporterVersion="12.2" Name="SistemZaBrzuNaplatuCestarineDostava.vpp" TextualAnalysisHighlightOptionCaseSensitive="false" UmlVersion="2.x" Xml_structure="simple">
+<Project Author="Toshiba" CommentTableSortAscending="false" CommentTableSortColumn="Date Time" Description="&lt;html&gt;&#13;&#10;  &lt;head&gt;&#13;&#10;    &lt;style type=&quot;text/css&quot;&gt;&#10;      &lt;!--&#10;        body { color: #000000; font-family: Dialog; font-size: 12px }&#10;      --&gt;&#10;    &lt;/style&gt;&#13;&#10;    &#13;&#10;  &lt;/head&gt;&#13;&#10;  &lt;body&gt;&#13;&#10;  &lt;/body&gt;&#13;&#10;&lt;/html&gt;&#13;&#10;" DocumentationType="html" ExportedFromDifferentName="false" ExporterVersion="12.2" Name="SistemZaBrzuNaplatuCestarineRegistracijaNaLicuMjesta" TextualAnalysisHighlightOptionCaseSensitive="false" UmlVersion="2.x" Xml_structure="simple">
 	<ProjectInfo>
 		<LogicalView/>
 		<ProjectOptions>
@@ -15,47 +15,47 @@
 			<WarningOptions CreateORMClassInDefaultPackage="true"/>
 			<PORepository>
 				<POUserIDFormats>
-					<POUserIDFormat Digits="2" Guid="false" Id="02xH0NqGAqAAZBPO" LastNumericValue="0" ModelType="BPMNElement" Prefix="BP" Suffix=""/>
-					<POUserIDFormat Digits="2" Guid="false" Id="s2xH0NqGAqAAZBPP" LastNumericValue="4" ModelType="Actor" Prefix="AC" Suffix=""/>
-					<POUserIDFormat Digits="2" Guid="false" Id="s2xH0NqGAqAAZBPQ" LastNumericValue="5" ModelType="UseCase" Prefix="UC" Suffix=""/>
-					<POUserIDFormat Digits="3" Guid="false" Id="s2xH0NqGAqAAZBPR" LastNumericValue="0" ModelType="Requirement" Prefix="REQ" Suffix=""/>
-					<POUserIDFormat Digits="3" Guid="false" Id="s2xH0NqGAqAAZBPS" LastNumericValue="0" ModelType="BusinessRule" Prefix="BR" Suffix=""/>
-					<POUserIDFormat Digits="3" Guid="false" Id="s2xH0NqGAqAAZBPT" LastNumericValue="0" ModelType="PERTTask" Prefix="" Suffix=""/>
-					<POUserIDFormat Digits="-1" Guid="false" Id="s2xH0NqGAqAAZBPU" LastNumericValue="0" ModelType="BusinessProcessDiagram" Prefix="" Suffix=""/>
+					<POUserIDFormat Digits="2" Guid="false" Id="3u870NqGAqAAZA.c" LastNumericValue="0" ModelType="BPMNElement" Prefix="BP" Suffix=""/>
+					<POUserIDFormat Digits="2" Guid="false" Id="vu870NqGAqAAZA.d" LastNumericValue="3" ModelType="Actor" Prefix="AC" Suffix=""/>
+					<POUserIDFormat Digits="2" Guid="false" Id="vu870NqGAqAAZA.e" LastNumericValue="5" ModelType="UseCase" Prefix="UC" Suffix=""/>
+					<POUserIDFormat Digits="3" Guid="false" Id="vu870NqGAqAAZA.f" LastNumericValue="0" ModelType="Requirement" Prefix="REQ" Suffix=""/>
+					<POUserIDFormat Digits="3" Guid="false" Id="vu870NqGAqAAZA.g" LastNumericValue="0" ModelType="BusinessRule" Prefix="BR" Suffix=""/>
+					<POUserIDFormat Digits="3" Guid="false" Id="vu870NqGAqAAZA.h" LastNumericValue="0" ModelType="PERTTask" Prefix="" Suffix=""/>
+					<POUserIDFormat Digits="-1" Guid="false" Id="fu870NqGAqAAZA.i" LastNumericValue="0" ModelType="BusinessProcessDiagram" Prefix="" Suffix=""/>
 				</POUserIDFormats>
 			</PORepository>
 		</ProjectOptions>
 	</ProjectInfo>
 	<Models>
-		<DataType Documentation_plain="" Id="XoRH0NqGAqAAZBBf" Name="boolean" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:30:20.794" PmLastModified="2017-03-26T20:33:18.303" QualityScore="-1" UserIDLastNumericValue="0"/>
-		<DataType Documentation_plain="" Id="XoRH0NqGAqAAZBBg" Name="byte" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:30:20.794" PmLastModified="2017-03-26T20:33:18.303" QualityScore="-1" UserIDLastNumericValue="0"/>
-		<DataType Documentation_plain="" Id="XoRH0NqGAqAAZBBh" Name="char" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:30:20.794" PmLastModified="2017-03-26T20:33:18.303" QualityScore="-1" UserIDLastNumericValue="0"/>
-		<DataType Documentation_plain="" Id="XoRH0NqGAqAAZBBi" Name="double" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:30:20.794" PmLastModified="2017-03-26T20:33:18.303" QualityScore="-1" UserIDLastNumericValue="0"/>
-		<DataType Documentation_plain="" Id="XoRH0NqGAqAAZBBj" Name="float" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:30:20.794" PmLastModified="2017-03-26T20:33:18.303" QualityScore="-1" UserIDLastNumericValue="0"/>
-		<DataType Documentation_plain="" Id="XoRH0NqGAqAAZBBk" Name="int" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:30:20.794" PmLastModified="2017-03-26T20:33:18.303" QualityScore="-1" UserIDLastNumericValue="0"/>
-		<DataType Documentation_plain="" Id="XoRH0NqGAqAAZBBl" Name="long" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:30:20.794" PmLastModified="2017-03-26T20:33:18.303" QualityScore="-1" UserIDLastNumericValue="0"/>
-		<DataType Documentation_plain="" Id="XoRH0NqGAqAAZBBm" Name="short" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:30:20.794" PmLastModified="2017-03-26T20:33:18.303" QualityScore="-1" UserIDLastNumericValue="0"/>
-		<DataType Documentation_plain="" Id="XoRH0NqGAqAAZBBn" Name="void" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:30:20.794" PmLastModified="2017-03-26T20:33:18.303" QualityScore="-1" UserIDLastNumericValue="0"/>
-		<DataType Documentation_plain="" Id="XoRH0NqGAqAAZBBo" Name="string" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:30:20.794" PmLastModified="2017-03-26T20:33:18.303" QualityScore="-1" UserIDLastNumericValue="0"/>
-		<Stereotype Abstract="false" BaseType="UseCase" Documentation_plain="" Id="OcRH0NqGAqAAZBJ9" Leaf="false" Name="UseCase" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:30:21.387" PmLastModified="2017-03-26T20:33:18.365" QualityScore="-1" Root="false" UserIDLastNumericValue="0">
+		<DataType Documentation_plain="" Id="yFc70NqGAqAAZAwt" Name="boolean" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:24:38.931" PmLastModified="2017-03-26T20:29:38.889" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="yFc70NqGAqAAZAwu" Name="byte" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:24:38.931" PmLastModified="2017-03-26T20:29:38.889" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="yFc70NqGAqAAZAwv" Name="char" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:24:38.931" PmLastModified="2017-03-26T20:29:38.889" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="yFc70NqGAqAAZAww" Name="double" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:24:38.931" PmLastModified="2017-03-26T20:29:38.889" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="yFc70NqGAqAAZAwx" Name="float" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:24:38.931" PmLastModified="2017-03-26T20:29:38.889" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="xFc70NqGAqAAZAwy" Name="int" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:24:38.947" PmLastModified="2017-03-26T20:29:38.952" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="xFc70NqGAqAAZAwz" Name="long" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:24:38.947" PmLastModified="2017-03-26T20:29:38.952" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="xFc70NqGAqAAZAw0" Name="short" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:24:38.947" PmLastModified="2017-03-26T20:29:38.967" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="xFc70NqGAqAAZAw1" Name="void" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:24:38.947" PmLastModified="2017-03-26T20:29:38.967" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="xFc70NqGAqAAZAw2" Name="string" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:24:38.947" PmLastModified="2017-03-26T20:29:38.967" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<Stereotype Abstract="false" BaseType="UseCase" Documentation_plain="" Id="wTc70NqGAqAAZA5L" Leaf="false" Name="UseCase" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:24:39.586" PmLastModified="2017-03-26T20:29:38.983" QualityScore="-1" Root="false" UserIDLastNumericValue="0">
 			<TaggedValueDefinitions>
-				<TaggedValueDefinitionContainer Id="NcRH0NqGAqAAZBJ." Name="">
+				<TaggedValueDefinitionContainer Id="yTc70NqGAqAAZA5M" Name="">
 					<ModelChildren>
-						<TaggedValueDefinition DefaultHTMLValue="" DefaultValue="" Documentation_plain="" Id="3cRH0NqGAqAAZBJ_" Name="Level" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:30:21.371" PmLastModified="2017-03-26T20:33:18.365" QualityScore="-1" TagDefStereotype="OcRH0NqGAqAAZBJ9" Type="Enumeration" UserIDLastNumericValue="0">
+						<TaggedValueDefinition DefaultHTMLValue="" DefaultValue="" Documentation_plain="" Id="yTc70NqGAqAAZA5N" Name="Level" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:24:39.571" PmLastModified="2017-03-26T20:29:38.983" QualityScore="-1" TagDefStereotype="wTc70NqGAqAAZA5L" Type="Enumeration" UserIDLastNumericValue="0">
 							<EnumerationValues>
 								<Value Value="Summary"/>
 								<Value Value="User"/>
 								<Value Value="Subfunction"/>
 							</EnumerationValues>
 						</TaggedValueDefinition>
-						<TaggedValueDefinition DefaultHTMLValue="" DefaultValue="" Documentation_plain="" Id="3cRH0NqGAqAAZBKA" Name="Complexity" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:30:21.371" PmLastModified="2017-03-26T20:33:18.365" QualityScore="-1" TagDefStereotype="OcRH0NqGAqAAZBJ9" Type="Enumeration" UserIDLastNumericValue="0">
+						<TaggedValueDefinition DefaultHTMLValue="" DefaultValue="" Documentation_plain="" Id="yTc70NqGAqAAZA5O" Name="Complexity" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:24:39.571" PmLastModified="2017-03-26T20:29:38.983" QualityScore="-1" TagDefStereotype="wTc70NqGAqAAZA5L" Type="Enumeration" UserIDLastNumericValue="0">
 							<EnumerationValues>
 								<Value Value="Low"/>
 								<Value Value="Medium"/>
 								<Value Value="High"/>
 							</EnumerationValues>
 						</TaggedValueDefinition>
-						<TaggedValueDefinition DefaultHTMLValue="" DefaultValue="" Documentation_plain="" Id="3cRH0NqGAqAAZBKB" Name="Use Case Status" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:30:21.371" PmLastModified="2017-03-26T20:33:18.365" QualityScore="-1" TagDefStereotype="OcRH0NqGAqAAZBJ9" Type="Enumeration" UserIDLastNumericValue="0">
+						<TaggedValueDefinition DefaultHTMLValue="" DefaultValue="" Documentation_plain="" Id="yTc70NqGAqAAZA5P" Name="Use Case Status" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:24:39.571" PmLastModified="2017-03-26T20:29:38.983" QualityScore="-1" TagDefStereotype="wTc70NqGAqAAZA5L" Type="Enumeration" UserIDLastNumericValue="0">
 							<EnumerationValues>
 								<Value Value="Name Only"/>
 								<Value Value="Initial"/>
@@ -64,7 +64,7 @@
 								<Value Value="Deferred"/>
 							</EnumerationValues>
 						</TaggedValueDefinition>
-						<TaggedValueDefinition DefaultHTMLValue="" DefaultValue="" Documentation_plain="" Id="3cRH0NqGAqAAZBKC" Name="Implementation Status" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:30:21.371" PmLastModified="2017-03-26T20:33:18.365" QualityScore="-1" TagDefStereotype="OcRH0NqGAqAAZBJ9" Type="Enumeration" UserIDLastNumericValue="0">
+						<TaggedValueDefinition DefaultHTMLValue="" DefaultValue="" Documentation_plain="" Id="yTc70NqGAqAAZA5Q" Name="Implementation Status" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:24:39.571" PmLastModified="2017-03-26T20:29:38.983" QualityScore="-1" TagDefStereotype="wTc70NqGAqAAZA5L" Type="Enumeration" UserIDLastNumericValue="0">
 							<EnumerationValues>
 								<Value Value="Scheduled"/>
 								<Value Value="Started"/>
@@ -73,541 +73,452 @@
 								<Value Value="Partially Deferred"/>
 							</EnumerationValues>
 						</TaggedValueDefinition>
-						<TaggedValueDefinition DefaultHTMLValue="" DefaultValue="" Documentation_plain="" Id="3cRH0NqGAqAAZBKD" Name="Preconditions" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:30:21.371" PmLastModified="2017-03-26T20:33:18.365" QualityScore="-1" TagDefStereotype="OcRH0NqGAqAAZBJ9" Type="Multi-line Text" UserIDLastNumericValue="0"/>
-						<TaggedValueDefinition DefaultHTMLValue="" DefaultValue="" Documentation_plain="" Id="3cRH0NqGAqAAZBKE" Name="Post-conditions" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:30:21.387" PmLastModified="2017-03-26T20:33:18.365" QualityScore="-1" TagDefStereotype="OcRH0NqGAqAAZBJ9" Type="Multi-line Text" UserIDLastNumericValue="0"/>
-						<TaggedValueDefinition DefaultHTMLValue="" DefaultValue="" Documentation_plain="" Id="08RH0NqGAqAAZBKF" Name="Author" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:30:21.387" PmLastModified="2017-03-26T20:33:18.365" QualityScore="-1" TagDefStereotype="OcRH0NqGAqAAZBJ9" Type="Text" UserIDLastNumericValue="0"/>
-						<TaggedValueDefinition DefaultHTMLValue="" DefaultValue="" Documentation_plain="" Id="08RH0NqGAqAAZBKG" Name="Assumptions" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:30:21.387" PmLastModified="2017-03-26T20:33:18.365" QualityScore="-1" TagDefStereotype="OcRH0NqGAqAAZBJ9" Type="Multi-line Text" UserIDLastNumericValue="0"/>
+						<TaggedValueDefinition DefaultHTMLValue="" DefaultValue="" Documentation_plain="" Id="yTc70NqGAqAAZA5R" Name="Preconditions" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:24:39.586" PmLastModified="2017-03-26T20:29:38.983" QualityScore="-1" TagDefStereotype="wTc70NqGAqAAZA5L" Type="Multi-line Text" UserIDLastNumericValue="0"/>
+						<TaggedValueDefinition DefaultHTMLValue="" DefaultValue="" Documentation_plain="" Id="RTc70NqGAqAAZA5S" Name="Post-conditions" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:24:39.586" PmLastModified="2017-03-26T20:29:38.983" QualityScore="-1" TagDefStereotype="wTc70NqGAqAAZA5L" Type="Multi-line Text" UserIDLastNumericValue="0"/>
+						<TaggedValueDefinition DefaultHTMLValue="" DefaultValue="" Documentation_plain="" Id="RTc70NqGAqAAZA5T" Name="Author" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:24:39.586" PmLastModified="2017-03-26T20:29:38.983" QualityScore="-1" TagDefStereotype="wTc70NqGAqAAZA5L" Type="Text" UserIDLastNumericValue="0"/>
+						<TaggedValueDefinition DefaultHTMLValue="" DefaultValue="" Documentation_plain="" Id="RTc70NqGAqAAZA5U" Name="Assumptions" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:24:39.586" PmLastModified="2017-03-26T20:29:38.983" QualityScore="-1" TagDefStereotype="wTc70NqGAqAAZA5L" Type="Multi-line Text" UserIDLastNumericValue="0"/>
 					</ModelChildren>
 				</TaggedValueDefinitionContainer>
 			</TaggedValueDefinitions>
 		</Stereotype>
-		<System Abstract="false" Documentation_plain="" Id="g91H0NqGAqAAZBPs" Leaf="false" Name="Sistem za brzu naplatu cestarine" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:31:00.289" PmLastModified="2017-03-26T23:36:11.892" QualityScore="-1" Root="false" UserIDLastNumericValue="0">
+		<Actor Abstract="false" BusinessModel="false" Documentation_plain="" FontSize="0" Id="96u70NqGAqAAZA.8" Leaf="false" Name="Službenik" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:25:39.311" PmLastModified="2017-03-26T23:39:25.148" QualityScore="-1" Root="false" UserID="AC01" UserIDLastNumericValue="0" Visibility="public">
 			<MasterView>
-				<System Idref="g91H0NqGAqAAZBPr" Name="Sistem za brzu naplatu cestarine"/>
+				<Actor Idref="96u70NqGAqAAZA.7" Name="Službenik"/>
+			</MasterView>
+		</Actor>
+		<System Abstract="false" Documentation_plain="" Id="PF570NqGAqAAZA_e" Leaf="false" Name="Sistem za brzu naplatu cestarine" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:26:21.372" PmLastModified="2017-03-26T23:31:30.820" QualityScore="-1" Root="false" UserIDLastNumericValue="0">
+			<MasterView>
+				<System Idref="3F570NqGAqAAZA_d" Name="Sistem za brzu naplatu cestarine"/>
 			</MasterView>
 			<ModelChildren>
-				<UseCase Abstract="false" BusinessModel="false" DescNameColumnWidth="0" DescValueColumnWidth="0" Documentation_plain="" Id="tVTH0NqGAqAAZBQB" Justification="" Leaf="false" Name="Dostavlja uređaj" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:31:28.685" PmLastModified="2017-03-26T23:36:11.877" QualityScore="-1" Root="false" ScheduleRowHeight="24" Status="Identify" TaskPoolId="0" UcRank="Unspecified" UserID="UC01" UserIDLastNumericValue="0">
+				<UseCase Abstract="false" BusinessModel="false" DescNameColumnWidth="0" DescValueColumnWidth="0" Documentation_plain="" Id="sFh70NqGAqAAZA_F" Justification="" Leaf="false" Name="Aktivacija računa" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:25:56.749" PmLastModified="2017-03-26T23:31:30.820" QualityScore="-1" Root="false" ScheduleRowHeight="24" Status="Identify" TaskPoolId="0" UcRank="Unspecified" UserID="UC01" UserIDLastNumericValue="0">
 					<Stereotypes>
-						<Stereotype Idref="OcRH0NqGAqAAZBJ9" Name="UseCase"/>
+						<Stereotype Idref="wTc70NqGAqAAZA5L" Name="UseCase"/>
 					</Stereotypes>
 					<TaggedValues>
-						<TaggedValueContainer CustomizedOrdering="false" Id="DVTH0NqGAqAAZBQC" Name="" SubLevelTaggedValueCustomizedOrdering="false">
+						<TaggedValueContainer CustomizedOrdering="false" Id="sFh70NqGAqAAZA_G" Name="" SubLevelTaggedValueCustomizedOrdering="false">
 							<ModelChildren>
-								<TaggedValue Documentation_plain="" Id="jVTH0NqGAqAAZBQD" Multiplicity="Unspecified" Name="Level" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:31:28.689" PmLastModified="2017-03-26T20:33:18.319" QualityScore="-1" TagDefinition="3cRH0NqGAqAAZBJ_" TagDefinitionStereotype="OcRH0NqGAqAAZBJ9" Type="2" UserIDLastNumericValue="0" Value=""/>
-								<TaggedValue Documentation_plain="" Id="LVTH0NqGAqAAZBQE" Multiplicity="Unspecified" Name="Complexity" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:31:28.692" PmLastModified="2017-03-26T20:33:18.319" QualityScore="-1" TagDefinition="3cRH0NqGAqAAZBKA" TagDefinitionStereotype="OcRH0NqGAqAAZBJ9" Type="2" UserIDLastNumericValue="0" Value=""/>
-								<TaggedValue Documentation_plain="" Id="bVTH0NqGAqAAZBQF" Multiplicity="Unspecified" Name="Use Case Status" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:31:28.694" PmLastModified="2017-03-26T20:33:18.319" QualityScore="-1" TagDefinition="3cRH0NqGAqAAZBKB" TagDefinitionStereotype="OcRH0NqGAqAAZBJ9" Type="2" UserIDLastNumericValue="0" Value=""/>
-								<TaggedValue Documentation_plain="" Id="HVTH0NqGAqAAZBQG" Multiplicity="Unspecified" Name="Implementation Status" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:31:28.696" PmLastModified="2017-03-26T20:33:18.319" QualityScore="-1" TagDefinition="3cRH0NqGAqAAZBKC" TagDefinitionStereotype="OcRH0NqGAqAAZBJ9" Type="2" UserIDLastNumericValue="0" Value=""/>
-								<TaggedValue Documentation_plain="" Id="XVTH0NqGAqAAZBQH" Multiplicity="Unspecified" Name="Preconditions" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:31:28.698" PmLastModified="2017-03-26T20:33:18.319" QualityScore="-1" TagDefinition="3cRH0NqGAqAAZBKD" TagDefinitionStereotype="OcRH0NqGAqAAZBJ9" Type="Multi-line Text" UserIDLastNumericValue="0" Value=""/>
-								<TaggedValue Documentation_plain="" Id="PVTH0NqGAqAAZBQI" Multiplicity="Unspecified" Name="Post-conditions" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:31:28.700" PmLastModified="2017-03-26T20:33:18.319" QualityScore="-1" TagDefinition="3cRH0NqGAqAAZBKE" TagDefinitionStereotype="OcRH0NqGAqAAZBJ9" Type="Multi-line Text" UserIDLastNumericValue="0" Value=""/>
-								<TaggedValue Documentation_plain="" Id="fVTH0NqGAqAAZBQJ" Multiplicity="Unspecified" Name="Author" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:31:28.702" PmLastModified="2017-03-26T20:33:18.319" QualityScore="-1" TagDefinition="08RH0NqGAqAAZBKF" TagDefinitionStereotype="OcRH0NqGAqAAZBJ9" Type="Text" UserIDLastNumericValue="0" Value=""/>
-								<TaggedValue Documentation_plain="" Id="Q1TH0NqGAqAAZBQK" Multiplicity="Unspecified" Name="Assumptions" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:31:28.706" PmLastModified="2017-03-26T20:33:18.319" QualityScore="-1" TagDefinition="08RH0NqGAqAAZBKG" TagDefinitionStereotype="OcRH0NqGAqAAZBJ9" Type="Multi-line Text" UserIDLastNumericValue="0" Value=""/>
+								<TaggedValue Documentation_plain="" Id="sFh70NqGAqAAZA_H" Multiplicity="Unspecified" Name="Level" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:25:56.749" PmLastModified="2017-03-26T20:29:38.874" QualityScore="-1" TagDefinition="yTc70NqGAqAAZA5N" TagDefinitionStereotype="wTc70NqGAqAAZA5L" Type="2" UserIDLastNumericValue="0" Value=""/>
+								<TaggedValue Documentation_plain="" Id="OFh70NqGAqAAZA_I" Multiplicity="Unspecified" Name="Complexity" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:25:56.764" PmLastModified="2017-03-26T20:29:38.874" QualityScore="-1" TagDefinition="yTc70NqGAqAAZA5O" TagDefinitionStereotype="wTc70NqGAqAAZA5L" Type="2" UserIDLastNumericValue="0" Value=""/>
+								<TaggedValue Documentation_plain="" Id="OFh70NqGAqAAZA_J" Multiplicity="Unspecified" Name="Use Case Status" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:25:56.764" PmLastModified="2017-03-26T20:29:38.874" QualityScore="-1" TagDefinition="yTc70NqGAqAAZA5P" TagDefinitionStereotype="wTc70NqGAqAAZA5L" Type="2" UserIDLastNumericValue="0" Value=""/>
+								<TaggedValue Documentation_plain="" Id="OFh70NqGAqAAZA_K" Multiplicity="Unspecified" Name="Implementation Status" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:25:56.764" PmLastModified="2017-03-26T20:29:38.874" QualityScore="-1" TagDefinition="yTc70NqGAqAAZA5Q" TagDefinitionStereotype="wTc70NqGAqAAZA5L" Type="2" UserIDLastNumericValue="0" Value=""/>
+								<TaggedValue Documentation_plain="" Id="OFh70NqGAqAAZA_L" Multiplicity="Unspecified" Name="Preconditions" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:25:56.764" PmLastModified="2017-03-26T20:29:38.874" QualityScore="-1" TagDefinition="yTc70NqGAqAAZA5R" TagDefinitionStereotype="wTc70NqGAqAAZA5L" Type="Multi-line Text" UserIDLastNumericValue="0" Value=""/>
+								<TaggedValue Documentation_plain="" Id="OFh70NqGAqAAZA_M" Multiplicity="Unspecified" Name="Post-conditions" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:25:56.764" PmLastModified="2017-03-26T20:29:38.874" QualityScore="-1" TagDefinition="RTc70NqGAqAAZA5S" TagDefinitionStereotype="wTc70NqGAqAAZA5L" Type="Multi-line Text" UserIDLastNumericValue="0" Value=""/>
+								<TaggedValue Documentation_plain="" Id="OFh70NqGAqAAZA_N" Multiplicity="Unspecified" Name="Author" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:25:56.764" PmLastModified="2017-03-26T20:29:38.874" QualityScore="-1" TagDefinition="RTc70NqGAqAAZA5T" TagDefinitionStereotype="wTc70NqGAqAAZA5L" Type="Text" UserIDLastNumericValue="0" Value=""/>
+								<TaggedValue Documentation_plain="" Id="OFh70NqGAqAAZA_O" Multiplicity="Unspecified" Name="Assumptions" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:25:56.764" PmLastModified="2017-03-26T20:29:38.874" QualityScore="-1" TagDefinition="RTc70NqGAqAAZA5U" TagDefinitionStereotype="wTc70NqGAqAAZA5L" Type="Multi-line Text" UserIDLastNumericValue="0" Value=""/>
 							</ModelChildren>
 						</TaggedValueContainer>
 					</TaggedValues>
 					<PrimaryActors>
-						<Actor Idref="_PDH0NqGAqAAZBP1" Name="Dostavljač"/>
+						<Actor Idref="96u70NqGAqAAZA.8" Name="Službenik"/>
 					</PrimaryActors>
 					<FromSimpleRelationships>
-						<Include Idref="cYnH0NqGAqAAZBQ0" Name=""/>
-						<Include Idref="aivH0NqGAqAAZBRO" Name=""/>
-						<Include Idref="b2Qn0NqGAqAAZBRn" Name=""/>
-						<Include Idref="W9vRMNqGAqACaw1c" Name=""/>
+						<Include Idref="jvD70NqGAqAAZBAQ" Name=""/>
+						<Include Idref="_AwH0NqGAqAAZBA2" Name=""/>
+						<Include Idref="9DkH0NqGAqAAZBBP" Name=""/>
+						<Include Idref=".ivhMNqGAqACawtI" Name=""/>
 					</FromSimpleRelationships>
 					<MasterView>
-						<UseCase Idref="NVTH0NqGAqAAZBQA" Name="Dostavlja uređaj"/>
+						<UseCase Idref="sFh70NqGAqAAZA_E" Name="Aktivacija računa"/>
 					</MasterView>
 				</UseCase>
-				<UseCase Abstract="false" BusinessModel="false" DescNameColumnWidth="0" DescValueColumnWidth="0" Documentation_plain="" Id="cwnH0NqGAqAAZBQn" Justification="" Leaf="false" Name="Predaje uređaj" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:31:54.830" PmLastModified="2017-03-31T14:13:49.510" QualityScore="-1" Root="false" ScheduleRowHeight="24" Status="Identify" TaskPoolId="0" UcRank="Unspecified" UserID="UC02" UserIDLastNumericValue="0">
+				<UseCase Abstract="false" BusinessModel="false" DescNameColumnWidth="0" DescValueColumnWidth="0" Documentation_plain="" Id="TXD70NqGAqAAZBAD" Justification="" Leaf="false" Name="Popunjavanje lićnih podataka i podataka o vozilu" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:26:59.379" PmLastModified="2017-03-26T23:39:25.135" QualityScore="-1" Root="false" ScheduleRowHeight="24" Status="Identify" TaskPoolId="0" UcRank="Unspecified" UserID="UC02" UserIDLastNumericValue="0">
 					<Stereotypes>
-						<Stereotype Idref="OcRH0NqGAqAAZBJ9" Name="UseCase"/>
+						<Stereotype Idref="wTc70NqGAqAAZA5L" Name="UseCase"/>
 					</Stereotypes>
 					<TaggedValues>
-						<TaggedValueContainer CustomizedOrdering="false" Id="cwnH0NqGAqAAZBQo" Name="" SubLevelTaggedValueCustomizedOrdering="false">
+						<TaggedValueContainer CustomizedOrdering="false" Id="nXD70NqGAqAAZBAE" Name="" SubLevelTaggedValueCustomizedOrdering="false">
 							<ModelChildren>
-								<TaggedValue Documentation_plain="" Id="cwnH0NqGAqAAZBQp" Multiplicity="Unspecified" Name="Level" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:31:54.830" PmLastModified="2017-03-26T20:33:18.319" QualityScore="-1" TagDefinition="3cRH0NqGAqAAZBJ_" TagDefinitionStereotype="OcRH0NqGAqAAZBJ9" Type="2" UserIDLastNumericValue="0" Value=""/>
-								<TaggedValue Documentation_plain="" Id=".wnH0NqGAqAAZBQq" Multiplicity="Unspecified" Name="Complexity" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:31:54.847" PmLastModified="2017-03-26T20:33:18.319" QualityScore="-1" TagDefinition="3cRH0NqGAqAAZBKA" TagDefinitionStereotype="OcRH0NqGAqAAZBJ9" Type="2" UserIDLastNumericValue="0" Value=""/>
-								<TaggedValue Documentation_plain="" Id="hwnH0NqGAqAAZBQr" Multiplicity="Unspecified" Name="Use Case Status" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:31:54.849" PmLastModified="2017-03-26T20:33:18.319" QualityScore="-1" TagDefinition="3cRH0NqGAqAAZBKB" TagDefinitionStereotype="OcRH0NqGAqAAZBJ9" Type="2" UserIDLastNumericValue="0" Value=""/>
-								<TaggedValue Documentation_plain="" Id="RwnH0NqGAqAAZBQs" Multiplicity="Unspecified" Name="Implementation Status" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:31:54.850" PmLastModified="2017-03-26T20:33:18.319" QualityScore="-1" TagDefinition="3cRH0NqGAqAAZBKC" TagDefinitionStereotype="OcRH0NqGAqAAZBJ9" Type="2" UserIDLastNumericValue="0" Value=""/>
-								<TaggedValue Documentation_plain="" Id="RwnH0NqGAqAAZBQt" Multiplicity="Unspecified" Name="Preconditions" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:31:54.850" PmLastModified="2017-03-26T20:33:18.319" QualityScore="-1" TagDefinition="3cRH0NqGAqAAZBKD" TagDefinitionStereotype="OcRH0NqGAqAAZBJ9" Type="Multi-line Text" UserIDLastNumericValue="0" Value=""/>
-								<TaggedValue Documentation_plain="" Id="RwnH0NqGAqAAZBQu" Multiplicity="Unspecified" Name="Post-conditions" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:31:54.850" PmLastModified="2017-03-26T20:33:18.319" QualityScore="-1" TagDefinition="3cRH0NqGAqAAZBKE" TagDefinitionStereotype="OcRH0NqGAqAAZBJ9" Type="Multi-line Text" UserIDLastNumericValue="0" Value=""/>
-								<TaggedValue Documentation_plain="" Id="RwnH0NqGAqAAZBQv" Multiplicity="Unspecified" Name="Author" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:31:54.850" PmLastModified="2017-03-26T20:33:18.319" QualityScore="-1" TagDefinition="08RH0NqGAqAAZBKF" TagDefinitionStereotype="OcRH0NqGAqAAZBJ9" Type="Text" UserIDLastNumericValue="0" Value=""/>
-								<TaggedValue Documentation_plain="" Id="RwnH0NqGAqAAZBQw" Multiplicity="Unspecified" Name="Assumptions" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:31:54.850" PmLastModified="2017-03-26T20:33:18.319" QualityScore="-1" TagDefinition="08RH0NqGAqAAZBKG" TagDefinitionStereotype="OcRH0NqGAqAAZBJ9" Type="Multi-line Text" UserIDLastNumericValue="0" Value=""/>
+								<TaggedValue Documentation_plain="" Id="vXD70NqGAqAAZBAF" Multiplicity="Unspecified" Name="Level" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:26:59.389" PmLastModified="2017-03-26T20:29:38.983" QualityScore="-1" TagDefinition="yTc70NqGAqAAZA5N" TagDefinitionStereotype="wTc70NqGAqAAZA5L" Type="2" UserIDLastNumericValue="0" Value=""/>
+								<TaggedValue Documentation_plain="" Id="A3D70NqGAqAAZBAG" Multiplicity="Unspecified" Name="Complexity" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:26:59.392" PmLastModified="2017-03-26T20:29:38.983" QualityScore="-1" TagDefinition="yTc70NqGAqAAZA5O" TagDefinitionStereotype="wTc70NqGAqAAZA5L" Type="2" UserIDLastNumericValue="0" Value=""/>
+								<TaggedValue Documentation_plain="" Id="Q3D70NqGAqAAZBAH" Multiplicity="Unspecified" Name="Use Case Status" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:26:59.394" PmLastModified="2017-03-26T20:29:38.983" QualityScore="-1" TagDefinition="yTc70NqGAqAAZA5P" TagDefinitionStereotype="wTc70NqGAqAAZA5L" Type="2" UserIDLastNumericValue="0" Value=""/>
+								<TaggedValue Documentation_plain="" Id="I3D70NqGAqAAZBAI" Multiplicity="Unspecified" Name="Implementation Status" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:26:59.396" PmLastModified="2017-03-26T20:29:38.983" QualityScore="-1" TagDefinition="yTc70NqGAqAAZA5Q" TagDefinitionStereotype="wTc70NqGAqAAZA5L" Type="2" UserIDLastNumericValue="0" Value=""/>
+								<TaggedValue Documentation_plain="" Id="43D70NqGAqAAZBAJ" Multiplicity="Unspecified" Name="Preconditions" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:26:59.399" PmLastModified="2017-03-26T20:29:38.983" QualityScore="-1" TagDefinition="yTc70NqGAqAAZA5R" TagDefinitionStereotype="wTc70NqGAqAAZA5L" Type="Multi-line Text" UserIDLastNumericValue="0" Value=""/>
+								<TaggedValue Documentation_plain="" Id="k3D70NqGAqAAZBAK" Multiplicity="Unspecified" Name="Post-conditions" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:26:59.401" PmLastModified="2017-03-26T20:29:38.983" QualityScore="-1" TagDefinition="RTc70NqGAqAAZA5S" TagDefinitionStereotype="wTc70NqGAqAAZA5L" Type="Multi-line Text" UserIDLastNumericValue="0" Value=""/>
+								<TaggedValue Documentation_plain="" Id="03D70NqGAqAAZBAL" Multiplicity="Unspecified" Name="Author" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:26:59.403" PmLastModified="2017-03-26T20:29:38.983" QualityScore="-1" TagDefinition="RTc70NqGAqAAZA5T" TagDefinitionStereotype="wTc70NqGAqAAZA5L" Type="Text" UserIDLastNumericValue="0" Value=""/>
+								<TaggedValue Documentation_plain="" Id="c3D70NqGAqAAZBAM" Multiplicity="Unspecified" Name="Assumptions" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:26:59.406" PmLastModified="2017-03-26T20:29:38.983" QualityScore="-1" TagDefinition="RTc70NqGAqAAZA5U" TagDefinitionStereotype="wTc70NqGAqAAZA5L" Type="Multi-line Text" UserIDLastNumericValue="0" Value=""/>
 							</ModelChildren>
 						</TaggedValueContainer>
 					</TaggedValues>
 					<PrimaryActors>
-						<Actor Idref="Q.ziJNqGAqAAZAwS" Name="Korisnik Fizičko lice"/>
-						<Actor Idref="QmPiJNqGAqAAZAwd" Name="Korisnik Pravno Lice"/>
+						<Actor Idref="53txMNqGAqACaxQS" Name="Korisnik Fizičko Lice"/>
 					</PrimaryActors>
 					<ToSimpleRelationships>
-						<Include Idref="cYnH0NqGAqAAZBQ0" Name=""/>
+						<Include Idref="jvD70NqGAqAAZBAQ" Name=""/>
 					</ToSimpleRelationships>
 					<MasterView>
-						<UseCase Idref="cwnH0NqGAqAAZBQm" Name="Predaje uređaj"/>
+						<UseCase Idref="TXD70NqGAqAAZBAC" Name="Popunjavanje lićnih podataka i podataka o vozilu"/>
 					</MasterView>
 				</UseCase>
-				<UseCase Abstract="false" BusinessModel="false" DescNameColumnWidth="0" DescValueColumnWidth="0" Documentation_plain="" Id="4cvH0NqGAqAAZBRB" Justification="" Leaf="false" Name="Popunjava papirologiju" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:32:11.911" PmLastModified="2017-03-26T20:33:18.163" QualityScore="-1" Root="false" ScheduleRowHeight="24" Status="Identify" TaskPoolId="0" UcRank="Unspecified" UserID="UC03" UserIDLastNumericValue="0">
+				<UseCase Abstract="false" BusinessModel="false" DescNameColumnWidth="0" DescValueColumnWidth="0" Documentation_plain="" Id="9PQH0NqGAqAAZBAp" Justification="" Leaf="false" Name="Naplata uređaja" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:28:13.231" PmLastModified="2017-03-26T20:29:39.014" QualityScore="-1" Root="false" ScheduleRowHeight="24" Status="Identify" TaskPoolId="0" UcRank="Unspecified" UserID="UC03" UserIDLastNumericValue="0">
 					<Stereotypes>
-						<Stereotype Idref="OcRH0NqGAqAAZBJ9" Name="UseCase"/>
+						<Stereotype Idref="wTc70NqGAqAAZA5L" Name="UseCase"/>
 					</Stereotypes>
 					<TaggedValues>
-						<TaggedValueContainer CustomizedOrdering="false" Id="6cvH0NqGAqAAZBRC" Name="" SubLevelTaggedValueCustomizedOrdering="false">
+						<TaggedValueContainer CustomizedOrdering="false" Id="7PQH0NqGAqAAZBAq" Name="" SubLevelTaggedValueCustomizedOrdering="false">
 							<ModelChildren>
-								<TaggedValue Documentation_plain="" Id="6cvH0NqGAqAAZBRD" Multiplicity="Unspecified" Name="Level" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:32:11.927" PmLastModified="2017-03-26T20:33:18.163" QualityScore="-1" TagDefinition="3cRH0NqGAqAAZBJ_" TagDefinitionStereotype="OcRH0NqGAqAAZBJ9" Type="2" UserIDLastNumericValue="0" Value=""/>
-								<TaggedValue Documentation_plain="" Id="6cvH0NqGAqAAZBRE" Multiplicity="Unspecified" Name="Complexity" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:32:11.927" PmLastModified="2017-03-26T20:33:18.163" QualityScore="-1" TagDefinition="3cRH0NqGAqAAZBKA" TagDefinitionStereotype="OcRH0NqGAqAAZBJ9" Type="2" UserIDLastNumericValue="0" Value=""/>
-								<TaggedValue Documentation_plain="" Id="6cvH0NqGAqAAZBRF" Multiplicity="Unspecified" Name="Use Case Status" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:32:11.927" PmLastModified="2017-03-26T20:33:18.163" QualityScore="-1" TagDefinition="3cRH0NqGAqAAZBKB" TagDefinitionStereotype="OcRH0NqGAqAAZBJ9" Type="2" UserIDLastNumericValue="0" Value=""/>
-								<TaggedValue Documentation_plain="" Id="6cvH0NqGAqAAZBRG" Multiplicity="Unspecified" Name="Implementation Status" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:32:11.927" PmLastModified="2017-03-26T20:33:18.163" QualityScore="-1" TagDefinition="3cRH0NqGAqAAZBKC" TagDefinitionStereotype="OcRH0NqGAqAAZBJ9" Type="2" UserIDLastNumericValue="0" Value=""/>
-								<TaggedValue Documentation_plain="" Id="6cvH0NqGAqAAZBRH" Multiplicity="Unspecified" Name="Preconditions" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:32:11.927" PmLastModified="2017-03-26T20:33:18.163" QualityScore="-1" TagDefinition="3cRH0NqGAqAAZBKD" TagDefinitionStereotype="OcRH0NqGAqAAZBJ9" Type="Multi-line Text" UserIDLastNumericValue="0" Value=""/>
-								<TaggedValue Documentation_plain="" Id="ZcvH0NqGAqAAZBRI" Multiplicity="Unspecified" Name="Post-conditions" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:32:11.942" PmLastModified="2017-03-26T20:33:18.163" QualityScore="-1" TagDefinition="3cRH0NqGAqAAZBKE" TagDefinitionStereotype="OcRH0NqGAqAAZBJ9" Type="Multi-line Text" UserIDLastNumericValue="0" Value=""/>
-								<TaggedValue Documentation_plain="" Id="ZcvH0NqGAqAAZBRJ" Multiplicity="Unspecified" Name="Author" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:32:11.942" PmLastModified="2017-03-26T20:33:18.163" QualityScore="-1" TagDefinition="08RH0NqGAqAAZBKF" TagDefinitionStereotype="OcRH0NqGAqAAZBJ9" Type="Text" UserIDLastNumericValue="0" Value=""/>
-								<TaggedValue Documentation_plain="" Id="ZcvH0NqGAqAAZBRK" Multiplicity="Unspecified" Name="Assumptions" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:32:11.942" PmLastModified="2017-03-26T20:33:18.163" QualityScore="-1" TagDefinition="08RH0NqGAqAAZBKG" TagDefinitionStereotype="OcRH0NqGAqAAZBJ9" Type="Multi-line Text" UserIDLastNumericValue="0" Value=""/>
+								<TaggedValue Documentation_plain="" Id="HPQH0NqGAqAAZBAr" Multiplicity="Unspecified" Name="Level" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:28:13.240" PmLastModified="2017-03-26T20:29:39.014" QualityScore="-1" TagDefinition="yTc70NqGAqAAZA5N" TagDefinitionStereotype="wTc70NqGAqAAZA5L" Type="2" UserIDLastNumericValue="0" Value=""/>
+								<TaggedValue Documentation_plain="" Id="XPQH0NqGAqAAZBAs" Multiplicity="Unspecified" Name="Complexity" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:28:13.242" PmLastModified="2017-03-26T20:29:39.014" QualityScore="-1" TagDefinition="yTc70NqGAqAAZA5O" TagDefinitionStereotype="wTc70NqGAqAAZA5L" Type="2" UserIDLastNumericValue="0" Value=""/>
+								<TaggedValue Documentation_plain="" Id="vPQH0NqGAqAAZBAt" Multiplicity="Unspecified" Name="Use Case Status" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:28:13.245" PmLastModified="2017-03-26T20:29:39.014" QualityScore="-1" TagDefinition="yTc70NqGAqAAZA5P" TagDefinitionStereotype="wTc70NqGAqAAZA5L" Type="2" UserIDLastNumericValue="0" Value=""/>
+								<TaggedValue Documentation_plain="" Id="_PQH0NqGAqAAZBAu" Multiplicity="Unspecified" Name="Implementation Status" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:28:13.247" PmLastModified="2017-03-26T20:29:39.014" QualityScore="-1" TagDefinition="yTc70NqGAqAAZA5Q" TagDefinitionStereotype="wTc70NqGAqAAZA5L" Type="2" UserIDLastNumericValue="0" Value=""/>
+								<TaggedValue Documentation_plain="" Id="gvQH0NqGAqAAZBAv" Multiplicity="Unspecified" Name="Preconditions" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:28:13.249" PmLastModified="2017-03-26T20:29:39.014" QualityScore="-1" TagDefinition="yTc70NqGAqAAZA5R" TagDefinitionStereotype="wTc70NqGAqAAZA5L" Type="Multi-line Text" UserIDLastNumericValue="0" Value=""/>
+								<TaggedValue Documentation_plain="" Id="IvQH0NqGAqAAZBAw" Multiplicity="Unspecified" Name="Post-conditions" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:28:13.252" PmLastModified="2017-03-26T20:29:39.014" QualityScore="-1" TagDefinition="RTc70NqGAqAAZA5S" TagDefinitionStereotype="wTc70NqGAqAAZA5L" Type="Multi-line Text" UserIDLastNumericValue="0" Value=""/>
+								<TaggedValue Documentation_plain="" Id="YvQH0NqGAqAAZBAx" Multiplicity="Unspecified" Name="Author" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:28:13.254" PmLastModified="2017-03-26T20:29:39.014" QualityScore="-1" TagDefinition="RTc70NqGAqAAZA5T" TagDefinitionStereotype="wTc70NqGAqAAZA5L" Type="Text" UserIDLastNumericValue="0" Value=""/>
+								<TaggedValue Documentation_plain="" Id="EvQH0NqGAqAAZBAy" Multiplicity="Unspecified" Name="Assumptions" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:28:13.256" PmLastModified="2017-03-26T20:29:39.014" QualityScore="-1" TagDefinition="RTc70NqGAqAAZA5U" TagDefinitionStereotype="wTc70NqGAqAAZA5L" Type="Multi-line Text" UserIDLastNumericValue="0" Value=""/>
 							</ModelChildren>
 						</TaggedValueContainer>
 					</TaggedValues>
 					<ToSimpleRelationships>
-						<Include Idref="aivH0NqGAqAAZBRO" Name=""/>
+						<Include Idref="_AwH0NqGAqAAZBA2" Name=""/>
 					</ToSimpleRelationships>
 					<MasterView>
-						<UseCase Idref="4cvH0NqGAqAAZBRA" Name="Popunjava papirologiju"/>
+						<UseCase Idref="9PQH0NqGAqAAZBAo" Name="Naplata uređaja"/>
 					</MasterView>
 				</UseCase>
-				<UseCase Abstract="false" BusinessModel="false" DescNameColumnWidth="0" DescValueColumnWidth="0" Documentation_plain="" Id="4mQn0NqGAqAAZBRa" Justification="" Leaf="false" Name="Naplaćuje uređaj" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:32:33.095" PmLastModified="2017-03-31T14:13:49.510" QualityScore="-1" Root="false" ScheduleRowHeight="24" Status="Identify" TaskPoolId="0" UcRank="Unspecified" UserID="UC04" UserIDLastNumericValue="0">
+				<UseCase Abstract="false" BusinessModel="false" DescNameColumnWidth="0" DescValueColumnWidth="0" Documentation_plain="" Id="ZtkH0NqGAqAAZBBC" Justification="" Leaf="false" Name="Prosljeđivanje uređaja korisniku" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:28:40.934" PmLastModified="2017-03-26T20:29:39.014" QualityScore="-1" Root="false" ScheduleRowHeight="24" Status="Identify" TaskPoolId="0" UcRank="Unspecified" UserID="UC04" UserIDLastNumericValue="0">
 					<Stereotypes>
-						<Stereotype Idref="OcRH0NqGAqAAZBJ9" Name="UseCase"/>
+						<Stereotype Idref="wTc70NqGAqAAZA5L" Name="UseCase"/>
 					</Stereotypes>
 					<TaggedValues>
-						<TaggedValueContainer CustomizedOrdering="false" Id="0mQn0NqGAqAAZBRb" Name="" SubLevelTaggedValueCustomizedOrdering="false">
+						<TaggedValueContainer CustomizedOrdering="false" Id="VtkH0NqGAqAAZBBD" Name="" SubLevelTaggedValueCustomizedOrdering="false">
 							<ModelChildren>
-								<TaggedValue Documentation_plain="" Id="MmQn0NqGAqAAZBRc" Multiplicity="Unspecified" Name="Level" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:32:33.100" PmLastModified="2017-03-26T20:33:18.210" QualityScore="-1" TagDefinition="3cRH0NqGAqAAZBJ_" TagDefinitionStereotype="OcRH0NqGAqAAZBJ9" Type="2" UserIDLastNumericValue="0" Value=""/>
-								<TaggedValue Documentation_plain="" Id="CmQn0NqGAqAAZBRd" Multiplicity="Unspecified" Name="Complexity" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:32:33.104" PmLastModified="2017-03-26T20:33:18.210" QualityScore="-1" TagDefinition="3cRH0NqGAqAAZBKA" TagDefinitionStereotype="OcRH0NqGAqAAZBJ9" Type="2" UserIDLastNumericValue="0" Value=""/>
-								<TaggedValue Documentation_plain="" Id="SmQn0NqGAqAAZBRe" Multiplicity="Unspecified" Name="Use Case Status" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:32:33.106" PmLastModified="2017-03-26T20:33:18.210" QualityScore="-1" TagDefinition="3cRH0NqGAqAAZBKB" TagDefinitionStereotype="OcRH0NqGAqAAZBJ9" Type="2" UserIDLastNumericValue="0" Value=""/>
-								<TaggedValue Documentation_plain="" Id="KmQn0NqGAqAAZBRf" Multiplicity="Unspecified" Name="Implementation Status" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:32:33.108" PmLastModified="2017-03-26T20:33:18.210" QualityScore="-1" TagDefinition="3cRH0NqGAqAAZBKC" TagDefinitionStereotype="OcRH0NqGAqAAZBJ9" Type="2" UserIDLastNumericValue="0" Value=""/>
-								<TaggedValue Documentation_plain="" Id="amQn0NqGAqAAZBRg" Multiplicity="Unspecified" Name="Preconditions" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:32:33.110" PmLastModified="2017-03-26T20:33:18.210" QualityScore="-1" TagDefinition="3cRH0NqGAqAAZBKD" TagDefinitionStereotype="OcRH0NqGAqAAZBJ9" Type="Multi-line Text" UserIDLastNumericValue="0" Value=""/>
-								<TaggedValue Documentation_plain="" Id="GmQn0NqGAqAAZBRh" Multiplicity="Unspecified" Name="Post-conditions" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:32:33.112" PmLastModified="2017-03-26T20:33:18.210" QualityScore="-1" TagDefinition="3cRH0NqGAqAAZBKE" TagDefinitionStereotype="OcRH0NqGAqAAZBJ9" Type="Multi-line Text" UserIDLastNumericValue="0" Value=""/>
-								<TaggedValue Documentation_plain="" Id="2mQn0NqGAqAAZBRi" Multiplicity="Unspecified" Name="Author" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:32:33.115" PmLastModified="2017-03-26T20:33:18.210" QualityScore="-1" TagDefinition="08RH0NqGAqAAZBKF" TagDefinitionStereotype="OcRH0NqGAqAAZBJ9" Type="Text" UserIDLastNumericValue="0" Value=""/>
-								<TaggedValue Documentation_plain="" Id="umQn0NqGAqAAZBRj" Multiplicity="Unspecified" Name="Assumptions" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:32:33.117" PmLastModified="2017-03-26T20:33:18.210" QualityScore="-1" TagDefinition="08RH0NqGAqAAZBKG" TagDefinitionStereotype="OcRH0NqGAqAAZBJ9" Type="Multi-line Text" UserIDLastNumericValue="0" Value=""/>
+								<TaggedValue Documentation_plain="" Id="1tkH0NqGAqAAZBBE" Multiplicity="Unspecified" Name="Level" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:28:40.939" PmLastModified="2017-03-26T20:29:39.014" QualityScore="-1" TagDefinition="yTc70NqGAqAAZA5N" TagDefinitionStereotype="wTc70NqGAqAAZA5L" Type="2" UserIDLastNumericValue="0" Value=""/>
+								<TaggedValue Documentation_plain="" Id="ttkH0NqGAqAAZBBF" Multiplicity="Unspecified" Name="Complexity" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:28:40.941" PmLastModified="2017-03-26T20:29:39.014" QualityScore="-1" TagDefinition="yTc70NqGAqAAZA5O" TagDefinitionStereotype="wTc70NqGAqAAZA5L" Type="2" UserIDLastNumericValue="0" Value=""/>
+								<TaggedValue Documentation_plain="" Id="9tkH0NqGAqAAZBBG" Multiplicity="Unspecified" Name="Use Case Status" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:28:40.943" PmLastModified="2017-03-26T20:29:39.014" QualityScore="-1" TagDefinition="yTc70NqGAqAAZA5P" TagDefinitionStereotype="wTc70NqGAqAAZA5L" Type="2" UserIDLastNumericValue="0" Value=""/>
+								<TaggedValue Documentation_plain="" Id="TtkH0NqGAqAAZBBH" Multiplicity="Unspecified" Name="Implementation Status" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:28:40.946" PmLastModified="2017-03-26T20:29:39.014" QualityScore="-1" TagDefinition="yTc70NqGAqAAZA5Q" TagDefinitionStereotype="wTc70NqGAqAAZA5L" Type="2" UserIDLastNumericValue="0" Value=""/>
+								<TaggedValue Documentation_plain="" Id="LtkH0NqGAqAAZBBI" Multiplicity="Unspecified" Name="Preconditions" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:28:40.948" PmLastModified="2017-03-26T20:29:39.014" QualityScore="-1" TagDefinition="yTc70NqGAqAAZA5R" TagDefinitionStereotype="wTc70NqGAqAAZA5L" Type="Multi-line Text" UserIDLastNumericValue="0" Value=""/>
+								<TaggedValue Documentation_plain="" Id="btkH0NqGAqAAZBBJ" Multiplicity="Unspecified" Name="Post-conditions" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:28:40.950" PmLastModified="2017-03-26T20:29:39.014" QualityScore="-1" TagDefinition="RTc70NqGAqAAZA5S" TagDefinitionStereotype="wTc70NqGAqAAZA5L" Type="Multi-line Text" UserIDLastNumericValue="0" Value=""/>
+								<TaggedValue Documentation_plain="" Id="HtkH0NqGAqAAZBBK" Multiplicity="Unspecified" Name="Author" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:28:40.952" PmLastModified="2017-03-26T20:29:39.014" QualityScore="-1" TagDefinition="RTc70NqGAqAAZA5T" TagDefinitionStereotype="wTc70NqGAqAAZA5L" Type="Text" UserIDLastNumericValue="0" Value=""/>
+								<TaggedValue Documentation_plain="" Id="XtkH0NqGAqAAZBBL" Multiplicity="Unspecified" Name="Assumptions" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:28:40.954" PmLastModified="2017-03-26T20:29:39.014" QualityScore="-1" TagDefinition="RTc70NqGAqAAZA5U" TagDefinitionStereotype="wTc70NqGAqAAZA5L" Type="Multi-line Text" UserIDLastNumericValue="0" Value=""/>
 							</ModelChildren>
 						</TaggedValueContainer>
 					</TaggedValues>
-					<PrimaryActors>
-						<Actor Idref="Q.ziJNqGAqAAZAwS" Name="Korisnik Fizičko lice"/>
-					</PrimaryActors>
 					<ToSimpleRelationships>
-						<Include Idref="b2Qn0NqGAqAAZBRn" Name=""/>
+						<Include Idref="9DkH0NqGAqAAZBBP" Name=""/>
 					</ToSimpleRelationships>
 					<MasterView>
-						<UseCase Idref="4mQn0NqGAqAAZBRZ" Name="Naplaćuje uređaj"/>
+						<UseCase Idref="ZtkH0NqGAqAAZBBB" Name="Prosljeđivanje uređaja korisniku"/>
 					</MasterView>
 				</UseCase>
-				<UseCase Abstract="false" BusinessModel="false" DescNameColumnWidth="0" DescValueColumnWidth="0" Documentation_plain="" Id="E5vRMNqGAqACaw09" Justification="" Leaf="false" Name="Uzimanje uređaja od administratora" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T23:35:43.560" PmLastModified="2017-03-31T14:11:38.506" QualityScore="-1" Root="false" ScheduleRowHeight="24" Status="Identify" TaskPoolId="0" UcRank="Unspecified" UserID="UC05" UserIDLastNumericValue="0">
+				<UseCase Abstract="false" BusinessModel="false" DescNameColumnWidth="0" DescValueColumnWidth="0" Documentation_plain="" Id="5YvhMNqGAqACawsp" Justification="" Leaf="false" Name="Uzimanje uređaja od administratora" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T23:31:19.335" PmLastModified="2017-03-26T23:39:25.152" QualityScore="-1" Root="false" ScheduleRowHeight="24" Status="Identify" TaskPoolId="0" UcRank="Unspecified" UserID="UC05" UserIDLastNumericValue="0">
 					<Stereotypes>
-						<Stereotype Idref="OcRH0NqGAqAAZBJ9" Name="UseCase"/>
+						<Stereotype Idref="wTc70NqGAqAAZA5L" Name="UseCase"/>
 					</Stereotypes>
 					<TaggedValues>
-						<TaggedValueContainer CustomizedOrdering="false" Id="G5vRMNqGAqACaw1Q" Name="" SubLevelTaggedValueCustomizedOrdering="false">
+						<TaggedValueContainer CustomizedOrdering="false" Id="A4vhMNqGAqACaws8" Name="" SubLevelTaggedValueCustomizedOrdering="false">
 							<ModelChildren>
-								<TaggedValue Documentation_plain="" Id="G5vRMNqGAqACaw1R" Multiplicity="Unspecified" Name="Level" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T23:35:43.576" PmLastModified="2017-03-26T23:36:11.877" QualityScore="-1" TagDefinition="3cRH0NqGAqAAZBJ_" TagDefinitionStereotype="OcRH0NqGAqAAZBJ9" Type="2" UserIDLastNumericValue="0" Value=""/>
-								<TaggedValue Documentation_plain="" Id="G5vRMNqGAqACaw1S" Multiplicity="Unspecified" Name="Complexity" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T23:35:43.576" PmLastModified="2017-03-26T23:36:11.877" QualityScore="-1" TagDefinition="3cRH0NqGAqAAZBKA" TagDefinitionStereotype="OcRH0NqGAqAAZBJ9" Type="2" UserIDLastNumericValue="0" Value=""/>
-								<TaggedValue Documentation_plain="" Id="G5vRMNqGAqACaw1T" Multiplicity="Unspecified" Name="Use Case Status" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T23:35:43.576" PmLastModified="2017-03-26T23:36:11.877" QualityScore="-1" TagDefinition="3cRH0NqGAqAAZBKB" TagDefinitionStereotype="OcRH0NqGAqAAZBJ9" Type="2" UserIDLastNumericValue="0" Value=""/>
-								<TaggedValue Documentation_plain="" Id="55vRMNqGAqACaw1U" Multiplicity="Unspecified" Name="Implementation Status" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T23:35:43.591" PmLastModified="2017-03-26T23:36:11.877" QualityScore="-1" TagDefinition="3cRH0NqGAqAAZBKC" TagDefinitionStereotype="OcRH0NqGAqAAZBJ9" Type="2" UserIDLastNumericValue="0" Value=""/>
-								<TaggedValue Documentation_plain="" Id="55vRMNqGAqACaw1V" Multiplicity="Unspecified" Name="Preconditions" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T23:35:43.591" PmLastModified="2017-03-26T23:36:11.877" QualityScore="-1" TagDefinition="3cRH0NqGAqAAZBKD" TagDefinitionStereotype="OcRH0NqGAqAAZBJ9" Type="Multi-line Text" UserIDLastNumericValue="0" Value=""/>
-								<TaggedValue Documentation_plain="" Id="55vRMNqGAqACaw1W" Multiplicity="Unspecified" Name="Post-conditions" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T23:35:43.591" PmLastModified="2017-03-26T23:36:11.877" QualityScore="-1" TagDefinition="3cRH0NqGAqAAZBKE" TagDefinitionStereotype="OcRH0NqGAqAAZBJ9" Type="Multi-line Text" UserIDLastNumericValue="0" Value=""/>
-								<TaggedValue Documentation_plain="" Id="55vRMNqGAqACaw1X" Multiplicity="Unspecified" Name="Author" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T23:35:43.591" PmLastModified="2017-03-26T23:36:11.877" QualityScore="-1" TagDefinition="08RH0NqGAqAAZBKF" TagDefinitionStereotype="OcRH0NqGAqAAZBJ9" Type="Text" UserIDLastNumericValue="0" Value=""/>
-								<TaggedValue Documentation_plain="" Id="55vRMNqGAqACaw1Y" Multiplicity="Unspecified" Name="Assumptions" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T23:35:43.591" PmLastModified="2017-03-26T23:36:11.877" QualityScore="-1" TagDefinition="08RH0NqGAqAAZBKG" TagDefinitionStereotype="OcRH0NqGAqAAZBJ9" Type="Multi-line Text" UserIDLastNumericValue="0" Value=""/>
+								<TaggedValue Documentation_plain="" Id="I4vhMNqGAqACaws9" Multiplicity="Unspecified" Name="Level" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T23:31:19.364" PmLastModified="2017-03-26T23:31:30.836" QualityScore="-1" TagDefinition="yTc70NqGAqAAZA5N" TagDefinitionStereotype="wTc70NqGAqAAZA5L" Type="2" UserIDLastNumericValue="0" Value=""/>
+								<TaggedValue Documentation_plain="" Id="U4vhMNqGAqACaws." Multiplicity="Unspecified" Name="Complexity" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T23:31:19.370" PmLastModified="2017-03-26T23:31:30.836" QualityScore="-1" TagDefinition="yTc70NqGAqAAZA5O" TagDefinitionStereotype="wTc70NqGAqAAZA5L" Type="2" UserIDLastNumericValue="0" Value=""/>
+								<TaggedValue Documentation_plain="" Id="s4vhMNqGAqACaws_" Multiplicity="Unspecified" Name="Use Case Status" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T23:31:19.373" PmLastModified="2017-03-26T23:31:30.836" QualityScore="-1" TagDefinition="yTc70NqGAqAAZA5P" TagDefinitionStereotype="wTc70NqGAqAAZA5L" Type="2" UserIDLastNumericValue="0" Value=""/>
+								<TaggedValue Documentation_plain="" Id="C4vhMNqGAqACawtA" Multiplicity="Unspecified" Name="Implementation Status" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T23:31:19.377" PmLastModified="2017-03-26T23:31:30.836" QualityScore="-1" TagDefinition="yTc70NqGAqAAZA5Q" TagDefinitionStereotype="wTc70NqGAqAAZA5L" Type="2" UserIDLastNumericValue="0" Value=""/>
+								<TaggedValue Documentation_plain="" Id="q4vhMNqGAqACawtB" Multiplicity="Unspecified" Name="Preconditions" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T23:31:19.381" PmLastModified="2017-03-26T23:31:30.836" QualityScore="-1" TagDefinition="yTc70NqGAqAAZA5R" TagDefinitionStereotype="wTc70NqGAqAAZA5L" Type="Multi-line Text" UserIDLastNumericValue="0" Value=""/>
+								<TaggedValue Documentation_plain="" Id="G4vhMNqGAqACawtC" Multiplicity="Unspecified" Name="Post-conditions" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T23:31:19.384" PmLastModified="2017-03-26T23:31:30.836" QualityScore="-1" TagDefinition="RTc70NqGAqAAZA5S" TagDefinitionStereotype="wTc70NqGAqAAZA5L" Type="Multi-line Text" UserIDLastNumericValue="0" Value=""/>
+								<TaggedValue Documentation_plain="" Id="24vhMNqGAqACawtD" Multiplicity="Unspecified" Name="Author" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T23:31:19.387" PmLastModified="2017-03-26T23:31:30.836" QualityScore="-1" TagDefinition="RTc70NqGAqAAZA5T" TagDefinitionStereotype="wTc70NqGAqAAZA5L" Type="Text" UserIDLastNumericValue="0" Value=""/>
+								<TaggedValue Documentation_plain="" Id="e4vhMNqGAqACawtE" Multiplicity="Unspecified" Name="Assumptions" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T23:31:19.390" PmLastModified="2017-03-26T23:31:30.836" QualityScore="-1" TagDefinition="RTc70NqGAqAAZA5U" TagDefinitionStereotype="wTc70NqGAqAAZA5L" Type="Multi-line Text" UserIDLastNumericValue="0" Value=""/>
 							</ModelChildren>
 						</TaggedValueContainer>
 					</TaggedValues>
 					<PrimaryActors>
-						<Actor Idref="x4sxMNqGAqACaw2I" Name="Administrator"/>
+						<Actor Idref="SFpxMNqGAqACaxP0" Name="Administrator"/>
 					</PrimaryActors>
 					<ToSimpleRelationships>
-						<Include Idref="W9vRMNqGAqACaw1c" Name=""/>
+						<Include Idref=".ivhMNqGAqACawtI" Name=""/>
 					</ToSimpleRelationships>
 					<MasterView>
-						<UseCase Idref="E5vRMNqGAqACaw08" Name="Uzimanje uređaja od administratora"/>
+						<UseCase Idref="ZYvhMNqGAqACawso" Name="Uzimanje uređaja od administratora"/>
 					</MasterView>
 				</UseCase>
 			</ModelChildren>
 		</System>
-		<Actor Abstract="false" BusinessModel="false" Documentation_plain="" FontSize="0" Id="_PDH0NqGAqAAZBP1" Leaf="false" Name="Dostavljač" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:31:21.663" PmLastModified="2017-03-31T14:11:38.506" QualityScore="-1" Root="false" UserID="AC01" UserIDLastNumericValue="0" Visibility="public">
-			<MasterView>
-				<Actor Idref="fPDH0NqGAqAAZBP0" Name="Dostavljač"/>
-			</MasterView>
-		</Actor>
-		<Stereotype Abstract="false" BaseType="Include" Documentation_plain="" Id="cYnH0NqGAqAAZBQ1" Leaf="false" Name="Include" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:31:55.022" PmLastModified="2017-03-26T20:33:18.365" QualityScore="-1" Root="false" UserIDLastNumericValue="0"/>
-		<ModelRelationshipContainer Documentation_plain="" Id="wmsn0NqGAqAAZBR0" Name="relationships" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:33:18.147" PmLastModified="2017-03-26T20:33:18.194" QualityScore="-1" UserIDLastNumericValue="0">
+		<Stereotype Abstract="false" BaseType="Include" Documentation_plain="" Id="7vD70NqGAqAAZBAR" Leaf="false" Name="Include" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:26:59.575" PmLastModified="2017-03-26T20:29:38.936" QualityScore="-1" Root="false" UserIDLastNumericValue="0"/>
+		<ModelRelationshipContainer Documentation_plain="" Id="Pr6H0NqGAqAAZBBY" Name="relationships" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:29:38.812" PmLastModified="2017-03-26T20:29:38.889" QualityScore="-1" UserIDLastNumericValue="0">
 			<ModelChildren>
-				<ModelRelationshipContainer Documentation_plain="" Id="wmsn0NqGAqAAZBR1" Name="Association" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:33:18.147" PmLastModified="2017-03-31T14:13:49.510" QualityScore="-1" UserIDLastNumericValue="0">
+				<ModelRelationshipContainer Documentation_plain="" Id="Pr6H0NqGAqAAZBBZ" Name="Association" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:29:38.812" PmLastModified="2017-03-26T23:39:25.151" QualityScore="-1" UserIDLastNumericValue="0">
 					<ModelChildren>
-						<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="_PDH0NqGAqAAZBP1" EndRelationshipToMetaModelElement="tVTH0NqGAqAAZBQB" Id="OtTH0NqGAqAAZBQP" Leaf="false" OrderingInProfile="-1" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:31:28.860" PmLastModified="2017-03-26T20:33:18.194" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+						<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="96u70NqGAqAAZA.8" EndRelationshipToMetaModelElement="sFh70NqGAqAAZA_F" Id="E1h70NqGAqAAZA_S" Leaf="false" OrderingInProfile="-1" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:25:56.936" PmLastModified="2017-03-26T20:29:38.827" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
 							<FromEnd>
-								<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="_PDH0NqGAqAAZBP1" Id="OtTH0NqGAqAAZBQQ" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:31:28.860" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+								<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="96u70NqGAqAAZA.8" Id="E1h70NqGAqAAZA_T" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:25:56.936" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
 									<Qualifier>
-										<Qualifier Documentation_plain="" Id="OtTH0NqGAqAAZBQR" Name="" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:31:28.860" QualityScore="-1" UserIDLastNumericValue="0"/>
+										<Qualifier Documentation_plain="" Id="E1h70NqGAqAAZA_U" Name="" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:25:56.936" QualityScore="-1" UserIDLastNumericValue="0"/>
 									</Qualifier>
 									<Type>
-										<Actor Idref="_PDH0NqGAqAAZBP1" Name="Dostavljač"/>
+										<Actor Idref="96u70NqGAqAAZA.8" Name="Službenik"/>
 									</Type>
 								</AssociationEnd>
 							</FromEnd>
 							<ToEnd>
-								<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="tVTH0NqGAqAAZBQB" Id="utTH0NqGAqAAZBQS" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:31:28.861" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+								<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="sFh70NqGAqAAZA_F" Id="E1h70NqGAqAAZA_V" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:25:56.936" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
 									<Qualifier>
-										<Qualifier Documentation_plain="" Id="utTH0NqGAqAAZBQT" Name="" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:31:28.861" QualityScore="-1" UserIDLastNumericValue="0"/>
+										<Qualifier Documentation_plain="" Id="E1h70NqGAqAAZA_W" Name="" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:25:56.936" QualityScore="-1" UserIDLastNumericValue="0"/>
 									</Qualifier>
 									<Type>
-										<UseCase Idref="tVTH0NqGAqAAZBQB" Name="Dostavlja uređaj"/>
+										<UseCase Idref="sFh70NqGAqAAZA_F" Name="Aktivacija računa"/>
 									</Type>
 								</AssociationEnd>
 							</ToEnd>
 							<MasterView>
-								<Association Idref="ttTH0NqGAqAAZBQU"/>
+								<Association Idref="t1h70NqGAqAAZA_X"/>
 							</MasterView>
 						</Association>
-						<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="x4sxMNqGAqACaw2I" EndRelationshipToMetaModelElement="E5vRMNqGAqACaw09" Id="EdCxMNqGAqACaw2N" Leaf="false" OrderingInProfile="-1" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T23:37:01.832" PmLastModified="2017-03-26T23:37:10.557" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+						<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="53txMNqGAqACaxQS" EndRelationshipToMetaModelElement="TXD70NqGAqAAZBAD" Id="CqjxMNqGAqACaxQd" Leaf="false" OrderingInProfile="-1" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T23:39:15.408" PmLastModified="2017-03-26T23:39:25.135" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
 							<FromEnd>
-								<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="x4sxMNqGAqACaw2I" Id="EdCxMNqGAqACaw2O" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T23:37:01.832" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+								<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="53txMNqGAqACaxQS" Id="CqjxMNqGAqACaxQe" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T23:39:15.408" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
 									<Qualifier>
-										<Qualifier Documentation_plain="" Id="EdCxMNqGAqACaw2P" Name="" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T23:37:01.832" QualityScore="-1" UserIDLastNumericValue="0"/>
+										<Qualifier Documentation_plain="" Id="CqjxMNqGAqACaxQf" Name="" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T23:39:15.408" QualityScore="-1" UserIDLastNumericValue="0"/>
 									</Qualifier>
 									<Type>
-										<Actor Idref="x4sxMNqGAqACaw2I" Name="Administrator"/>
+										<Actor Idref="53txMNqGAqACaxQS" Name="Korisnik Fizičko Lice"/>
 									</Type>
 								</AssociationEnd>
 							</FromEnd>
 							<ToEnd>
-								<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="E5vRMNqGAqACaw09" Id="kdCxMNqGAqACaw2Q" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T23:37:01.833" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+								<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="TXD70NqGAqAAZBAD" Id="CqjxMNqGAqACaxQg" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T23:39:15.408" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
 									<Qualifier>
-										<Qualifier Documentation_plain="" Id="UdCxMNqGAqACaw2R" Name="" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T23:37:01.834" QualityScore="-1" UserIDLastNumericValue="0"/>
+										<Qualifier Documentation_plain="" Id="CqjxMNqGAqACaxQh" Name="" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T23:39:15.408" QualityScore="-1" UserIDLastNumericValue="0"/>
 									</Qualifier>
 									<Type>
-										<UseCase Idref="E5vRMNqGAqACaw09" Name="Uzimanje uređaja od administratora"/>
+										<UseCase Idref="TXD70NqGAqAAZBAD" Name="Popunjavanje lićnih podataka i podataka o vozilu"/>
 									</Type>
 								</AssociationEnd>
 							</ToEnd>
 							<MasterView>
-								<Association Idref="hDCxMNqGAqACaw2S"/>
+								<Association Idref="h6jxMNqGAqACaxQi"/>
 							</MasterView>
 						</Association>
-						<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="cwnH0NqGAqAAZBQn" EndRelationshipToMetaModelElement="Q.ziJNqGAqAAZAwS" Id="pOQSJNqGAqAAZAwm" Leaf="false" OrderingInProfile="-1" PmAuthor="Toshiba" PmCreateDateTime="2017-03-31T14:12:40.101" PmLastModified="2017-03-31T14:13:49.494" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+						<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="SFpxMNqGAqACaxP0" EndRelationshipToMetaModelElement="5YvhMNqGAqACawsp" Id="ApTxMNqGAqACaxQl" Leaf="false" OrderingInProfile="-1" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T23:39:20.512" PmLastModified="2017-03-26T23:39:25.143" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
 							<FromEnd>
-								<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="cwnH0NqGAqAAZBQn" Id="pOQSJNqGAqAAZAwn" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Toshiba" PmCreateDateTime="2017-03-31T14:12:40.101" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+								<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="SFpxMNqGAqACaxP0" Id="ApTxMNqGAqACaxQm" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T23:39:20.512" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
 									<Qualifier>
-										<Qualifier Documentation_plain="" Id="pOQSJNqGAqAAZAwo" Name="" PmAuthor="Toshiba" PmCreateDateTime="2017-03-31T14:12:40.101" QualityScore="-1" UserIDLastNumericValue="0"/>
+										<Qualifier Documentation_plain="" Id="ApTxMNqGAqACaxQn" Name="" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T23:39:20.512" QualityScore="-1" UserIDLastNumericValue="0"/>
 									</Qualifier>
 									<Type>
-										<UseCase Idref="cwnH0NqGAqAAZBQn" Name="Predaje uređaj"/>
+										<Actor Idref="SFpxMNqGAqACaxP0" Name="Administrator"/>
 									</Type>
 								</AssociationEnd>
 							</FromEnd>
 							<ToEnd>
-								<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="Q.ziJNqGAqAAZAwS" Id="pOQSJNqGAqAAZAwp" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Toshiba" PmCreateDateTime="2017-03-31T14:12:40.101" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+								<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="5YvhMNqGAqACawsp" Id="ApTxMNqGAqACaxQo" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T23:39:20.512" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
 									<Qualifier>
-										<Qualifier Documentation_plain="" Id="pOQSJNqGAqAAZAwq" Name="" PmAuthor="Toshiba" PmCreateDateTime="2017-03-31T14:12:40.101" QualityScore="-1" UserIDLastNumericValue="0"/>
+										<Qualifier Documentation_plain="" Id="ApTxMNqGAqACaxQp" Name="" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T23:39:20.512" QualityScore="-1" UserIDLastNumericValue="0"/>
 									</Qualifier>
 									<Type>
-										<Actor Idref="Q.ziJNqGAqAAZAwS" Name="Korisnik Fizičko lice"/>
+										<UseCase Idref="5YvhMNqGAqACawsp" Name="Uzimanje uređaja od administratora"/>
 									</Type>
 								</AssociationEnd>
 							</ToEnd>
 							<MasterView>
-								<Association Idref="jeQSJNqGAqAAZAwr"/>
-							</MasterView>
-						</Association>
-						<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="4mQn0NqGAqAAZBRa" EndRelationshipToMetaModelElement="Q.ziJNqGAqAAZAwS" Id="wQISJNqGAqAAZAwy" Leaf="false" OrderingInProfile="-1" PmAuthor="Toshiba" PmCreateDateTime="2017-03-31T14:12:46.596" PmLastModified="2017-03-31T14:13:49.494" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
-							<FromEnd>
-								<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="4mQn0NqGAqAAZBRa" Id="IQISJNqGAqAAZAwz" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Toshiba" PmCreateDateTime="2017-03-31T14:12:46.596" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
-									<Qualifier>
-										<Qualifier Documentation_plain="" Id="IQISJNqGAqAAZAw0" Name="" PmAuthor="Toshiba" PmCreateDateTime="2017-03-31T14:12:46.596" QualityScore="-1" UserIDLastNumericValue="0"/>
-									</Qualifier>
-									<Type>
-										<UseCase Idref="4mQn0NqGAqAAZBRa" Name="Naplaćuje uređaj"/>
-									</Type>
-								</AssociationEnd>
-							</FromEnd>
-							<ToEnd>
-								<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="Q.ziJNqGAqAAZAwS" Id="IQISJNqGAqAAZAw1" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Toshiba" PmCreateDateTime="2017-03-31T14:12:46.596" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
-									<Qualifier>
-										<Qualifier Documentation_plain="" Id="IQISJNqGAqAAZAw2" Name="" PmAuthor="Toshiba" PmCreateDateTime="2017-03-31T14:12:46.596" QualityScore="-1" UserIDLastNumericValue="0"/>
-									</Qualifier>
-									<Type>
-										<Actor Idref="Q.ziJNqGAqAAZAwS" Name="Korisnik Fizičko lice"/>
-									</Type>
-								</AssociationEnd>
-							</ToEnd>
-							<MasterView>
-								<Association Idref="yIISJNqGAqAAZAw3"/>
-							</MasterView>
-						</Association>
-						<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="cwnH0NqGAqAAZBQn" EndRelationshipToMetaModelElement="QmPiJNqGAqAAZAwd" Id="LBkSJNqGAqAAZAxT" Leaf="false" OrderingInProfile="-1" PmAuthor="Toshiba" PmCreateDateTime="2017-03-31T14:13:09.044" PmLastModified="2017-03-31T14:13:49.510" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
-							<FromEnd>
-								<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="cwnH0NqGAqAAZBQn" Id="LBkSJNqGAqAAZAxU" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Toshiba" PmCreateDateTime="2017-03-31T14:13:09.044" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
-									<Qualifier>
-										<Qualifier Documentation_plain="" Id="LBkSJNqGAqAAZAxV" Name="" PmAuthor="Toshiba" PmCreateDateTime="2017-03-31T14:13:09.044" QualityScore="-1" UserIDLastNumericValue="0"/>
-									</Qualifier>
-									<Type>
-										<UseCase Idref="cwnH0NqGAqAAZBQn" Name="Predaje uređaj"/>
-									</Type>
-								</AssociationEnd>
-							</FromEnd>
-							<ToEnd>
-								<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="QmPiJNqGAqAAZAwd" Id="LBkSJNqGAqAAZAxW" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Toshiba" PmCreateDateTime="2017-03-31T14:13:09.044" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
-									<Qualifier>
-										<Qualifier Documentation_plain="" Id="LBkSJNqGAqAAZAxX" Name="" PmAuthor="Toshiba" PmCreateDateTime="2017-03-31T14:13:09.044" QualityScore="-1" UserIDLastNumericValue="0"/>
-									</Qualifier>
-									<Type>
-										<Actor Idref="QmPiJNqGAqAAZAwd" Name="Korisnik Pravno Lice"/>
-									</Type>
-								</AssociationEnd>
-							</ToEnd>
-							<MasterView>
-								<Association Idref="UxkSJNqGAqAAZAxY"/>
+								<Association Idref="g5TxMNqGAqACaxQq"/>
 							</MasterView>
 						</Association>
 					</ModelChildren>
 				</ModelRelationshipContainer>
-				<ModelRelationshipContainer Documentation_plain="" Id="wmsn0NqGAqAAZBR2" Name="Include" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:33:18.147" PmLastModified="2017-03-26T23:36:11.892" QualityScore="-1" UserIDLastNumericValue="0">
+				<ModelRelationshipContainer Documentation_plain="" Id="Pr6H0NqGAqAAZBBa" Name="Include" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:29:38.812" PmLastModified="2017-03-26T23:31:30.836" QualityScore="-1" UserIDLastNumericValue="0">
 					<ModelChildren>
-						<Include Documentation_plain="" From="tVTH0NqGAqAAZBQB" Id="cYnH0NqGAqAAZBQ0" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:31:55.022" PmLastModified="2017-03-26T20:33:18.319" QualityScore="-1" To="cwnH0NqGAqAAZBQn" UserIDLastNumericValue="0" Visibility="Unspecified">
+						<Include Documentation_plain="" From="sFh70NqGAqAAZA_F" Id="jvD70NqGAqAAZBAQ" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:26:59.569" PmLastModified="2017-03-26T20:29:38.858" QualityScore="-1" To="TXD70NqGAqAAZBAD" UserIDLastNumericValue="0" Visibility="Unspecified">
 							<Stereotypes>
-								<Stereotype Idref="cYnH0NqGAqAAZBQ1" Name="Include"/>
+								<Stereotype Idref="7vD70NqGAqAAZBAR" Name="Include"/>
 							</Stereotypes>
 							<MasterView>
-								<Include Idref="tYnH0NqGAqAAZBQ2"/>
+								<Include Idref="SfD70NqGAqAAZBAS"/>
 							</MasterView>
 						</Include>
-						<Include Documentation_plain="" From="tVTH0NqGAqAAZBQB" Id="aivH0NqGAqAAZBRO" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:32:12.118" PmLastModified="2017-03-26T20:33:18.163" QualityScore="-1" To="4cvH0NqGAqAAZBRB" UserIDLastNumericValue="0" Visibility="Unspecified">
+						<Include Documentation_plain="" From="sFh70NqGAqAAZA_F" Id="_AwH0NqGAqAAZBA2" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:28:13.503" PmLastModified="2017-03-26T20:29:38.858" QualityScore="-1" To="9PQH0NqGAqAAZBAp" UserIDLastNumericValue="0" Visibility="Unspecified">
 							<Stereotypes>
-								<Stereotype Idref="cYnH0NqGAqAAZBQ1" Name="Include"/>
+								<Stereotype Idref="7vD70NqGAqAAZBAR" Name="Include"/>
 							</Stereotypes>
 							<MasterView>
-								<Include Idref="ZivH0NqGAqAAZBRP"/>
+								<Include Idref="egwH0NqGAqAAZBA3"/>
 							</MasterView>
 						</Include>
-						<Include Documentation_plain="" From="tVTH0NqGAqAAZBQB" Id="b2Qn0NqGAqAAZBRn" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:32:33.270" PmLastModified="2017-03-26T20:33:18.194" QualityScore="-1" To="4mQn0NqGAqAAZBRa" UserIDLastNumericValue="0" Visibility="Unspecified">
+						<Include Documentation_plain="" From="sFh70NqGAqAAZA_F" Id="9DkH0NqGAqAAZBBP" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:28:41.135" PmLastModified="2017-03-26T20:29:38.858" QualityScore="-1" To="ZtkH0NqGAqAAZBBC" UserIDLastNumericValue="0" Visibility="Unspecified">
 							<Stereotypes>
-								<Stereotype Idref="cYnH0NqGAqAAZBQ1" Name="Include"/>
+								<Stereotype Idref="7vD70NqGAqAAZBAR" Name="Include"/>
 							</Stereotypes>
 							<MasterView>
-								<Include Idref="IOQn0NqGAqAAZBRo"/>
+								<Include Idref="fDkH0NqGAqAAZBBQ"/>
 							</MasterView>
 						</Include>
-						<Include Documentation_plain="" From="tVTH0NqGAqAAZBQB" Id="W9vRMNqGAqACaw1c" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T23:35:44.090" PmLastModified="2017-03-26T23:36:11.877" QualityScore="-1" To="E5vRMNqGAqACaw09" UserIDLastNumericValue="0" Visibility="Unspecified">
+						<Include Documentation_plain="" From="sFh70NqGAqAAZA_F" Id=".ivhMNqGAqACawtI" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T23:31:20.031" PmLastModified="2017-03-26T23:31:30.820" QualityScore="-1" To="5YvhMNqGAqACawsp" UserIDLastNumericValue="0" Visibility="Unspecified">
 							<Stereotypes>
-								<Stereotype Idref="cYnH0NqGAqAAZBQ1" Name="Include"/>
+								<Stereotype Idref="7vD70NqGAqAAZBAR" Name="Include"/>
 							</Stereotypes>
 							<MasterView>
-								<Include Idref="bjvRMNqGAqACaw1d"/>
+								<Include Idref="zGvhMNqGAqACawtJ"/>
 							</MasterView>
 						</Include>
 					</ModelChildren>
 				</ModelRelationshipContainer>
 			</ModelChildren>
 		</ModelRelationshipContainer>
-		<Actor Abstract="false" BusinessModel="false" Documentation_plain="" FontSize="0" Id="x4sxMNqGAqACaw2I" Leaf="false" Name="Administrator" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T23:36:47.075" PmLastModified="2017-03-26T23:37:10.571" QualityScore="-1" Root="false" UserID="AC02" UserIDLastNumericValue="0" Visibility="public">
+		<Actor Abstract="false" BusinessModel="false" Documentation_plain="" FontSize="0" Id="SFpxMNqGAqACaxP0" Leaf="false" Name="Administrator" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T23:38:27.474" PmLastModified="2017-03-26T23:39:25.143" QualityScore="-1" Root="false" UserID="AC02" UserIDLastNumericValue="0" Visibility="public">
 			<MasterView>
-				<Actor Idref="R4sxMNqGAqACaw2H" Name="Administrator"/>
+				<Actor Idref="SFpxMNqGAqACaxPz" Name="Administrator"/>
 			</MasterView>
 		</Actor>
-		<Actor Abstract="false" BusinessModel="false" Documentation_plain="" FontSize="0" Id="Q.ziJNqGAqAAZAwS" Leaf="false" Name="Korisnik Fizičko lice" PmAuthor="Toshiba" PmCreateDateTime="2017-03-31T14:11:38.818" PmLastModified="2017-03-31T14:13:49.494" QualityScore="-1" Root="false" UserID="AC03" UserIDLastNumericValue="0" Visibility="public">
+		<Actor Abstract="false" BusinessModel="false" Documentation_plain="" FontSize="0" Id="53txMNqGAqACaxQS" Leaf="false" Name="Korisnik Fizičko Lice" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T23:39:01.479" PmLastModified="2017-03-31T14:23:18.032" QualityScore="-1" Root="false" UserID="AC03" UserIDLastNumericValue="0" Visibility="public">
 			<MasterView>
-				<Actor Idref="Q.ziJNqGAqAAZAwR" Name="Korisnik Fizičko lice"/>
-			</MasterView>
-		</Actor>
-		<Actor Abstract="false" BusinessModel="false" Documentation_plain="" FontSize="0" Id="QmPiJNqGAqAAZAwd" Leaf="false" Name="Korisnik Pravno Lice" PmAuthor="Toshiba" PmCreateDateTime="2017-03-31T14:12:15.298" PmLastModified="2017-03-31T14:13:49.510" QualityScore="-1" Root="false" UserID="AC04" UserIDLastNumericValue="0" Visibility="public">
-			<MasterView>
-				<Actor Idref="QmPiJNqGAqAAZAwc" Name="Korisnik Pravno Lice"/>
+				<Actor Idref="Z3txMNqGAqACaxQR" Name="Korisnik Fizičko Lice"/>
 			</MasterView>
 		</Actor>
 	</Models>
 	<Diagrams>
-		<UseCaseDiagram AlignToGrid="false" AutoFitShapesSize="false" ConnectionPointStyle="0" ConnectorLabelOrientation="0" ConnectorLineJumps="0" ConnectorLineJumpsSize="0" ConnectorStyle="1" DiagramBackground="rgb(255, 255, 255)" Editable="true" FollowDiagramParentElement="true" GridColor="rgb(192, 192, 192)" GridHeight="10" GridVisible="false" GridWidth="10" Height="605" HideEmptyTaggedValues="false" Id="3nVH0NqGAqAAZBPc" ImageHeight="0" ImageScale="1.0" ImageWidth="0" InitializeDiagramForCreate="true" Maximized="true" ModelElementNameAlignment="4" Name="SistemZaBrzuNaplatuCestarineDostavljac" PaintConnectorThroughLabel="1" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:30:56.891" PmLastModified="2017-03-31T14:13:39.489" PointConnectorEndToCompartmentMember="true" QualityScore="-1" RequestValidateSnapToGrid="false" ShapePresentationOption="0" ShowActivityStateNodeCaption="65535" ShowAllocatedFrom="true" ShowAllocatedTo="true" ShowConnectorName="0" ShowConstraints="false" ShowDefaultPackage="false" ShowExtendCondition="false" ShowInformationItemOption="2" ShowLegend="false" ShowPMAuthor="false" ShowPMDifficulty="false" ShowPMDiscipline="false" ShowPMIteration="false" ShowPMPhase="false" ShowPMPriority="false" ShowPMStatus="false" ShowPMVersion="false" ShowPackageNameStyle="0" ShowShapeStereotypeIconName="true" ShowStereotypes="true" ShowTaggedValues="false" ShowUseCaseExtensionPoint="true" ShowUseCaseId="false" TeamworkCreateDateTime="0" TrimmedHeight="0" TrimmedWidth="0" UseCaseDisplayOption="0" Width="1278" X="0" Y="0" ZoomRatio="1.0" _actorDisplayOption="0" _globalPaletteOption="true" documentation="&lt;html&gt;&#13;&#10;  &lt;head&gt;&#13;&#10;    &lt;style type=&quot;text/css&quot;&gt;&#10;      &lt;!--&#10;        body { color: #000000; font-family: Dialog; font-size: 12px }&#10;      --&gt;&#10;    &lt;/style&gt;&#13;&#10;    &#13;&#10;  &lt;/head&gt;&#13;&#10;  &lt;body&gt;&#13;&#10;    &lt;p&gt;&#13;&#10;      &#13;&#10;    &lt;/p&gt;&#13;&#10;  &lt;/body&gt;&#13;&#10;&lt;/html&gt;&#13;&#10;">
+		<UseCaseDiagram AlignToGrid="false" AutoFitShapesSize="false" ConnectionPointStyle="0" ConnectorLabelOrientation="0" ConnectorLineJumps="0" ConnectorLineJumpsSize="0" ConnectorStyle="1" DiagramBackground="rgb(255, 255, 255)" Editable="true" FollowDiagramParentElement="true" GridColor="rgb(192, 192, 192)" GridHeight="10" GridVisible="false" GridWidth="10" Height="605" HideEmptyTaggedValues="false" Id="RuO70NqGAqAAZA.s" ImageHeight="0" ImageScale="1.0" ImageWidth="0" InitializeDiagramForCreate="true" Maximized="true" ModelElementNameAlignment="4" Name="RegistracijaNaLicuMijesta" PaintConnectorThroughLabel="1" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:25:35.586" PmLastModified="2017-03-31T14:23:08.032" PointConnectorEndToCompartmentMember="true" QualityScore="-1" RequestValidateSnapToGrid="false" ShapePresentationOption="0" ShowActivityStateNodeCaption="65535" ShowAllocatedFrom="true" ShowAllocatedTo="true" ShowConnectorName="0" ShowConstraints="false" ShowDefaultPackage="false" ShowExtendCondition="false" ShowInformationItemOption="2" ShowLegend="false" ShowPMAuthor="false" ShowPMDifficulty="false" ShowPMDiscipline="false" ShowPMIteration="false" ShowPMPhase="false" ShowPMPriority="false" ShowPMStatus="false" ShowPMVersion="false" ShowPackageNameStyle="0" ShowShapeStereotypeIconName="true" ShowStereotypes="true" ShowTaggedValues="false" ShowUseCaseExtensionPoint="true" ShowUseCaseId="false" TeamworkCreateDateTime="0" TrimmedHeight="0" TrimmedWidth="0" UseCaseDisplayOption="0" Width="1278" X="0" Y="0" ZoomRatio="1.0" _actorDisplayOption="0" _globalPaletteOption="true" documentation="&lt;html&gt;&#13;&#10;  &lt;head&gt;&#13;&#10;    &lt;style type=&quot;text/css&quot;&gt;&#10;      &lt;!--&#10;        body { color: #000000; font-family: Dialog; font-size: 12px }&#10;      --&gt;&#10;    &lt;/style&gt;&#13;&#10;    &#13;&#10;  &lt;/head&gt;&#13;&#10;  &lt;body&gt;&#13;&#10;    &lt;p&gt;&#13;&#10;      &#13;&#10;    &lt;/p&gt;&#13;&#10;  &lt;/body&gt;&#13;&#10;&lt;/html&gt;&#13;&#10;">
 			<Shapes>
-				<Actor Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CreatorDiagramType="UseCaseDiagram" DisplayOption="3" Foreground="rgb(0, 0, 0)" Height="60" Id="QmPiJNqGAqAAZAwc" MetaModelElement="QmPiJNqGAqAAZAwd" Model="QmPiJNqGAqAAZAwd" ModelElementNameAlignment="9" Name="Korisnik Pravno Lice" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="30" X="697" Y="316" ZOrder="2">
+				<Actor Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CreatorDiagramType="UseCaseDiagram" DisplayOption="3" Foreground="rgb(0, 0, 0)" Height="60" Id="Z3txMNqGAqACaxQR" MetaModelElement="53txMNqGAqACaxQS" Model="53txMNqGAqACaxQS" ModelElementNameAlignment="9" Name="Korisnik Fizičko Lice" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="30" X="726" Y="152" ZOrder="2">
 					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
 					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
 						<Stroke/>
 					</Line>
-					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="South" Visible="true" Width="121" X="652" Y="376"/>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="South" Visible="true" Width="120" X="681" Y="212"/>
 					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
 				</Actor>
-				<Actor Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CreatorDiagramType="UseCaseDiagram" DisplayOption="3" Foreground="rgb(0, 0, 0)" Height="60" Id="Q.ziJNqGAqAAZAwR" MetaModelElement="Q.ziJNqGAqAAZAwS" Model="Q.ziJNqGAqAAZAwS" ModelElementNameAlignment="9" Name="Korisnik Fizičko lice" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="30" X="697" Y="196" ZOrder="4">
+				<Actor Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CreatorDiagramType="UseCaseDiagram" DisplayOption="3" Foreground="rgb(0, 0, 0)" Height="60" Id="SFpxMNqGAqACaxPz" MetaModelElement="SFpxMNqGAqACaxP0" Model="SFpxMNqGAqACaxP0" ModelElementNameAlignment="9" Name="Administrator" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="30" X="726" Y="250" ZOrder="4">
 					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
 					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
 						<Stroke/>
 					</Line>
-					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="South" Visible="true" Width="116" X="654" Y="256"/>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="South" Visible="true" Width="85" X="699" Y="310"/>
 					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
 				</Actor>
-				<Actor Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CreatorDiagramType="UseCaseDiagram" DisplayOption="3" Foreground="rgb(0, 0, 0)" Height="60" Id="R4sxMNqGAqACaw2H" MetaModelElement="x4sxMNqGAqACaw2I" Model="x4sxMNqGAqACaw2I" ModelElementNameAlignment="9" Name="Administrator" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="30" X="697" Y="56" ZOrder="6">
+				<System Background="rgb(122, 207, 245)" CaptionAlignment="0" ConnectToPoint="true" ConnectionPointType="2" Foreground="rgb(0, 0, 0)" Height="280" Id="3F570NqGAqAAZA_d" MetaModelElement="PF570NqGAqAAZA_e" Model="PF570NqGAqAAZA_e" ModelElementNameAlignment="1" Name="Sistem za brzu naplatu cestarine" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="412" X="213" Y="110" ZOrder="16">
 					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
 					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
 						<Stroke/>
 					</Line>
-					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="South" Visible="true" Width="85" X="670" Y="116"/>
-					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
-				</Actor>
-				<Actor Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CreatorDiagramType="UseCaseDiagram" DisplayOption="3" Foreground="rgb(0, 0, 0)" Height="60" Id="fPDH0NqGAqAAZBP0" MetaModelElement="_PDH0NqGAqAAZBP1" Model="_PDH0NqGAqAAZBP1" ModelElementNameAlignment="9" Name="Dostavljač" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="30" X="121" Y="146" ZOrder="18">
-					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
-					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
-						<Stroke/>
-					</Line>
-					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="South" Visible="true" Width="71" X="101" Y="206"/>
-					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
-				</Actor>
-				<System Background="rgb(122, 207, 245)" CaptionAlignment="0" ConnectToPoint="true" ConnectionPointType="2" Foreground="rgb(0, 0, 0)" Height="423" Id="g91H0NqGAqAAZBPr" MetaModelElement="g91H0NqGAqAAZBPs" Model="g91H0NqGAqAAZBPs" ModelElementNameAlignment="1" Name="Sistem za brzu naplatu cestarine" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="393" X="200" Y="26" ZOrder="20">
-					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
-					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
-						<Stroke/>
-					</Line>
-					<Caption Height="423" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Center" Visible="true" Width="393" X="0" Y="0"/>
+					<Caption Height="280" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Center" Visible="true" Width="412" X="0" Y="0"/>
 					<DiagramElementChildren>
-						<UseCase Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" DisplayOption="3" Foreground="rgb(0, 0, 0)" Height="81" Id="E5vRMNqGAqACaw08" MetaModelElement="E5vRMNqGAqACaw09" Model="E5vRMNqGAqACaw09" ModelElementNameAlignment="9" Name="Uzimanje uređaja od administratora" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowExtensionPoint="true" ShowStereotypeIconName="0" Width="167" X="221" Y="62" ZOrder="8">
+						<UseCase Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" DisplayOption="3" Foreground="rgb(0, 0, 0)" Height="40" Id="ZYvhMNqGAqACawso" MetaModelElement="5YvhMNqGAqACawsp" Model="5YvhMNqGAqACawsp" ModelElementNameAlignment="9" Name="Uzimanje uređaja od administratora" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowExtensionPoint="true" ShowStereotypeIconName="0" Width="184" X="431" Y="270" ZOrder="6">
 							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
 							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
 								<Stroke/>
 							</Line>
-							<Caption Height="81" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Center" Visible="true" Width="167" X="0" Y="0"/>
+							<Caption Height="40" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Center" Visible="true" Width="184" X="0" Y="0"/>
 							<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
 						</UseCase>
-						<UseCase Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" DisplayOption="3" Foreground="rgb(0, 0, 0)" Height="40" Id="4mQn0NqGAqAAZBRZ" MetaModelElement="4mQn0NqGAqAAZBRa" Model="4mQn0NqGAqAAZBRa" ModelElementNameAlignment="9" Name="Naplaćuje uređaj" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowExtensionPoint="true" ShowStereotypeIconName="0" Width="93" X="411" Y="116" ZOrder="10">
+						<UseCase Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" DisplayOption="3" Foreground="rgb(0, 0, 0)" Height="40" Id="ZtkH0NqGAqAAZBBB" MetaModelElement="ZtkH0NqGAqAAZBBC" Model="ZtkH0NqGAqAAZBBC" ModelElementNameAlignment="9" Name="Prosljeđivanje uređaja korisniku" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowExtensionPoint="true" ShowStereotypeIconName="0" Width="165" X="356" Y="334" ZOrder="8">
 							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
 							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
 								<Stroke/>
 							</Line>
-							<Caption Height="40" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Center" Visible="true" Width="93" X="0" Y="0"/>
+							<Caption Height="40" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Center" Visible="true" Width="165" X="0" Y="0"/>
 							<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
 						</UseCase>
-						<UseCase Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" DisplayOption="3" Foreground="rgb(0, 0, 0)" Height="40" Id="4cvH0NqGAqAAZBRA" MetaModelElement="4cvH0NqGAqAAZBRB" Model="4cvH0NqGAqAAZBRB" ModelElementNameAlignment="9" Name="Popunjava papirologiju" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowExtensionPoint="true" ShowStereotypeIconName="0" Width="122" X="243" Y="379" ZOrder="12">
+						<UseCase Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" DisplayOption="3" Foreground="rgb(0, 0, 0)" Height="40" Id="9PQH0NqGAqAAZBAo" MetaModelElement="9PQH0NqGAqAAZBAp" Model="9PQH0NqGAqAAZBAp" ModelElementNameAlignment="9" Name="Naplata uređaja" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowExtensionPoint="true" ShowStereotypeIconName="0" Width="88" X="405" Y="191" ZOrder="10">
 							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
 							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
 								<Stroke/>
 							</Line>
-							<Caption Height="40" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Center" Visible="true" Width="122" X="0" Y="0"/>
+							<Caption Height="40" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Center" Visible="true" Width="88" X="0" Y="0"/>
 							<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
 						</UseCase>
-						<UseCase Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" DisplayOption="3" Foreground="rgb(0, 0, 0)" Height="40" Id="cwnH0NqGAqAAZBQm" MetaModelElement="cwnH0NqGAqAAZBQn" Model="cwnH0NqGAqAAZBQn" ModelElementNameAlignment="9" Name="Predaje uređaj" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowExtensionPoint="true" ShowStereotypeIconName="0" Width="82" X="411" Y="243" ZOrder="14">
+						<UseCase Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" DisplayOption="3" Foreground="rgb(0, 0, 0)" Height="62" Id="TXD70NqGAqAAZBAC" MetaModelElement="TXD70NqGAqAAZBAD" Model="TXD70NqGAqAAZBAD" ModelElementNameAlignment="9" Name="Popunjavanje lićnih podataka i podataka o vozilu" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowExtensionPoint="true" ShowStereotypeIconName="0" Width="166" X="223" Y="129" ZOrder="12">
 							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
 							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
 								<Stroke/>
 							</Line>
-							<Caption Height="40" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Center" Visible="true" Width="82" X="0" Y="0"/>
+							<Caption Height="62" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Center" Visible="true" Width="166" X="0" Y="0"/>
 							<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
 						</UseCase>
-						<UseCase Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" DisplayOption="3" Foreground="rgb(0, 0, 0)" Height="40" Id="NVTH0NqGAqAAZBQA" MetaModelElement="tVTH0NqGAqAAZBQB" Model="tVTH0NqGAqAAZBQB" ModelElementNameAlignment="9" Name="Dostavlja uređaj" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowExtensionPoint="true" ShowStereotypeIconName="0" Width="80" X="251" Y="216" ZOrder="16">
+						<UseCase Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" DisplayOption="3" Foreground="rgb(0, 0, 0)" Height="40" Id="sFh70NqGAqAAZA_E" MetaModelElement="sFh70NqGAqAAZA_F" Model="sFh70NqGAqAAZA_F" ModelElementNameAlignment="9" Name="Aktivacija računa" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowExtensionPoint="true" ShowStereotypeIconName="0" Width="94" X="267" Y="270" ZOrder="14">
 							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
 							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
 								<Stroke/>
 							</Line>
-							<Caption Height="40" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Center" Visible="true" Width="80" X="0" Y="0"/>
+							<Caption Height="40" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Center" Visible="true" Width="94" X="0" Y="0"/>
 							<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
 						</UseCase>
 					</DiagramElementChildren>
 					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
 				</System>
+				<Actor Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CreatorDiagramType="UseCaseDiagram" DisplayOption="3" Foreground="rgb(0, 0, 0)" Height="60" Id="96u70NqGAqAAZA.7" MetaModelElement="96u70NqGAqAAZA.8" Model="96u70NqGAqAAZA.8" ModelElementNameAlignment="9" Name="Službenik" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" Width="30" X="118" Y="220" ZOrder="18">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="South" Visible="true" Width="68" X="99" Y="280"/>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+				</Actor>
 			</Shapes>
 			<Connectors>
-				<Association AssociationEndPropertyStringsAInternalHeight="-2147483648" AssociationEndPropertyStringsAInternalWidth="-2147483648" AssociationEndPropertyStringsBInternalHeight="-2147483648" AssociationEndPropertyStringsBInternalWidth="-2147483648" Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" CreatorDiagramType="UseCaseDiagram" Foreground="rgb(0, 0, 0)" From="fPDH0NqGAqAAZBP0" FromConnectType="0" FromMultiplicityInternalHeight="-2147483648" FromMultiplicityInternalWidth="-2147483648" FromPinType="1" FromRoleInternalHeight="-2147483648" FromRoleInternalWidth="-2147483648" FromShapeXDiff="0" FromShapeYDiff="0" HasAssociationEndPropertyStringsAShape="false" HasAssociationEndPropertyStringsBShape="false" HasMultiplicityAShape="false" HasMultiplicityBShape="false" HasRoleAShape="false" HasRoleBShape="false" Height="100" Id="ttTH0NqGAqAAZBQU" MetaModelElement="OtTH0NqGAqAAZBQP" Model="OtTH0NqGAqAAZBQP" PaintThroughLabel="2" RequestRebuild="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowAssociationEndPropertyStrings="false" ShowConnectorName="2" ShowDirection="false" ShowFromMultiplicity="true" ShowFromRoleName="true" ShowFromRoleVisibility="true" ShowMultiplicityConstraints="false" ShowNavigationArrows="0" ShowOrderedMultiplicityConstraint="true" ShowStereotypes="true" ShowToMultiplicity="true" ShowToRoleName="true" ShowToRoleVisibility="true" ShowUniqueMultiplicityConstraint="true" SuppressImplied1MultiplicityForAssociationEnd="0" To="NVTH0NqGAqAAZBQA" ToConnectType="0" ToMultiplicityInternalHeight="-2147483648" ToMultiplicityInternalWidth="-2147483648" ToPinType="1" ToRoleInternalHeight="-2147483648" ToRoleInternalWidth="-2147483648" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="192" X="122" Y="171" ZOrder="22">
+				<Association AssociationEndPropertyStringsAInternalHeight="-2147483648" AssociationEndPropertyStringsAInternalWidth="-2147483648" AssociationEndPropertyStringsBInternalHeight="-2147483648" AssociationEndPropertyStringsBInternalWidth="-2147483648" Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" CreatorDiagramType="UseCaseDiagram" Foreground="rgb(0, 0, 0)" From="96u70NqGAqAAZA.7" FromConnectType="0" FromMultiplicityInternalHeight="-2147483648" FromMultiplicityInternalWidth="-2147483648" FromPinType="1" FromRoleInternalHeight="-2147483648" FromRoleInternalWidth="-2147483648" FromShapeXDiff="0" FromShapeYDiff="0" HasAssociationEndPropertyStringsAShape="false" HasAssociationEndPropertyStringsBShape="false" HasMultiplicityAShape="false" HasMultiplicityBShape="false" HasRoleAShape="false" HasRoleBShape="false" Height="100" Id="t1h70NqGAqAAZA_X" MetaModelElement="E1h70NqGAqAAZA_S" Model="E1h70NqGAqAAZA_S" PaintThroughLabel="2" RequestRebuild="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowAssociationEndPropertyStrings="false" ShowConnectorName="2" ShowDirection="false" ShowFromMultiplicity="true" ShowFromRoleName="true" ShowFromRoleVisibility="true" ShowMultiplicityConstraints="false" ShowNavigationArrows="0" ShowOrderedMultiplicityConstraint="true" ShowStereotypes="true" ShowToMultiplicity="true" ShowToRoleName="true" ShowToRoleVisibility="true" ShowUniqueMultiplicityConstraint="true" SuppressImplied1MultiplicityForAssociationEnd="0" To="sFh70NqGAqAAZA_E" ToConnectType="0" ToMultiplicityInternalHeight="-2147483648" ToMultiplicityInternalWidth="-2147483648" ToPinType="1" ToRoleInternalHeight="-2147483648" ToRoleInternalWidth="-2147483648" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="251" X="98" Y="221" ZOrder="20">
 					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
 					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
 						<Stroke/>
 					</Line>
-					<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="0" X="0" Y="33"/>
+					<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="214" Y="271"/>
 					<Points>
-						<Point X="172.0" Y="221.0"/>
-						<Point X="264.0" Y="221.0"/>
+						<Point X="148.0" Y="271.0"/>
+						<Point X="299.0" Y="271.0"/>
 					</Points>
 				</Association>
-				<Include Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Foreground="rgb(0, 0, 0)" From="NVTH0NqGAqAAZBQA" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="100" Id="tYnH0NqGAqAAZBQ2" MetaModelElement="cYnH0NqGAqAAZBQ0" Model="cYnH0NqGAqAAZBQ0" PaintThroughLabel="2" RequestRebuild="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowConnectorName="2" To="cwnH0NqGAqAAZBQm" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="207" X="277" Y="195" ZOrder="24">
+				<Include Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Foreground="rgb(0, 0, 0)" From="sFh70NqGAqAAZA_E" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="179" Id="SfD70NqGAqAAZBAS" MetaModelElement="jvD70NqGAqAAZBAQ" Model="jvD70NqGAqAAZBAQ" PaintThroughLabel="2" RequestRebuild="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowConnectorName="2" To="TXD70NqGAqAAZBAC" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="100" X="264" Y="141" ZOrder="22">
 					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
 					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
 						<Stroke/>
 					</Line>
-					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="82" X="346" Y="219"/>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="82" X="266" Y="224"/>
 					<Points>
-						<Point X="327.0" Y="245.0"/>
-						<Point X="434.0" Y="245.0"/>
+						<Point X="314.0" Y="270.0"/>
+						<Point X="314.0" Y="191.0"/>
 					</Points>
 				</Include>
-				<Include Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Foreground="rgb(0, 0, 0)" From="NVTH0NqGAqAAZBQA" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="224" Id="ZivH0NqGAqAAZBRP" MetaModelElement="aivH0NqGAqAAZBRO" Model="aivH0NqGAqAAZBRO" PaintThroughLabel="2" RequestRebuild="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowConnectorName="2" To="4cvH0NqGAqAAZBRA" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="100" X="234" Y="206" ZOrder="26">
+				<Include Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Foreground="rgb(0, 0, 0)" From="sFh70NqGAqAAZA_E" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="154" Id="egwH0NqGAqAAZBA3" MetaModelElement="_AwH0NqGAqAAZBA2" Model="_AwH0NqGAqAAZBA2" PaintThroughLabel="2" RequestRebuild="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowConnectorName="2" To="9PQH0NqGAqAAZBAo" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="161" X="302" Y="174" ZOrder="24">
 					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
 					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
 						<Stroke/>
 					</Line>
-					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="82" X="250" Y="310"/>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="82" X="336" Y="239"/>
 					<Points>
-						<Point X="284.0" Y="256.0"/>
-						<Point X="284.0" Y="380.0"/>
+						<Point X="352.0" Y="278.0"/>
+						<Point X="413.0" Y="224.0"/>
 					</Points>
 				</Include>
-				<Include Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Foreground="rgb(0, 0, 0)" From="NVTH0NqGAqAAZBQA" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="174" Id="IOQn0NqGAqAAZBRo" MetaModelElement="b2Qn0NqGAqAAZBRn" Model="b2Qn0NqGAqAAZBRn" PaintThroughLabel="2" RequestRebuild="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowConnectorName="2" To="4mQn0NqGAqAAZBRZ" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="198" X="273" Y="99" ZOrder="28">
+				<Include Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Foreground="rgb(0, 0, 0)" From="sFh70NqGAqAAZA_E" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="137" Id="fDkH0NqGAqAAZBBQ" MetaModelElement="9DkH0NqGAqAAZBBP" Model="9DkH0NqGAqAAZBBP" PaintThroughLabel="2" RequestRebuild="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowConnectorName="2" To="ZtkH0NqGAqAAZBBB" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="100" X="311" Y="260" ZOrder="26">
 					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
 					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
 						<Stroke/>
 					</Line>
-					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="82" X="362" Y="174"/>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="82" X="302" Y="316"/>
 					<Points>
-						<Point X="323.0" Y="223.0"/>
-						<Point X="421.0" Y="149.0"/>
+						<Point X="361.0" Y="310.0"/>
+						<Point X="361.0" Y="347.0"/>
 					</Points>
 				</Include>
-				<Include Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Foreground="rgb(0, 0, 0)" From="NVTH0NqGAqAAZBQA" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="173" Id="bjvRMNqGAqACaw1d" MetaModelElement="W9vRMNqGAqACaw1c" Model="W9vRMNqGAqACaw1c" PaintThroughLabel="2" RequestRebuild="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowConnectorName="2" To="E5vRMNqGAqACaw08" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="100" X="241" Y="93" ZOrder="30">
+				<Include Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Foreground="rgb(0, 0, 0)" From="sFh70NqGAqAAZA_E" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="100" Id="zGvhMNqGAqACawtJ" MetaModelElement=".ivhMNqGAqACawtI" Model=".ivhMNqGAqACawtI" PaintThroughLabel="2" RequestRebuild="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowConnectorName="2" To="ZYvhMNqGAqACawso" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="170" X="311" Y="240" ZOrder="28">
 					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
 					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
 						<Stroke/>
 					</Line>
-					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="82" X="238" Y="175"/>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="82" X="355" Y="270"/>
 					<Points>
-						<Point X="291.0" Y="216.0"/>
-						<Point X="291.0" Y="143.0"/>
+						<Point X="361.0" Y="290.0"/>
+						<Point X="431.0" Y="290.0"/>
 					</Points>
 				</Include>
-				<Association AssociationEndPropertyStringsAInternalHeight="-2147483648" AssociationEndPropertyStringsAInternalWidth="-2147483648" AssociationEndPropertyStringsBInternalHeight="-2147483648" AssociationEndPropertyStringsBInternalWidth="-2147483648" Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" CreatorDiagramType="UseCaseDiagram" Foreground="rgb(0, 0, 0)" From="R4sxMNqGAqACaw2H" FromConnectType="0" FromMultiplicityInternalHeight="-2147483648" FromMultiplicityInternalWidth="-2147483648" FromPinType="1" FromRoleInternalHeight="-2147483648" FromRoleInternalWidth="-2147483648" FromShapeXDiff="0" FromShapeYDiff="0" HasAssociationEndPropertyStringsAShape="false" HasAssociationEndPropertyStringsBShape="false" HasMultiplicityAShape="false" HasMultiplicityBShape="false" HasRoleAShape="false" HasRoleBShape="false" Height="100" Id="hDCxMNqGAqACaw2S" MetaModelElement="EdCxMNqGAqACaw2N" Model="EdCxMNqGAqACaw2N" PaintThroughLabel="2" RequestRebuild="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowAssociationEndPropertyStrings="false" ShowConnectorName="2" ShowDirection="false" ShowFromMultiplicity="true" ShowFromRoleName="true" ShowFromRoleVisibility="true" ShowMultiplicityConstraints="false" ShowNavigationArrows="0" ShowOrderedMultiplicityConstraint="true" ShowStereotypes="true" ShowToMultiplicity="true" ShowToRoleName="true" ShowToRoleVisibility="true" ShowUniqueMultiplicityConstraint="true" SuppressImplied1MultiplicityForAssociationEnd="0" To="E5vRMNqGAqACaw08" ToConnectType="0" ToMultiplicityInternalHeight="-2147483648" ToMultiplicityInternalWidth="-2147483648" ToPinType="1" ToRoleInternalHeight="-2147483648" ToRoleInternalWidth="-2147483648" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="422" X="324" Y="30" ZOrder="32">
+				<Association AssociationEndPropertyStringsAInternalHeight="-2147483648" AssociationEndPropertyStringsAInternalWidth="-2147483648" AssociationEndPropertyStringsBInternalHeight="-2147483648" AssociationEndPropertyStringsBInternalWidth="-2147483648" Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" CreatorDiagramType="UseCaseDiagram" Foreground="rgb(0, 0, 0)" From="Z3txMNqGAqACaxQR" FromConnectType="0" FromMultiplicityInternalHeight="-2147483648" FromMultiplicityInternalWidth="-2147483648" FromPinType="1" FromRoleInternalHeight="-2147483648" FromRoleInternalWidth="-2147483648" FromShapeXDiff="0" FromShapeYDiff="0" HasAssociationEndPropertyStringsAShape="false" HasAssociationEndPropertyStringsBShape="false" HasMultiplicityAShape="false" HasMultiplicityBShape="false" HasRoleAShape="false" HasRoleBShape="false" Height="100" Id="h6jxMNqGAqACaxQi" MetaModelElement="CqjxMNqGAqACaxQd" Model="CqjxMNqGAqACaxQd" PaintThroughLabel="2" RequestRebuild="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowAssociationEndPropertyStrings="false" ShowConnectorName="2" ShowDirection="false" ShowFromMultiplicity="true" ShowFromRoleName="true" ShowFromRoleVisibility="true" ShowMultiplicityConstraints="false" ShowNavigationArrows="0" ShowOrderedMultiplicityConstraint="true" ShowStereotypes="true" ShowToMultiplicity="true" ShowToRoleName="true" ShowToRoleVisibility="true" ShowUniqueMultiplicityConstraint="true" SuppressImplied1MultiplicityForAssociationEnd="0" To="TXD70NqGAqAAZBAC" ToConnectType="0" ToMultiplicityInternalHeight="-2147483648" ToMultiplicityInternalWidth="-2147483648" ToPinType="1" ToRoleInternalHeight="-2147483648" ToRoleInternalWidth="-2147483648" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="437" X="338" Y="115" ZOrder="30">
 					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
 					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
 						<Stroke/>
 					</Line>
-					<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="523" Y="80"/>
+					<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="546" Y="165"/>
 					<Points>
-						<Point X="696.0" Y="80.0"/>
-						<Point X="374.0" Y="80.0"/>
+						<Point X="725.0" Y="165.0"/>
+						<Point X="388.0" Y="165.0"/>
 					</Points>
 				</Association>
-				<Association AssociationEndPropertyStringsAInternalHeight="-2147483648" AssociationEndPropertyStringsAInternalWidth="-2147483648" AssociationEndPropertyStringsBInternalHeight="-2147483648" AssociationEndPropertyStringsBInternalWidth="-2147483648" Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" CreatorDiagramType="UseCaseDiagram" Foreground="rgb(0, 0, 0)" From="cwnH0NqGAqAAZBQm" FromConnectType="0" FromMultiplicityInternalHeight="-2147483648" FromMultiplicityInternalWidth="-2147483648" FromPinType="1" FromRoleInternalHeight="-2147483648" FromRoleInternalWidth="-2147483648" FromShapeXDiff="0" FromShapeYDiff="0" HasAssociationEndPropertyStringsAShape="false" HasAssociationEndPropertyStringsBShape="false" HasMultiplicityAShape="false" HasMultiplicityBShape="false" HasRoleAShape="false" HasRoleBShape="false" Height="100" Id="jeQSJNqGAqAAZAwr" MetaModelElement="pOQSJNqGAqAAZAwm" Model="pOQSJNqGAqAAZAwm" PaintThroughLabel="2" RequestRebuild="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowAssociationEndPropertyStrings="false" ShowConnectorName="2" ShowDirection="false" ShowFromMultiplicity="true" ShowFromRoleName="true" ShowFromRoleVisibility="true" ShowMultiplicityConstraints="false" ShowNavigationArrows="0" ShowOrderedMultiplicityConstraint="true" ShowStereotypes="true" ShowToMultiplicity="true" ShowToRoleName="true" ShowToRoleVisibility="true" ShowUniqueMultiplicityConstraint="true" SuppressImplied1MultiplicityForAssociationEnd="0" To="Q.ziJNqGAqAAZAwR" ToConnectType="0" ToMultiplicityInternalHeight="-2147483648" ToMultiplicityInternalWidth="-2147483648" ToPinType="1" ToRoleInternalHeight="-2147483648" ToRoleInternalWidth="-2147483648" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="260" X="443" Y="211" ZOrder="34">
+				<Association AssociationEndPropertyStringsAInternalHeight="-2147483648" AssociationEndPropertyStringsAInternalWidth="-2147483648" AssociationEndPropertyStringsBInternalHeight="-2147483648" AssociationEndPropertyStringsBInternalWidth="-2147483648" Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" CreatorDiagramType="UseCaseDiagram" Foreground="rgb(0, 0, 0)" From="SFpxMNqGAqACaxPz" FromConnectType="0" FromMultiplicityInternalHeight="-2147483648" FromMultiplicityInternalWidth="-2147483648" FromPinType="1" FromRoleInternalHeight="-2147483648" FromRoleInternalWidth="-2147483648" FromShapeXDiff="0" FromShapeYDiff="0" HasAssociationEndPropertyStringsAShape="false" HasAssociationEndPropertyStringsBShape="false" HasMultiplicityAShape="false" HasMultiplicityBShape="false" HasRoleAShape="false" HasRoleBShape="false" Height="100" Id="g5TxMNqGAqACaxQq" MetaModelElement="ApTxMNqGAqACaxQl" Model="ApTxMNqGAqACaxQl" PaintThroughLabel="2" RequestRebuild="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowAssociationEndPropertyStrings="false" ShowConnectorName="2" ShowDirection="false" ShowFromMultiplicity="true" ShowFromRoleName="true" ShowFromRoleVisibility="true" ShowMultiplicityConstraints="false" ShowNavigationArrows="0" ShowOrderedMultiplicityConstraint="true" ShowStereotypes="true" ShowToMultiplicity="true" ShowToRoleName="true" ShowToRoleVisibility="true" ShowUniqueMultiplicityConstraint="true" SuppressImplied1MultiplicityForAssociationEnd="0" To="ZYvhMNqGAqACawso" ToConnectType="0" ToMultiplicityInternalHeight="-2147483648" ToMultiplicityInternalWidth="-2147483648" ToPinType="1" ToRoleInternalHeight="-2147483648" ToRoleInternalWidth="-2147483648" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="211" X="564" Y="236" ZOrder="32">
 					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
 					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
 						<Stroke/>
 					</Line>
-					<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="563" Y="261"/>
+					<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="659" Y="286"/>
 					<Points>
-						<Point X="493.0" Y="261.0"/>
-						<Point X="653.0" Y="261.0"/>
-					</Points>
-				</Association>
-				<Association AssociationEndPropertyStringsAInternalHeight="-2147483648" AssociationEndPropertyStringsAInternalWidth="-2147483648" AssociationEndPropertyStringsBInternalHeight="-2147483648" AssociationEndPropertyStringsBInternalWidth="-2147483648" Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" CreatorDiagramType="UseCaseDiagram" Foreground="rgb(0, 0, 0)" From="4mQn0NqGAqAAZBRZ" FromConnectType="0" FromMultiplicityInternalHeight="-2147483648" FromMultiplicityInternalWidth="-2147483648" FromPinType="1" FromRoleInternalHeight="-2147483648" FromRoleInternalWidth="-2147483648" FromShapeXDiff="0" FromShapeYDiff="0" HasAssociationEndPropertyStringsAShape="false" HasAssociationEndPropertyStringsBShape="false" HasMultiplicityAShape="false" HasMultiplicityBShape="false" HasRoleAShape="false" HasRoleBShape="false" Height="144" Id="yIISJNqGAqAAZAw3" MetaModelElement="wQISJNqGAqAAZAwy" Model="wQISJNqGAqAAZAwy" PaintThroughLabel="2" RequestRebuild="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowAssociationEndPropertyStrings="false" ShowConnectorName="2" ShowDirection="false" ShowFromMultiplicity="true" ShowFromRoleName="true" ShowFromRoleVisibility="true" ShowMultiplicityConstraints="false" ShowNavigationArrows="0" ShowOrderedMultiplicityConstraint="true" ShowStereotypes="true" ShowToMultiplicity="true" ShowToRoleName="true" ShowToRoleVisibility="true" ShowUniqueMultiplicityConstraint="true" SuppressImplied1MultiplicityForAssociationEnd="0" To="Q.ziJNqGAqAAZAwR" ToConnectType="0" ToMultiplicityInternalHeight="-2147483648" ToMultiplicityInternalWidth="-2147483648" ToPinType="1" ToRoleInternalHeight="-2147483648" ToRoleInternalWidth="-2147483648" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="311" X="435" Y="102" ZOrder="36">
-					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
-					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
-						<Stroke/>
-					</Line>
-					<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="581" Y="174"/>
-					<Points>
-						<Point X="485.0" Y="152.0"/>
-						<Point X="696.0" Y="196.0"/>
-					</Points>
-				</Association>
-				<Association AssociationEndPropertyStringsAInternalHeight="-2147483648" AssociationEndPropertyStringsAInternalWidth="-2147483648" AssociationEndPropertyStringsBInternalHeight="-2147483648" AssociationEndPropertyStringsBInternalWidth="-2147483648" Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" CreatorDiagramType="UseCaseDiagram" Foreground="rgb(0, 0, 0)" From="cwnH0NqGAqAAZBQm" FromConnectType="0" FromMultiplicityInternalHeight="-2147483648" FromMultiplicityInternalWidth="-2147483648" FromPinType="1" FromRoleInternalHeight="-2147483648" FromRoleInternalWidth="-2147483648" FromShapeXDiff="0" FromShapeYDiff="0" HasAssociationEndPropertyStringsAShape="false" HasAssociationEndPropertyStringsBShape="false" HasMultiplicityAShape="false" HasMultiplicityBShape="false" HasRoleAShape="false" HasRoleBShape="false" Height="136" Id="UxkSJNqGAqAAZAxY" MetaModelElement="LBkSJNqGAqAAZAxT" Model="LBkSJNqGAqAAZAxT" PaintThroughLabel="2" RequestRebuild="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowAssociationEndPropertyStrings="false" ShowConnectorName="2" ShowDirection="false" ShowFromMultiplicity="true" ShowFromRoleName="true" ShowFromRoleVisibility="true" ShowMultiplicityConstraints="false" ShowNavigationArrows="0" ShowOrderedMultiplicityConstraint="true" ShowStereotypes="true" ShowToMultiplicity="true" ShowToRoleName="true" ShowToRoleVisibility="true" ShowUniqueMultiplicityConstraint="true" SuppressImplied1MultiplicityForAssociationEnd="0" To="QmPiJNqGAqAAZAwc" ToConnectType="0" ToMultiplicityInternalHeight="-2147483648" ToMultiplicityInternalWidth="-2147483648" ToPinType="1" ToRoleInternalHeight="-2147483648" ToRoleInternalWidth="-2147483648" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="322" X="424" Y="230" ZOrder="38">
-					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
-					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
-						<Stroke/>
-					</Line>
-					<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="574" Y="297"/>
-					<Points>
-						<Point X="474.0" Y="280.0"/>
-						<Point X="696.0" Y="316.0"/>
+						<Point X="725.0" Y="286.0"/>
+						<Point X="614.0" Y="286.0"/>
 					</Points>
 				</Association>
 			</Connectors>
 		</UseCaseDiagram>
-		<InteractionDiagram AlignToGrid="false" AutoExtendActivations="true" AutoFitShapesSize="false" ConnectionPointStyle="0" ConnectorLabelOrientation="0" ConnectorLineJumps="0" ConnectorLineJumpsSize="0" ConnectorStyle="1" DiagramBackground="rgb(255, 255, 255)" DisplayLifeLinesAsRobustnessAnalysisIcon="0" Editable="true" FollowDiagramParentElement="true" GridColor="rgb(192, 192, 192)" GridHeight="10" GridVisible="false" GridWidth="10" Height="0" HideEmptyTaggedValues="false" Id="Q3ZH0NqGAqAAZBPV" ImageHeight="0" ImageScale="1.0" ImageWidth="0" InitializeDiagramForCreate="true" InteractionLifeLinePresentationOption="0" Maximized="false" ModelElementNameAlignment="4" Name="Sequence Diagram1" PaintConnectorThroughLabel="1" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:30:40.578" PointConnectorEndToCompartmentMember="true" QualityScore="-1" RequestValidateSnapToGrid="false" SequenceNumberHandling="0" SequenceNumbering="0" ShapePresentationOption="0" ShowActivations="true" ShowActivityStateNodeCaption="65535" ShowAllocatedFrom="true" ShowAllocatedTo="true" ShowArgumentsInMessagesOperationSignature="true" ShowConnectorName="0" ShowConstraints="false" ShowDefaultPackage="false" ShowInformationItemOption="2" ShowLegend="false" ShowMessageStereotype="true" ShowMessagesOperationSignature="true" ShowPMAuthor="false" ShowPMDifficulty="false" ShowPMDiscipline="false" ShowPMIteration="false" ShowPMPhase="false" ShowPMPriority="false" ShowPMStatus="false" ShowPMVersion="false" ShowPackageNameStyle="0" ShowParameterNamesInMessageOperationSignature="true" ShowParameterTypesInMessageOperationSignature="true" ShowSequenceNumbers="true" ShowShapeStereotypeIconName="true" ShowStereotypes="true" ShowTaggedValues="false" TeamworkCreateDateTime="0" TrimmedHeight="0" TrimmedWidth="0" Width="0" X="0" Y="0" ZoomRatio="1.0" _globalPaletteOption="true" _requestFixDiagramForRoseImport="false" _requestRecalculateSequenceNumbers="false" _rootFrame="h3ZH0NqGAqAAZBPZ"/>
+		<InteractionDiagram AlignToGrid="false" AutoExtendActivations="true" AutoFitShapesSize="false" ConnectionPointStyle="0" ConnectorLabelOrientation="0" ConnectorLineJumps="0" ConnectorLineJumpsSize="0" ConnectorStyle="1" DiagramBackground="rgb(255, 255, 255)" DisplayLifeLinesAsRobustnessAnalysisIcon="0" Editable="true" FollowDiagramParentElement="true" GridColor="rgb(192, 192, 192)" GridHeight="10" GridVisible="false" GridWidth="10" Height="0" HideEmptyTaggedValues="false" Id=".oa70NqGAqAAZA.k" ImageHeight="0" ImageScale="1.0" ImageWidth="0" InitializeDiagramForCreate="true" InteractionLifeLinePresentationOption="0" Maximized="false" ModelElementNameAlignment="4" Name="Sequence Diagram1" PaintConnectorThroughLabel="1" PmAuthor="Toshiba" PmCreateDateTime="2017-03-26T20:25:09.471" PointConnectorEndToCompartmentMember="true" QualityScore="-1" RequestValidateSnapToGrid="false" SequenceNumberHandling="0" SequenceNumbering="0" ShapePresentationOption="0" ShowActivations="true" ShowActivityStateNodeCaption="65535" ShowAllocatedFrom="true" ShowAllocatedTo="true" ShowArgumentsInMessagesOperationSignature="true" ShowConnectorName="0" ShowConstraints="false" ShowDefaultPackage="false" ShowInformationItemOption="2" ShowLegend="false" ShowMessageStereotype="true" ShowMessagesOperationSignature="true" ShowPMAuthor="false" ShowPMDifficulty="false" ShowPMDiscipline="false" ShowPMIteration="false" ShowPMPhase="false" ShowPMPriority="false" ShowPMStatus="false" ShowPMVersion="false" ShowPackageNameStyle="0" ShowParameterNamesInMessageOperationSignature="true" ShowParameterTypesInMessageOperationSignature="true" ShowSequenceNumbers="true" ShowShapeStereotypeIconName="true" ShowStereotypes="true" ShowTaggedValues="false" TeamworkCreateDateTime="0" TrimmedHeight="0" TrimmedWidth="0" Width="0" X="0" Y="0" ZoomRatio="1.0" _globalPaletteOption="true" _requestFixDiagramForRoseImport="false" _requestRecalculateSequenceNumbers="false" _rootFrame="PYa70NqGAqAAZA.p"/>
 	</Diagrams>
 </Project>
