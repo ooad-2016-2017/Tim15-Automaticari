@@ -1,0 +1,20 @@
+S: Princip pojedinaène odgovornosti
+“Klasa bi trebala imati samo jedan razlog za promjenu”
+Buduæi da æemo trenutne dijagrame nadograditi i odvojiti koncepte u vlastite klase, možemo reæi da je princip zadovoljen.
+
+O: Otvoreno zatvoren princip
+“Entiteti softvera(klase, moduli, funkcije) bi trebali biti otvoreni za nadogradnju, ali zatvoreni za modifikacije”
+Trenutni dijagrami ne zadovoljavaju ovaj princip jer ne mozemo mijenjati okruzenje modula bez samog modula.
+
+L: Liskov princip zamjene
+“Podtipovi moraju biti zamijenjeni njihovim osnovnim tipovima”
+Ovaj princip je zadovoljen što se vidi na klasi Korisnik i Uposlenik
+
+I: Princip inverzije ovisnosti
+A:”Moduli visokog nivoa ne bi trebali ovisiti od modula niskog nivoa. Oba bi trebalo da ovise od apstrakcija”
+B:”Moduli ne bi trebali ovisiti od detalja. Detalji bi trebali biti ovisni od apstrakcija.
+Ovaj princip je zadovoljen, osnovne klase jesu apstraktne.
+
+D: Princip izoliranja interfejsa
+“Klijenti ne treba da ovise o metodama koje neæe upotrebljavati”
+Princip je zadovoljen, na dijagramu ne postoje “debele” klase.
