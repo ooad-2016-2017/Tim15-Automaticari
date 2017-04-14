@@ -1,6 +1,6 @@
 S: Princip pojedinaène odgovornosti
 “Klasa bi trebala imati samo jedan razlog za promjenu”
-Buduæi da æemo trenutne dijagrame nadograditi i odvojiti koncepte u vlastite klase, možemo reæi da je princip zadovoljen.
+U sluèaju našeg sistema za naplatu FETC-a, sve klase su odvojene, svaka ima odvojene zadatke i time se sprijeèavaju zavisne promjene unutar klasa. Svaka klasa ima samo jedno zaduženje. Ako uzmemo klasu Korisnik kao primjer i izmjenimo je, primjeæujemo da izmjena te klase neæe uticati na druge klase.
 
 O: Otvoreno zatvoren princip
 “Entiteti softvera(klase, moduli, funkcije) bi trebali biti otvoreni za nadogradnju, ali zatvoreni za modifikacije”
@@ -8,13 +8,14 @@ Trenutni dijagrami ne zadovoljavaju ovaj princip jer ne mozemo mijenjati okruzen
 
 L: Liskov princip zamjene
 “Podtipovi moraju biti zamijenjeni njihovim osnovnim tipovima”
-Ovaj princip je zadovoljen što se vidi na klasi Korisnik i Uposlenik
+Klase naslijeðene iz klase Korisnik imaju iste atribute te se mogu zamijeniti elementima klase korisnik. Elementi klase Korisnik sadrže sve potrebne metode, koje mogu biti iskorištene od strane naslijeðenih klasa. 
 
 I: Princip inverzije ovisnosti
 A:”Moduli visokog nivoa ne bi trebali ovisiti od modula niskog nivoa. Oba bi trebalo da ovise od apstrakcija”
 B:”Moduli ne bi trebali ovisiti od detalja. Detalji bi trebali biti ovisni od apstrakcija.
-Ovaj princip je zadovoljen, osnovne klase jesu apstraktne.
+Osnovna klasa je apstraktna i ostale zavise od nje. Zbog toga je princip zadovoljen i sistem æe biti manje osjetljiv na promjene.
 
 D: Princip izoliranja interfejsa
 “Klijenti ne treba da ovise o metodama koje neæe upotrebljavati”
-Princip je zadovoljen, na dijagramu ne postoje “debele” klase.
+Interfejs IPlacanje se brine o plaæanju. Time je zadovoljen i ovaj princip.
+
