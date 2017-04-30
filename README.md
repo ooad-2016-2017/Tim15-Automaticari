@@ -33,7 +33,9 @@ Vremenom raste broj vozila, a samim tim rastu gužve na autoputevima i javlja se
   * Obrazac sadrži informacije koje je korisnik naveo pri naručivanju uređaja i pri tome dostavljač provjerava podudarnost informacija o tipu vozila i registarskim oznakama. Također, popunjava obrazac da je uređaj dostavio na adresu korisnika.
   * Korisnik popunjava obrazac da je zaprimio uređaj i plaća ga.  
 - Ukoliko je korisnički račun napravljen na licu mjesta, administrator daje uređaj službeniku koje ga proslijeđuje korisniku.
-- Korisnik ulazi na autoput, približava se naplatnoj kućici i nailazi na senzor koji očitava podatke s kartice koja se nalazi u vozilu.  - Kamera zabilježi registarske oznake na vozilu i upoređuje ih s registarskim oznakama koji su zabilježene na kartici.  
+- Korisnik ulazi na autoput, približava se naplatnoj kućici i nailazi na senzor koji očitava podatke s kartice koja se nalazi u vozilu. 
+- Kamera zabilježi registarske oznake na vozilu i upoređuje ih s registarskim oznakama koji su zabilježene na kartici.
+- Senzor za visinu očitava podatke o automobilu i prosliješuje ih sistemu koji ih obrađuje.
 - Senzor koji očitava podatke na kartici, prosljeđuje podatke sistemu koji ih obrađuje.   
 - Senzor provjerava stanje na računu korisnika tj. je li stanje dovoljno za naplatu.
   - Korisniku se dozvoljava odlazak u minus jednu transakciju, dok za pravno lice važe ugovorom navedene stavke.  
