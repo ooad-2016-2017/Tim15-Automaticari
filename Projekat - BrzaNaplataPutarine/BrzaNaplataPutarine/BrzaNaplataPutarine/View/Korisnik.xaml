@@ -1,0 +1,57 @@
+﻿<Page
+    x:Class="BrzaNaplataPutarine.MainPage1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BrzaNaplataPutarine"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="187*"/>
+            <RowDefinition Height="83*"/>
+        </Grid.RowDefinitions>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="290" Margin="146,161,0,0" VerticalAlignment="Top" Width="345" RenderTransformOrigin="-1.226,-6.311"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="339,495,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" RenderTransformOrigin="-0.997,3.734" Width="152"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="146,499,0,0" TextWrapping="Wrap" Text="Ime i prezime:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Margin="146,499,0,0" TextWrapping="Wrap" Text="Ime i prezime:" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Left" Margin="146,553,0,0" TextWrapping="Wrap" Text="ID uredjaja: " VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock_Copy2" HorizontalAlignment="Left" Margin="146,614,0,0" TextWrapping="Wrap" Text="Vozilo: " VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock_Copy3" HorizontalAlignment="Left" Margin="146,675,0,0" TextWrapping="Wrap" Text="Broj registarskih znaka: " VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock_Copy4" HorizontalAlignment="Left" Margin="146,733,0,0" TextWrapping="Wrap" Text="Trenutno stanje racuna:" VerticalAlignment="Top" Grid.RowSpan="2"/>
+        <TextBox x:Name="textBox_Copy" HorizontalAlignment="Left" Margin="339,553,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" RenderTransformOrigin="-0.997,3.734" Width="152"/>
+        <TextBox x:Name="textBox_Copy1" HorizontalAlignment="Left" Margin="339,606,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" RenderTransformOrigin="-0.997,3.734" Width="152"/>
+        <TextBox x:Name="textBox_Copy2" HorizontalAlignment="Left" Margin="339,663,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" RenderTransformOrigin="-0.997,3.734" Width="152"/>
+        <TextBox x:Name="textBox_Copy3" HorizontalAlignment="Left" Margin="339,733,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" RenderTransformOrigin="-0.997,3.734" Grid.RowSpan="2" Width="152"/>
+        <TextBlock x:Name="textBlock_Copy5" HorizontalAlignment="Left" Margin="1053,589,0,0" TextWrapping="Wrap" Text="Historija:" VerticalAlignment="Top" Height="25" Width="75"/>
+
+        
+        <Grid HorizontalAlignment="Left" Height="346" Margin="671,614,0,0" VerticalAlignment="Top" Width="792" Grid.RowSpan="2" >
+                
+                <Grid.RowDefinitions>
+                
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    
+                </Grid.RowDefinitions>
+            
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <TextBlock x:Name="textBlock_Copy6" HorizontalAlignment="Left" Margin="79,25,0,0" TextWrapping="Wrap" Text="Ulaz" VerticalAlignment="Top" RenderTransformOrigin="1.155,0.55"/>
+            <TextBlock x:Name="textBlock_Copy7" HorizontalAlignment="Left" Margin="72,25,0,0" TextWrapping="Wrap" Text="Izlaz:" VerticalAlignment="Top" Grid.Column="1"/>
+            <TextBlock x:Name="textBlock_Copy8" HorizontalAlignment="Left" Margin="57,25,0,0" TextWrapping="Wrap" Text="Stanje racuna:" VerticalAlignment="Top" Grid.Column="2"/>
+            <TextBlock x:Name="textBlock_Copy9" HorizontalAlignment="Left" Margin="68,25,0,0" TextWrapping="Wrap" Text="Skinuto KM:" VerticalAlignment="Top" Grid.Column="3"/>
+
+        </Grid>
+
+
+    </Grid>
+</Page>
