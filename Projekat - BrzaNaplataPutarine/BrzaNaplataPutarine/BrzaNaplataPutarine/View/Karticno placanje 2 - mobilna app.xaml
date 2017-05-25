@@ -26,7 +26,6 @@
         <TextBox x:Name="textBox_Copy4" HorizontalAlignment="Left" Margin="25,26.667,0,0" Grid.Row="6" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="117" RenderTransformOrigin="-1.817,-4.594" Grid.Column="1"/>
         <TextBox x:Name="textBox_Copy9" HorizontalAlignment="Left" Margin="49,28,0,0" Grid.Row="2" TextWrapping="Wrap" Text="Adresa:&#xD;&#xA;" VerticalAlignment="Top" Width="121" Height="32" TextAlignment="Center"/>
         <TextBox x:Name="textBox_Copy10" HorizontalAlignment="Left" Margin="49,22,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Ime i prezime: " VerticalAlignment="Top" Width="121" TextAlignment="Center"/>
-        <TextBox x:Name="textBox_Copy11" HorizontalAlignment="Left" Margin="108,10,0,0" TextWrapping="Wrap" Text="Karticno placanje 2&#xD;&#xA;" VerticalAlignment="Top" Width="155" Grid.ColumnSpan="2" Height="32"/>
         <TextBox x:Name="textBox_Copy8" HorizontalAlignment="Left" Margin="49,25,0,0" Grid.Row="3" TextWrapping="Wrap" Text="Grad:" VerticalAlignment="Top" Width="121" Height="32" TextAlignment="Center"/>
         <TextBox x:Name="textBox_Copy6" HorizontalAlignment="Left" Margin="49,28,0,0" Grid.Row="4" TextWrapping="Wrap" Text="Postanski broj:" VerticalAlignment="Top" Width="121" Height="32" TextAlignment="Center"/>
         <TextBox x:Name="textBox_Copy7" HorizontalAlignment="Left" Margin="49,26,0,0" Grid.Row="5" TextWrapping="Wrap" Text="Drzava:" VerticalAlignment="Top" Width="121" Height="32" TextAlignment="Center"/>
@@ -40,5 +39,6 @@
         <TextBox x:Name="textBox_Copy1" HorizontalAlignment="Left" Margin="25,29,0,0" Grid.Row="2" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="117" RenderTransformOrigin="-1.817,-4.594" Grid.Column="1"/>
         <TextBox x:Name="textBox_Copy15" HorizontalAlignment="Left" Margin="25,22,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="117" RenderTransformOrigin="-1.817,-4.594" Grid.Column="1"/>
         <Button x:Name="button" Content="Plati &gt;" Grid.Column="1" HorizontalAlignment="Left" Margin="93,16.333,0,0" Grid.Row="8" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="104,10,0,32" TextWrapping="Wrap" Text="Karticno placanje 2" Width="155" Grid.ColumnSpan="2" TextAlignment="Center"/>
     </Grid>
 </Page>
