@@ -16,6 +16,5 @@
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="108,10,0,0" TextWrapping="Wrap" Text="Pocetni meni" VerticalAlignment="Top" FontSize="20" Grid.ColumnSpan="2" Height="56" Width="148" TextAlignment="Center"/>
         <Button x:Name="button" Content="Prijava&#xD;&#xA;" HorizontalAlignment="Left" Margin="108,163,0,0" VerticalAlignment="Top" Height="58" Width="148" Grid.ColumnSpan="2"/>
         <Button x:Name="button1" Content="Registracija &#xD;&#xA;(za nove korisnike)&#xD;&#xA;" HorizontalAlignment="Left" Margin="108,301,0,0" VerticalAlignment="Top" Height="67" Width="148" Grid.ColumnSpan="2"/>
-
     </Grid>
 </Page>
