@@ -40,7 +40,7 @@
             <LineBreak/>
             <Run/>
         </TextBlock>
-        <ComboBox x:Name="Dopuna racuna" HorizontalAlignment="Left" Margin="46,31,0,0" VerticalAlignment="Top" Width="266" Height="55" BorderThickness="3,2" Header="" HorizontalContentAlignment="Stretch" SelectionChanged="comboBox_SelectionChanged" FontSize="20" BorderBrush="{ThemeResource AppBarButtonForeground}" FontWeight="Light" Grid.Row="2" Grid.ColumnSpan="2">
+        <ComboBox x:Name="DopunaRacuna" HorizontalAlignment="Left" Margin="46,31,0,0" VerticalAlignment="Top" Width="266" Height="55" BorderThickness="3,2" Header="" HorizontalContentAlignment="Stretch" SelectionChanged="comboBox_SelectionChanged" FontSize="20" BorderBrush="{ThemeResource AppBarButtonForeground}" FontWeight="Light" Grid.Row="2" Grid.ColumnSpan="2">
             <ComboBoxItem Content="Kreditnom karticom" FontWeight="Normal" FontStyle="Normal"/>
             <ComboBoxItem Content="Vaucerom" FontWeight="Normal" FontStyle="Normal"/>
             <ComboBoxItem Content="SMS" FontWeight="Normal" FontStyle="Normal"/>

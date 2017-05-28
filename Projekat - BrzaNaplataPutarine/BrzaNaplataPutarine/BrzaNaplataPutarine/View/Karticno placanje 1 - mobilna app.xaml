@@ -20,7 +20,7 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <ComboBox x:Name="Odaberite karticu" HorizontalAlignment="Left" Margin="98,16.333,0,0" VerticalAlignment="Top" Width="77" Height="37" BorderThickness="3,2" Header="" HorizontalContentAlignment="Stretch" SelectionChanged="comboBox_SelectionChanged" FontSize="20" BorderBrush="{ThemeResource AppBarButtonForeground}" FontWeight="Light" Grid.Row="4" Grid.Column="1">
+        <ComboBox x:Name="OdaberiteKarticu" HorizontalAlignment="Left" Margin="98,16.333,0,0" VerticalAlignment="Top" Width="77" Height="37" BorderThickness="3,2" Header="" HorizontalContentAlignment="Stretch" SelectionChanged="comboBox_SelectionChanged" FontSize="20" BorderBrush="{ThemeResource AppBarButtonForeground}" FontWeight="Light" Grid.Row="4" Grid.Column="1">
             <ComboBoxItem Content="Mastercard" FontWeight="Normal" FontStyle="Normal"/>
             <ComboBoxItem Content="Maestro" FontWeight="Normal" FontStyle="Normal"/>
             <ComboBoxItem Content="Visa" FontWeight="Normal" FontStyle="Normal"/>

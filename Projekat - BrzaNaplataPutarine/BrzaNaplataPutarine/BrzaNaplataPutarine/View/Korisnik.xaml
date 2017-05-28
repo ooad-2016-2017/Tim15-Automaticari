@@ -21,7 +21,7 @@
             <ColumnDefinition Width="13*"/>
             <ColumnDefinition Width="35*"/>
         </Grid.ColumnDefinitions>
-        <Image x:Name="Korisnik" HorizontalAlignment="Left" Height="284" Margin="80,100,0,0" VerticalAlignment="Top" Width="344" FocusVisualPrimaryBrush="#FF9B9494"/>
+        <Image x:Name="Korisniki" HorizontalAlignment="Left" Height="284" Margin="80,100,0,0" VerticalAlignment="Top" Width="344" FocusVisualPrimaryBrush="#FF9B9494"/>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="138,24,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Ime i prezime" VerticalAlignment="Top" Height="60" Width="286" FontSize="25"/>
         <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Left" Margin="138,24,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Height="60" Width="286" FontSize="25">
             <Run Text="ID uredjaja"/>
