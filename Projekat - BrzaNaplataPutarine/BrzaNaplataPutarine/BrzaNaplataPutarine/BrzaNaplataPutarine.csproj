@@ -110,6 +110,9 @@
     <Compile Include="View\Korisnikk.xaml.cs">
       <DependentUpon>Korisnikk.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\Naslovna.xaml.cs">
+      <DependentUpon>Naslovna.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\Pocetni meni-mobilna app.xaml.cs">
       <DependentUpon>Pocetni meni-mobilna app.xaml</DependentUpon>
     </Compile>
@@ -152,44 +155,40 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="View\Karticno placanje 1-mobilna app.xaml">
-      <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\Karticno placanje 2-mobilna app.xaml">
-      <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\Korisnikk.xaml">
-      <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\Naslovna.xaml">
-      <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\Pocetni meni-mobilna app.xaml">
-      <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\Prijava-mobilna app.xaml">
-      <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\Profil korisnika-mobilna app.xaml">
-      <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\Registracija - mobilna app.xaml">
       <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
     </Page>
     <Page Include="View\Registracija kompanijee.xaml">
-      <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\Registracija korisnikaa.xaml">
-      <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup />
