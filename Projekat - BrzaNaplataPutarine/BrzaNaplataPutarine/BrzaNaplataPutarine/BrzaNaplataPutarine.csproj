@@ -128,6 +128,9 @@
     <Compile Include="View\Registracija korisnikaa.xaml.cs">
       <DependentUpon>Registracija korisnikaa.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\Registracija-mobilna app.xaml.cs">
+      <DependentUpon>Registracija-mobilna app.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -187,6 +190,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\Registracija korisnikaa.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Registracija-mobilna app.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
