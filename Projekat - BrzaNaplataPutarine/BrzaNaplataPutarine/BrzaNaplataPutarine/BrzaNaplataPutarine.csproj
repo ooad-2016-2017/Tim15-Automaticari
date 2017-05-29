@@ -101,6 +101,30 @@
     <Compile Include="Models\dbContext.cs" />
     <Compile Include="Models\Uredjaj.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\Karticno placanje 1-mobilna app.xaml.cs">
+      <DependentUpon>Karticno placanje 1-mobilna app.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Karticno placanje 2-mobilna app.xaml.cs">
+      <DependentUpon>Karticno placanje 2-mobilna app.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Korisnikk.xaml.cs">
+      <DependentUpon>Korisnikk.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Pocetni meni-mobilna app.xaml.cs">
+      <DependentUpon>Pocetni meni-mobilna app.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Prijava-mobilna app.xaml.cs">
+      <DependentUpon>Prijava-mobilna app.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Profil korisnika-mobilna app.xaml.cs">
+      <DependentUpon>Profil korisnika-mobilna app.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Registracija kompanijee.xaml.cs">
+      <DependentUpon>Registracija kompanijee.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Registracija korisnikaa.xaml.cs">
+      <DependentUpon>Registracija korisnikaa.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -127,37 +151,45 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\Karticno placanje 1 - mobilna app.xaml">
-      <SubType>Designer</SubType>
+    <Page Include="View\Karticno placanje 1-mobilna app.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\Karticno placanje 2 - mobilna app.xaml">
-      <SubType>Designer</SubType>
+    <Page Include="View\Karticno placanje 2-mobilna app.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\Korisnik.xaml">
-      <SubType>Designer</SubType>
+    <Page Include="View\Korisnikk.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\Pocetni meni - mobilna app.xaml">
-      <SubType>Designer</SubType>
+    <Page Include="View\Naslovna.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\Prijava - mobilna app.xaml">
-      <SubType>Designer</SubType>
+    <Page Include="View\Pocetni meni-mobilna app.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\Profil korisnika - mobilna app.xaml">
-      <SubType>Designer</SubType>
+    <Page Include="View\Prijava-mobilna app.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\Registracija kompanije.xaml">
-      <SubType>Designer</SubType>
+    <Page Include="View\Profil korisnika-mobilna app.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\Registracija korisnika.xaml">
-      <SubType>Designer</SubType>
+    <Page Include="View\Registracija - mobilna app.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Registracija kompanijee.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Registracija korisnikaa.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
   <ItemGroup />
