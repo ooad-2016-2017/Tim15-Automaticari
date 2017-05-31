@@ -1,0 +1,57 @@
+1. STRUKTURNI DIZAJN PATERNI:
+A) ADAPTER PATERN
+Osnovna namjena Adapter paterna je da omoguæi širu upotrebu veæ postojeæih klasa. Adapter patern kreira novu adapter klasu koja služi kao posrednik izmeðu originalne klase i željenog interfejsa. Tim postupkom se dobija željena funkcionalnost bez izmjena na originalnoj klasi i bez ugrožavanja integriteta cijele aplikacije.
+
+B) FACADE PATERN
+Facade patern se koristi kada sistem ima više identificiranih podsistema (subsystems) pri èemu su apstrakcije i implementacije podsistema usko povezane. Osnovna namjena Facade paterna je da osigura više pogleda visokog nivoa na podsisteme (implementacija podsistema skrivena od korisnika). Operacije koje su potrebne odreðenoj korisnièkoj perspektivi mogu biti sastavljene od razlièitih dijelova podsistema. Može se više fasada postaviti oko postojeæeg skupa podsistema i na taj naèin formirati više prilagoðenih pogleda na sistem. 
+
+C) DECORATOR PATERN
+Osnovna namjena Decorator paterna je da omoguæi dinamièko dodavanje novih elemenata i ponašanja (funkcionalnosti) postojeæim objektima. Objekat pri tome nezna da je uraðena dekoracija što je veoma korisno za iskoristljivost i ponovnu upotrebu komponenti softverskog sistema.
+
+D) BRIDGE PATERN
+Osnovna namjena Bridge paterna je da omoguæi odvajanje apstrakcije i implementacije neke klase tako da ta klasa može posjedovati više razlièitih apstrakcija i više razlièitih implementacija za pojedine apstrakcije. Bridge patern pogodan je kada se implementira nova verzija softvera a postojeæa mora ostati u funkciji. 
+
+E) PROXY PATERN
+Namjena Proxy paterna je da omoguæi pristup i kontrolu pristupa stvarnim objektima. Proxy je obièno mali javni surogat objekat koji predstavlja kompleksni objekat èija aktivizacija se postiže na osnovu postavljenih pravila. Proxy patern rješava probleme kada se objekt ne može instancirati direktno (npr. zbog restrikcije pristupa). 
+
+F) COMPOSITE PATERN
+Osnovna namjena Composite paterna (kompozitni patern) je da omoguæi formiranje strukture stabla pomoæu klasa, u kojoj se individualni objekti (listovi stabla) i kompozicije individualnih objekata (korijeni stabla) jednako tretiraju.
+
+G) FLYWEIGHT PATERN
+Postoje situacije u kojima je potrebno da se omoguæi razlikovanje dijela klase koji je uvijek isti za sve odreðene objekte te klase (tzv. glavno stanje (engl. intrinsic state)) od dijela klase koji nije uvijek isti za sve odreðene objekte te klase (tzv. sporedno stanje (engl. extrinsic state)). Osnovna namjena Flyweight paterna je upravo da se omoguæi da više razlièitih objekata dijele isto glavno stanje, a imaju razlièito sporedno stanje. 
+
+2. KREACIJSKI PATERNI:
+A) SINGLETON PATERN
+Uloga Singleton paterna je da osigura da se klasa može instancirati samo jednom i da osigura globalni pristup kreiranoj instanci klase. Postoji više objekata koje je potrebno samo jednom instancirati i nad kojim je potrebna jedinstvena kontrola pristupa. Neki od njih su: thread pools (skupina niti), objekti koji upravljaju setovanjem registara, objekti koji se koriste za logiranje, objekti koji se koriste kao drajveri za razne ureðaje kao što su printeri i grafièke kartice. Instanciranje više nego jednom navedenih objekata mogu se prouzrokovati problemi kao što su nekorektno ponašanje programa, neadekvantno korištenje resursa ili nekonzistentan rezultat.
+
+B) PROTOTYPE PATERN
+Uloga Prototype paterna je da kreira nove objekte klonirajuæi jednu od postojeæih prototip instanci (postojeæi objekat). Ako je trošak kreiranja novog objekta velik i kreiranje objekta je resursno zahtjevno tada se vrši kloniranje veæ postojeæeg objekata. Prototype dizajn patern dozvoljava da se kreiraju prilagoðeni objekti bez poznavanja njihove klase ili detalja kako je objekat kreiran.
+
+C) FACTORY METHOD PATERN
+Uloga Factory Method paterna je da omoguæi kreiranje objekata na naèin da podklase odluèe koju klasu je instancirati. Razlièite podklase mogu na razlièite naèine implementirati interfejs. Factory Method instancira odgovarajuæu podklasu (izvedenu klasu) preko posebne metode na osnovu informacije od strane klijenta ili na osnovu tekuæeg stanja.
+
+D) ABSTRACT FACTORY PATERN
+Abstract Factory patern omoguæava da se kreiraju familije povezanih objekata/produkata. Na osnovu apstraktne familije produkata kreiraju se konkretne fabrike (factories) produkata razlièitih tipova i razlièitih kombinacija. Patern odvaja definiciju (klase) produkata od klijenta. Zbog toga se familije produkata mogu jednostavno izmjenjivati ili ažurirati bez narušavanja strukture klijenta. 
+
+E) BUILDER PATERN
+Uloga Builder paterna je odvajanje specifikacije kompleksnih objekata od njihove stvarne konstrukcije. Isti konstrukcijski proces može kreirati razlièite reprezentacije. 
+
+3. PATERNI PONAŠANJA:
+A) STRATEGY PATERN
+Uloga strategy paterna je da izdvaja algoritam iz matiène klase i ukljuèuje ga u posebne klase. Pogodan je kada postoje razlièiti primjenjivi algoritmi (strategije) za neki problem. Strategy patern omoguæava klijentu izbor jednog od algoritma iz familije algoritama za korištenje. Algoritmi su neovisni od klijenata koji ih koriste.
+
+B) STATE PATERN
+State Pattern je dinamièka verzija Strategy paterna. Objekat mijenja naèin ponašanja na osnovu trenutnog stanja. Postiže se promjenom podklase unutar hijerarhije klasa.
+
+C) TEMPLATEMETHOD PATERN
+Omoguæava izdvajanje odreðenih koraka algoritma u odvojene podklase. Struktura algoritma se ne mijenja - mali dijelovi operacija se izdvajaju i ti se dijelovi mogu implementirati razlièito.
+
+D) OBSERVER PATERN
+Uloga Observer paterna je da uspostavi relaciju izmeðu objekata tako kada jedan objekat promijeni stanje, drugi zainteresirani objekti se obavještavaju.
+
+E) ITERATOR PATERN
+Iterator patern omoguæava sekvencijalni pristup elementima kolekcije bez poznavanja kako je kolekcija strukturirana.
+ 
+
+
+   
