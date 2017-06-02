@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="BrzaNaplataPutarine.MainPage1"
+    x:Class="BrzaNaplataPutarine.MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:BrzaNaplataPutarine"
@@ -15,6 +15,6 @@
         </Grid.ColumnDefinitions>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="108,10,0,0" TextWrapping="Wrap" Text="Pocetni meni" VerticalAlignment="Top" FontSize="20" Grid.ColumnSpan="2" Height="56" Width="148" TextAlignment="Center"/>
         <Button x:Name="button" Content="Prijava&#xD;&#xA;" HorizontalAlignment="Left" Margin="108,163,0,0" VerticalAlignment="Top" Height="58" Width="148" Grid.ColumnSpan="2" Click="prijavaClick"/>
-        <Button x:Name="button1" Content="Registracija &#xD;&#xA;(za nove korisnike)&#xD;&#xA;" HorizontalAlignment="Left" Margin="108,301,0,0" VerticalAlignment="Top" Height="67" Width="148" Grid.ColumnSpan="2"/>
+        <Button x:Name="buttonRegistracija" Content="Registracija &#xD;&#xA;(za nove korisnike)&#xD;&#xA;" HorizontalAlignment="Left" Margin="108,301,0,0" VerticalAlignment="Top" Height="67" Width="148" Grid.ColumnSpan="2" Click="buttonRegistracija_Click"/>
     </Grid>
 </Page>

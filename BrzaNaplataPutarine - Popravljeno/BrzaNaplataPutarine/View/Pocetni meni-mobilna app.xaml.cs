@@ -1,10 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using Windows.Devices.Geolocation;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -26,10 +29,9 @@ namespace BrzaNaplataPutarine.View
         {
             this.InitializeComponent();
         }
-
         public void prijavaClick(object sender, RoutedEventArgs e)
         {
-            Frame.rootFrame = Window.Current.Content as Frame;
+            Frame rootFrame = Window.Current.Content as Frame;
             Frame.Navigate(typeof(Naslovna));
         }
     }

@@ -13,24 +13,31 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-// The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
+// The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
-namespace BrzaNaplataPutarine.View
+namespace BrzaNaplataPutarine
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class Pocetni_meni_mobilna_app : Page
+    public sealed partial class MainPage : Page
     {
-        public Pocetni_meni_mobilna_app()
+        public MainPage()
         {
             this.InitializeComponent();
         }
-
         public void prijavaClick(object sender, RoutedEventArgs e)
         {
-            Frame.rootFrame = Window.Current.Content as Frame;
-            Frame.Navigate(typeof(Naslovna));
+            Frame rootFrame = Window.Current.Content as Frame;
+            Frame.Navigate(typeof(View.Naslovna));
         }
+
+        private void buttonRegistracija_Click(object sender, RoutedEventArgs e)
+        {
+            Frame rootFrame = Window.Current.Content as Frame;
+            Frame.Navigate(typeof(View.Registracija_mobilna_app));
+        }
+
+
     }
 }

@@ -20,17 +20,11 @@ namespace BrzaNaplataPutarine.View
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class Pocetni_meni_mobilna_app : Page
+    public sealed partial class Prijava_mobilna_app : Page
     {
-        public Pocetni_meni_mobilna_app()
+        public Prijava_mobilna_app()
         {
             this.InitializeComponent();
-        }
-
-        public void prijavaClick(object sender, RoutedEventArgs e)
-        {
-            Frame.rootFrame = Window.Current.Content as Frame;
-            Frame.Navigate(typeof(Naslovna));
         }
     }
 }
