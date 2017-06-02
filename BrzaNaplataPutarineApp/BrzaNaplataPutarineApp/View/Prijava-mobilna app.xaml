@@ -25,7 +25,7 @@
         <TextBlock x:Name="textBlock1" HorizontalAlignment="Center" Grid.Row="2" TextWrapping="Wrap" Text="Email" VerticalAlignment="Center" />
         <TextBlock x:Name="textBlock2" HorizontalAlignment="Center" Grid.Row="3" TextWrapping="Wrap" Text="Lozinka:" VerticalAlignment="Center" />
         <TextBox x:Name="textBox" HorizontalAlignment="Center" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Center" Grid.Column="1"/>
-        <TextBox x:Name="textBox1" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="3" TextWrapping="Wrap" Text="" VerticalAlignment="c" />
+        <TextBox x:Name="textBox1" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="3" TextWrapping="Wrap" Text="" VerticalAlignment="Center" />
         <HyperlinkButton Content="zaboravljena sifra?" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="4" />
         <Button x:Name="button" Content="Prijava" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center"/>
     </Grid>

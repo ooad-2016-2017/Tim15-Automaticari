@@ -20,9 +20,9 @@ namespace BrzaNaplataPutarineApp.View
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class Klizuci_meni_mobilna_app : Page
+    public sealed partial class proba : Page
     {
-        public Klizuci_meni_mobilna_app()
+        public proba()
         {
             this.InitializeComponent();
         }

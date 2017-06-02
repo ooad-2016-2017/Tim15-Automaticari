@@ -22,6 +22,6 @@
         </Grid.RowDefinitions>
         <TextBlock x:Name="textBlock" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center"  TextWrapping="Wrap" Text="Pocetni meni" VerticalAlignment="Center" TextAlignment="Center"/>
         <Button x:Name="button" Grid.Row="2" Grid.Column="1" Content="Prijava" HorizontalAlignment="Stretch"  VerticalAlignment="Center"   Click="prijavaClick"/>
-        <Button x:Name="button1" Grid.Row="3" Grid.Column="1" Background="Red" Foreground="White" Content="Registracija (za nove korisnike)" HorizontalAlignment="Stretch"  VerticalAlignment="Center"/>
+        <Button x:Name="button1" Grid.Row="3" Grid.Column="1" Background="Red" Foreground="White" Content="Registracija (za nove korisnike)" HorizontalAlignment="Stretch"  VerticalAlignment="Center" Click="button1_Click"/>
     </Grid>
 </Page>
