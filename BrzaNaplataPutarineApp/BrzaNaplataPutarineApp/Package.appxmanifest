@@ -7,15 +7,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="e17215c5-ae0d-4058-b2c1-bdd843137c36"
-    Publisher="CN=Lejla"
+    Name="db0c14dd-ab86-478a-81d9-5919e88573c0"
+    Publisher="CN=X230"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="e17215c5-ae0d-4058-b2c1-bdd843137c36" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="db0c14dd-ab86-478a-81d9-5919e88573c0" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>BrzaNaplataPutarine</DisplayName>
-    <PublisherDisplayName>Lejla</PublisherDisplayName>
+    <DisplayName>BrzaNaplataPutarineApp</DisplayName>
+    <PublisherDisplayName>X230</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -30,12 +30,12 @@
   <Applications>
     <Application Id="App"
       Executable="$targetnametoken$.exe"
-      EntryPoint="BrzaNaplataPutarine.App">
+      EntryPoint="BrzaNaplataPutarineApp.App">
       <uap:VisualElements
-        DisplayName="BrzaNaplataPutarine"
+        DisplayName="BrzaNaplataPutarineApp"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="BrzaNaplataPutarine"
+        Description="BrzaNaplataPutarineApp"
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />

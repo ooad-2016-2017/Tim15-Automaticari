@@ -15,7 +15,7 @@ using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
-namespace BrzaNaplataPutarine
+namespace BrzaNaplataPutarineApp
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
@@ -26,18 +26,11 @@ namespace BrzaNaplataPutarine
         {
             this.InitializeComponent();
         }
+
         public void prijavaClick(object sender, RoutedEventArgs e)
         {
             Frame rootFrame = Window.Current.Content as Frame;
-            Frame.Navigate(typeof(View.Naslovna));
+            Frame.Navigate(typeof(BrzaNaplataPutarine.View.Naslovna));
         }
-
-        private void buttonRegistracija_Click(object sender, RoutedEventArgs e)
-        {
-            Frame rootFrame = Window.Current.Content as Frame;
-            Frame.Navigate(typeof(View.Registracija_mobilna_app));
-        }
-
-
     }
 }
