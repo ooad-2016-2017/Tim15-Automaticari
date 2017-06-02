@@ -9,19 +9,21 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Grid.RowDefinitions>
-            <RowDefinition Height="70"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="5*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" TextWrapping="Wrap" Text="                                                                        Sistem za brzu naplatu putarine" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="60" Width="1920" FontSize="35" FontWeight="Bold" AutomationProperties.PositionInSet="-1"/>
-        <Button x:Name="button" Content="Registracija korisnika" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Height="131" Width="300" FontSize="25"/>
-        <Button x:Name="button1" Content="&#xD;&#xA;Registracija kompanije&#xD;&#xA;" Grid.Column="1" HorizontalAlignment="Left"  Grid.Row="1" VerticalAlignment="Top" Height="131" Width="310" FontSize="25"/>
-        <Button x:Name="button2" Content="Dostave" HorizontalAlignment="Left"  Grid.Row="2" VerticalAlignment="Top" Height="126" Width="310" Grid.Column="1" FontSize="25"/>
-        <Button x:Name="button3" Content="Baza podataka" HorizontalAlignment="Left" Grid.Row="2" VerticalAlignment="Top" Height="126" Width="300" FontSize="25"/>
+        <TextBlock x:Name="textBlock" Grid.Row="1" HorizontalAlignment="Center"  TextWrapping="Wrap" Text="Sistem za brzu naplatu putarine" Grid.ColumnSpan="2" VerticalAlignment="Center" TextAlignment="Center"/>
+        <Button x:Name="button" Content="Registracija korisnika" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center"  Click="button_Click"/>
+        <Button x:Name="button1" Content="Registracija kompanije" Grid.Column="1" HorizontalAlignment="Center"  Grid.Row="2" VerticalAlignment="Center" />
+        <Button x:Name="button2" Content="Dostave" HorizontalAlignment="Center"  Grid.Row="3" VerticalAlignment="Center"  Grid.Column="1" />
+        <Button x:Name="button3" Content="Baza podataka" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" />
 
     </Grid>
 </Page>
