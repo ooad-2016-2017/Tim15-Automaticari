@@ -32,7 +32,7 @@ namespace BrzaNaplataPutarine.View
         public void prijavaClick(object sender, RoutedEventArgs e)
         {
             Frame rootFrame = Window.Current.Content as Frame;
-            Frame.Navigate(typeof(Naslovna));
+            Frame.Navigate(typeof(Prijava_mobilna_app));
         }
     }
 }
