@@ -14,7 +14,10 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+//using Microsoft.WindowsAzure.MobileServices;
 
+
+//public static MobileServiceClient MobileService = new MobileServiceClient("https://OOAD.azurewebsites.net");
 namespace BrzaNaplataPutarineApp
 {
     /// <summary>

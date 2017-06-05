@@ -32,13 +32,13 @@ namespace BrzaNaplataPutarineApp
         public void prijavaClick(object sender, RoutedEventArgs e)
         {
             Frame rootFrame = Window.Current.Content as Frame;
-            Frame.Navigate(typeof(BrzaNaplataPutarine.View.Prijava_mobilna_app));
+            Frame.Navigate(typeof(BrzaNaplataPutarineApp.View.Prijava_mobilna_app));
         }
 
         private void button2_Click(object sender, RoutedEventArgs e)
         {
             Frame rootFrame = Window.Current.Content as Frame;
-            Frame.Navigate(typeof(BrzaNaplataPutarine.View.Registracija_mobilna_app));
+            Frame.Navigate(typeof(BrzaNaplataPutarineApp.View.Registracija_mobilna_app));
         }
         private void button1_Click(object sender, RoutedEventArgs e)
         {

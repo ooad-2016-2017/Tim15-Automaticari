@@ -1,8 +1,8 @@
 ﻿<Page
-    x:Class="BrzaNaplataPutarine.View.Registracija_korisnikaa"
+    x:Class="BrzaNaplataPutarineApp.View.Registracija_korisnikaa"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:BrzaNaplataPutarine.View"
+    xmlns:local="using:BrzaNaplataPutarineApp.View"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
@@ -33,6 +33,6 @@
         <TextBox x:Name="textBox3" HorizontalAlignment="Stretch"  Grid.Row="5" TextWrapping="Wrap" VerticalAlignment="Center" Grid.Column="2"  PlaceholderText="Broj registarskih oznaka" Background="#FFE4E1E1" />
         <TextBox x:Name="textBox4" HorizontalAlignment="Stretch"  Grid.Row="6" TextWrapping="Wrap"  VerticalAlignment="Center" Grid.Column="2"  PlaceholderText="Pocetni uplaceni iznos" Background="#FFE4E1E1" />
         <Button x:Name="button" Content="Nazad" HorizontalAlignment="Left" Grid.Row="7" VerticalAlignment="Stretch" Background="#33FFFFFF" Grid.Column="2" Click="button_Click"/>
-        <Button x:Name="button1" Content="Registracija" HorizontalAlignment="Right" Grid.Row="7" VerticalAlignment="Stretch" Background="#33FFFFFF"  Grid.Column="2" Click="button1_Click"/>
+        <Button x:Name="button1" Content="Registracija" HorizontalAlignment="Right" Grid.Row="7" VerticalAlignment="Stretch" Click="button1_Click" Background="#33FFFFFF"  Grid.Column="2" />
     </Grid>
 </Page>

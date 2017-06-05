@@ -1,8 +1,8 @@
 ﻿<Page
-    x:Class="BrzaNaplataPutarine.View.Korisnikk"
+    x:Class="BrzaNaplataPutarineApp.View.Korisnik"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:BrzaNaplataPutarine.View"
+    xmlns:local="using:BrzaNaplataPutarineApp.View"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
@@ -22,16 +22,21 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="3*"/>
-            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*2"/>
             <ColumnDefinition Width="9*"/>
         </Grid.ColumnDefinitions>
-        <Image x:Name="Korisnik" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Stretch" Grid.Column="1" Grid.Row="2" TextWrapping="Wrap" Text="Ime i prezime" VerticalAlignment="Center" />
-        <TextBlock x:Name="textBlock1" HorizontalAlignment="Stretch" Grid.Column="1" Grid.Row="3" TextWrapping="Wrap" Text="ID uredjaja" VerticalAlignment="Center" />
-        <TextBlock x:Name="textBlock2" HorizontalAlignment="Stretch" Grid.Column="1"  Grid.Row="4" TextWrapping="Wrap" Text="Vozilo" VerticalAlignment="Center" />
-        <TextBlock x:Name="textBlock3" HorizontalAlignment="Stretch" Grid.Column="1" Grid.Row="5" TextWrapping="Wrap" Text="Broj registarskih oznaka" VerticalAlignment="Center" />
-        <TextBlock x:Name="textBlock4" HorizontalAlignment="Stretch" Grid.Column="1"  Grid.Row="6" TextWrapping="Wrap" Text="Trenutno stanje racuna: " VerticalAlignment="Center" />
-        <Button x:Name="button" Content="Nazad" Grid.Column="2" HorizontalAlignment="Stretch"  Grid.Row="7" VerticalAlignment="Center" />
+        <Image x:Name="Korisniik" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Stretch" Grid.Column="1" Grid.Row="2" TextWrapping="Wrap"  TextAlignment="Center" Text="Ime i prezime" VerticalAlignment="Center" />
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Stretch" Grid.Column="1" Grid.Row="3" TextWrapping="Wrap" TextAlignment="Center" Text="ID uredjaja" VerticalAlignment="Center" />
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Stretch" Grid.Column="1"  Grid.Row="4" TextWrapping="Wrap" TextAlignment="Center" Text="Vozilo" VerticalAlignment="Center" />
+        <TextBlock x:Name="textBlock3" HorizontalAlignment="Stretch" Grid.Column="1" Grid.Row="5" TextWrapping="Wrap" TextAlignment="Center" Text="Broj registarskih oznaka" VerticalAlignment="Center" />
+        <TextBlock x:Name="textBlock4" HorizontalAlignment="Stretch" Grid.Column="1"  Grid.Row="6" TextWrapping="Wrap" TextAlignment="Center" Text="Trenutno stanje racuna: " VerticalAlignment="Center" />
+        <TextBlock x:Name="textBlock5" HorizontalAlignment="Stretch" Grid.Column="2" Grid.Row="2" TextWrapping="Wrap"  TextAlignment="Center"  VerticalAlignment="Bottom" Margin="0,0,0,30" />
+        <TextBlock x:Name="textBlock6" HorizontalAlignment="Stretch" Grid.Column="2" Grid.Row="3" TextWrapping="Wrap"  TextAlignment="Center"  VerticalAlignment="Center" />
+        <TextBlock x:Name="textBlock7" HorizontalAlignment="Stretch" Grid.Column="2" Grid.Row="4" TextWrapping="Wrap"  TextAlignment="Center"  VerticalAlignment="Center" />
+        <TextBlock x:Name="textBlock8" HorizontalAlignment="Stretch" Grid.Column="2" Grid.Row="5" TextWrapping="Wrap"  TextAlignment="Center"  VerticalAlignment="Center" />
+        <TextBlock x:Name="textBlock9" HorizontalAlignment="Stretch" Grid.Column="2" Grid.Row="6" TextWrapping="Wrap"  TextAlignment="Center"  VerticalAlignment="Center" />
+        <Button x:Name="button" Content="Nazad" Grid.Column="2" HorizontalAlignment="Center"  Grid.Row="7" VerticalAlignment="Center" Click="button_Click"/>
         <Button x:Name="button1" Content="Dopuni racun" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="7" VerticalAlignment="Center" />
         <ListView Grid.Row="3"
             x:Name="RoomsListView"
@@ -64,7 +69,7 @@
                 </Style>
             </ListView.ItemContainerStyle>
         </ListView>
-        <TextBlock x:Name="textBlock10" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="2" TextWrapping="Wrap" Text="Historija" VerticalAlignment="Bottom" TextAlignment="Center" />
+        <TextBlock x:Name="textBlock10" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="1" TextWrapping="Wrap" Text="Historija" VerticalAlignment="Bottom" TextAlignment="Center" />
         <UserControl HorizontalAlignment="Left" Height="100" Grid.RowSpan="2" VerticalAlignment="Top" Width="100"/>
     </Grid>
 </Page>

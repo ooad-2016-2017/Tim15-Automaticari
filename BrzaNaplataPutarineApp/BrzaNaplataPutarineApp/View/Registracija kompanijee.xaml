@@ -1,8 +1,8 @@
 ﻿<Page
-    x:Class="BrzaNaplataPutarine.View.Registracija_kompanijee"
+    x:Class="BrzaNaplataPutarineApp.View.Registracija_kompanijee"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:BrzaNaplataPutarine.View"
+    xmlns:local="using:BrzaNaplataPutarineApp.View"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
@@ -14,7 +14,7 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="4*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
@@ -28,8 +28,8 @@
         <TextBox x:Name="textBox" HorizontalAlignment="Stretch"  Grid.Row="2" Grid.Column="1" TextWrapping="Wrap" VerticalAlignment="Center" PlaceholderText="Ime kompanije" Background="#FFE4E1E1" />
         <TextBox x:Name="textBox1" HorizontalAlignment="Stretch" Grid.Row="3" Grid.Column="1" TextWrapping="Wrap" VerticalAlignment="Center" PlaceholderText="Broj vozila" Background="#FFE4E1E1" />
         <TextBox x:Name="textBox2" HorizontalAlignment="Stretch" Grid.Row="4" Grid.Column="1" TextWrapping="Wrap" VerticalAlignment="Center" PlaceholderText="Tip vozila" Background="#FFE4E1E1" />
-        <Button x:Name="button" Content="Nazad" HorizontalAlignment="Left" Grid.Row="6" VerticalAlignment="Center" Background="#33FFFFFF"  Grid.Column="2"/>
-        <Button x:Name="button1" Content="Registracija" HorizontalAlignment="Center" Grid.Row="6" VerticalAlignment="Center" Background="#33FFFFFF" Grid.Column="3" />
+        <Button x:Name="button" Content="Nazad" HorizontalAlignment="Center" Grid.Row="6" VerticalAlignment="Center" Background="#33FFFFFF"  Grid.Column="2" Click="button_Click"/>
+        <Button x:Name="button1" Content="Registracija" HorizontalAlignment="Center" Grid.Row="6" VerticalAlignment="Center" Background="#33FFFFFF" Grid.Column="3" Click="button1_Click"/>
         <CheckBox x:Name="checkBox" Content="Vozila nisu istog tipa" Grid.Column="3" HorizontalAlignment="Left" Grid.Row="4" VerticalAlignment="Center"/>
         <ListView Grid.Row="5"
             x:Name="RoomsListView"

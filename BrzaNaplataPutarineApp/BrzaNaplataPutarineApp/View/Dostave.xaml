@@ -19,13 +19,15 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="2*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Center" Grid.Row="1" TextWrapping="Wrap" Text="Dostave" VerticalAlignment="Center" Grid.Column="0"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Center" Grid.Row="1" TextWrapping="Wrap" Text="Dostave" VerticalAlignment="Center" Grid.Column="1"/>
        <ListView Grid.Row="2"
             x:Name="RoomsListView"
-            IsItemClickEnabled="True" Grid.Column="0"  VerticalAlignment="Center">
+            IsItemClickEnabled="True" Grid.Column="1"  VerticalAlignment="Center">
             <ListView.Template>
                 <ControlTemplate>
                     <Grid>
@@ -56,9 +58,9 @@
                 </Style>
             </ListView.ItemContainerStyle>
         </ListView>
-        <CheckBox x:Name="checkBox" Content="Dostavljano" Grid.Column="1" HorizontalAlignment="Left" Grid.Row="3" VerticalAlignment="Center"/>
-        <CheckBox x:Name="checkBox1" Content="Dostavljano" Grid.Column="1" HorizontalAlignment="Left" Grid.Row="4" VerticalAlignment="Center"/>
-        <CheckBox x:Name="checkBox2" Content="Dostavljano" Grid.Column="1" HorizontalAlignment="Left" Grid.Row="5" VerticalAlignment="Center"/>
-        <CheckBox x:Name="checkBox3" Content="Dostavljano" Grid.Column="1" HorizontalAlignment="Left" Grid.Row="6" VerticalAlignment="Center"/>
+        <CheckBox x:Name="checkBox" Content="Dostavljeno" Grid.Column="2" HorizontalAlignment="Left" Grid.Row="3" VerticalAlignment="Center"/>
+        <CheckBox x:Name="checkBox1" Content="Dostavljeno" Grid.Column="2" HorizontalAlignment="Left" Grid.Row="4" VerticalAlignment="Center"/>
+        <CheckBox x:Name="checkBox2" Content="Dostavljeno" Grid.Column="2" HorizontalAlignment="Left" Grid.Row="5" VerticalAlignment="Center"/>
+        <CheckBox x:Name="checkBox3" Content="Dostavljeno" Grid.Column="2" HorizontalAlignment="Left" Grid.Row="6" VerticalAlignment="Center"/>
     </Grid>
 </Page>
