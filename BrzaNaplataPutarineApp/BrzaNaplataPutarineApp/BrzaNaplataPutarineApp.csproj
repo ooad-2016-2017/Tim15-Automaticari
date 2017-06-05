@@ -107,6 +107,9 @@
     <Compile Include="View\Korisnikk.xaml.cs" />
     <Compile Include="View\Naslovna.xaml.cs" />
     <Compile Include="View\Pocetni meni-mobilna app.xaml.cs" />
+    <Compile Include="View\Prijava administrator.xaml.cs">
+      <DependentUpon>Prijava administrator.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\Prijava-mobilna app.xaml.cs" />
     <Compile Include="View\Profil korisnika-mobilna app.xaml.cs" />
     <Compile Include="View\Registracija kompanijee.xaml.cs" />
@@ -161,6 +164,10 @@
     <Page Include="View\Pocetni meni-mobilna app.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Prijava administrator.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\Prijava-mobilna app.xaml">
       <Generator>MSBuild:Compile</Generator>

@@ -15,6 +15,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using BrzaNaplataPutarineApp.View;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -33,6 +34,18 @@ namespace BrzaNaplataPutarine.View
         {
             Frame rootFrame = Window.Current.Content as Frame;
             Frame.Navigate(typeof(Prijava_mobilna_app));
+        }
+
+        private void button2_Click(object sender, RoutedEventArgs e)
+        {
+            Frame rootFrame = Window.Current.Content as Frame;
+            Frame.Navigate(typeof(Registracija_mobilna_app));
+        }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            Frame rootFrame = Window.Current.Content as Frame;
+            Frame.Navigate(typeof(Prijava_administrator));
         }
     }
 }
