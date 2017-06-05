@@ -102,6 +102,9 @@
     <Compile Include="View\Dostave.xaml.cs">
       <DependentUpon>Dostave.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\Idi na.xaml.cs">
+      <DependentUpon>Idi na.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\Karticno placanje 1-mobilna app.xaml.cs" />
     <Compile Include="View\Karticno placanje 2-mobilna app.xaml.cs" />
     <Compile Include="View\Korisnikk.xaml.cs" />
@@ -142,6 +145,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="View\Dostave.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Idi na.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
