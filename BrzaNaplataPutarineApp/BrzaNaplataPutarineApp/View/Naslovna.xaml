@@ -17,13 +17,16 @@
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="4*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <TextBlock x:Name="textBlock" Grid.Row="1" HorizontalAlignment="Center"  TextWrapping="Wrap" Text="Sistem za brzu naplatu putarine" Grid.ColumnSpan="2" VerticalAlignment="Center" TextAlignment="Center"/>
-        <Button x:Name="button" Content="Registracija korisnika" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center"  Click="button_Click"/>
-        <Button x:Name="button1" Content="Registracija kompanije" Grid.Column="1" HorizontalAlignment="Center"  Grid.Row="2" VerticalAlignment="Center" />
-        <Button x:Name="button2" Content="Dostave" HorizontalAlignment="Center"  Grid.Row="3" VerticalAlignment="Center"  Grid.Column="1" />
-        <Button x:Name="button3" Content="Baza podataka" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" />
+        <TextBlock x:Name="textBlock" Grid.Row="1" HorizontalAlignment="Center"  TextWrapping="Wrap" Text="Sistem za brzu naplatu putarine" Grid.ColumnSpan="5" VerticalAlignment="Center" TextAlignment="Center"/>
+        <Button x:Name="button" Content="Registracija korisnika" HorizontalAlignment="Stretch" Grid.Row="2" VerticalAlignment="Center"   Grid.Column="1" Click="button_Click"/>
+        <Button x:Name="button1" Content="Registracija kompanije" Grid.Column="3" HorizontalAlignment="Stretch"  Grid.Row="2" VerticalAlignment="Center" Click="button1_Click"/>
+        <Button x:Name="button2" Content="Dostave" HorizontalAlignment="Stretch"  Grid.Row="3" VerticalAlignment="Center"  Grid.Column="3" />
+        <Button x:Name="button3" Content="Baza podataka" HorizontalAlignment="Stretch" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" Click="button3_Click"/>
 
     </Grid>
 </Page>

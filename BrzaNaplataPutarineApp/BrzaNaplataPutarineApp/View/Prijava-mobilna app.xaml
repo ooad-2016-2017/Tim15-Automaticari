@@ -19,14 +19,17 @@
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="3*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Center" Text="Prijava" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Row="1" Grid.ColumnSpan="2" />
-        <TextBlock x:Name="textBlock1" HorizontalAlignment="Center" Grid.Row="2" TextWrapping="Wrap" Text="Email" VerticalAlignment="Center" />
-        <TextBlock x:Name="textBlock2" HorizontalAlignment="Center" Grid.Row="3" TextWrapping="Wrap" Text="Lozinka:" VerticalAlignment="Center" />
-        <TextBox x:Name="textBox" HorizontalAlignment="Center" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Center" Grid.Column="1"/>
-        <TextBox x:Name="textBox1" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="3" TextWrapping="Wrap" Text="" VerticalAlignment="Center" />
-        <HyperlinkButton Content="zaboravljena sifra?" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="4" />
-        <Button x:Name="button" Content="Prijava" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Click="button_Click"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Center" Text="Prijava" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Row="1" Grid.ColumnSpan="5" />
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Stretch" Grid.Column="1" Grid.Row="2" TextWrapping="Wrap" Text="Email" VerticalAlignment="Center" />
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Stretch" Grid.Column="1" Grid.Row="3" TextWrapping="Wrap" Text="Lozinka" VerticalAlignment="Center" />
+        <TextBox x:Name="textBox" HorizontalAlignment="Stretch" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Center" Grid.Column="3"/>
+        <TextBox x:Name="textBox1" Grid.Column="3" HorizontalAlignment="Stretch" Grid.Row="3" TextWrapping="Wrap" Text="" VerticalAlignment="Center" />
+        <HyperlinkButton Content="zaboravljena sifra?" Grid.Column="3" HorizontalAlignment="Stretch" VerticalAlignment="Center" Grid.Row="4" />
+        <Button x:Name="button" Content="Prijava" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Click="button_Click"/>
     </Grid>
 </Page>

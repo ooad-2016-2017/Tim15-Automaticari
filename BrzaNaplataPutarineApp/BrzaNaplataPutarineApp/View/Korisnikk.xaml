@@ -22,18 +22,20 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="9*"/>
         </Grid.ColumnDefinitions>
-        <Image x:Name="Korisnik" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" />
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Center" Grid.Row="2" TextWrapping="Wrap" Text="Ime i prezime" VerticalAlignment="Center" />
-        <TextBlock x:Name="textBlock1" HorizontalAlignment="Center" Grid.Row="3" TextWrapping="Wrap" Text="ID uredjaja" VerticalAlignment="Center" />
-        <TextBlock x:Name="textBlock2" HorizontalAlignment="Center"  Grid.Row="4" TextWrapping="Wrap" Text="Vozilo" VerticalAlignment="Center" />
-        <TextBlock x:Name="textBlock3" HorizontalAlignment="Center" Grid.Row="5" TextWrapping="Wrap" Text="Broj registarskih oznaka" VerticalAlignment="Center" />
-        <TextBlock x:Name="textBlock4" HorizontalAlignment="Center"  Grid.Row="6" TextWrapping="Wrap" Text="Trenutno stanje racuna: " VerticalAlignment="Center" />
-        <Button x:Name="button" Content="Nazad" Grid.Column="0" HorizontalAlignment="Right"  Grid.Row="7" VerticalAlignment="Center" />
-        <Button x:Name="button1" Content="Dopuni racun" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="7" VerticalAlignment="Center" />
+        <Image x:Name="Korisnik" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Stretch" Grid.Column="1" Grid.Row="2" TextWrapping="Wrap" Text="Ime i prezime" VerticalAlignment="Center" />
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Stretch" Grid.Column="1" Grid.Row="3" TextWrapping="Wrap" Text="ID uredjaja" VerticalAlignment="Center" />
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Stretch" Grid.Column="1"  Grid.Row="4" TextWrapping="Wrap" Text="Vozilo" VerticalAlignment="Center" />
+        <TextBlock x:Name="textBlock3" HorizontalAlignment="Stretch" Grid.Column="1" Grid.Row="5" TextWrapping="Wrap" Text="Broj registarskih oznaka" VerticalAlignment="Center" />
+        <TextBlock x:Name="textBlock4" HorizontalAlignment="Stretch" Grid.Column="1"  Grid.Row="6" TextWrapping="Wrap" Text="Trenutno stanje racuna: " VerticalAlignment="Center" />
+        <Button x:Name="button" Content="Nazad" Grid.Column="2" HorizontalAlignment="Stretch"  Grid.Row="7" VerticalAlignment="Center" />
+        <Button x:Name="button1" Content="Dopuni racun" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="7" VerticalAlignment="Center" />
         <ListView Grid.Row="3"
             x:Name="RoomsListView"
-            IsItemClickEnabled="True" VerticalAlignment="Center" Grid.Column="1">
+            IsItemClickEnabled="True" VerticalAlignment="Center" Grid.Column="3">
             <ListView.Template>
                 <ControlTemplate>
                     <Grid>
@@ -48,8 +50,8 @@
                                 <ColumnDefinition Width="*" />
                                 <ColumnDefinition Width="*" />
                             </Grid.ColumnDefinitions>
-                            <TextBlock HorizontalAlignment="Center"  Grid.Column="0">Ulaz</TextBlock>
-                            <TextBlock HorizontalAlignment="Center"  Grid.Column="1">Izlaz</TextBlock>
+                            <TextBlock HorizontalAlignment="Center"  Grid.Column="1">Ulaz</TextBlock>
+                            <TextBlock HorizontalAlignment="Center"  Grid.Column="0">Izlaz</TextBlock>
                             <TextBlock HorizontalAlignment="Center"  Grid.Column="2">Stanje racuna</TextBlock>
                             <TextBlock HorizontalAlignment="Center"  Grid.Column="3">Skinuto</TextBlock>
                         </Grid>
@@ -62,6 +64,7 @@
                 </Style>
             </ListView.ItemContainerStyle>
         </ListView>
-        <TextBlock x:Name="textBlock10" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="2" TextWrapping="Wrap" Text="Historija" VerticalAlignment="Bottom" TextAlignment="Center" />
+        <TextBlock x:Name="textBlock10" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="2" TextWrapping="Wrap" Text="Historija" VerticalAlignment="Bottom" TextAlignment="Center" />
+        <UserControl HorizontalAlignment="Left" Height="100" Grid.RowSpan="2" VerticalAlignment="Top" Width="100"/>
     </Grid>
 </Page>

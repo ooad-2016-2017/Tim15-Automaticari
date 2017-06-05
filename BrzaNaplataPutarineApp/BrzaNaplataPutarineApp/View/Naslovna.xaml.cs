@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BrzaNaplataPutarineApp.View;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -31,6 +32,18 @@ namespace BrzaNaplataPutarine.View
         {
             Frame rootFrame = Window.Current.Content as Frame;
             Frame.Navigate(typeof(Registracija_korisnikaa));
+        }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            Frame rootFrame = Window.Current.Content as Frame;
+            Frame.Navigate(typeof(Registracija_kompanijee));
+        }
+
+        private void button3_Click(object sender, RoutedEventArgs e)
+        {
+            Frame rootFrame = Window.Current.Content as Frame;
+            Frame.Navigate(typeof(Dostave));
         }
     }
 }
