@@ -36,5 +36,17 @@ namespace BrzaNaplataPutarineApp.View
         {
 
         }
+
+        private void button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Frame rootFrame = Window.Current.Content as Frame;
+            Frame.Navigate(typeof(Karticno_placanje_2_mobilna_app));
+        }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            Frame rootFrame = Window.Current.Content as Frame;
+            Frame.Navigate(typeof(Profil_korisnika_mobilna_app));
+        }
     }
 }

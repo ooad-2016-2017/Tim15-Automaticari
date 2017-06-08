@@ -31,5 +31,6 @@
         <TextBox x:Name="textBox1" Grid.Column="3" HorizontalAlignment="Stretch" Grid.Row="3" TextWrapping="Wrap" Text="" VerticalAlignment="Center" />
         <HyperlinkButton Content="zaboravljena sifra?" Grid.Column="3" HorizontalAlignment="Stretch" VerticalAlignment="Center" Grid.Row="4" />
         <Button x:Name="button" Content="Prijava" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="5" VerticalAlignment="Center" Click="button_Click"/>
+        <Button x:Name="button1" Content="Nazad" Grid.Column="1" HorizontalAlignment="Center"  Grid.Row="5" VerticalAlignment="Center" Click="button1_Click"/>
     </Grid>
 </Page>

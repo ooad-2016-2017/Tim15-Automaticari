@@ -28,8 +28,8 @@
         <TextBox x:Name="textBox" HorizontalAlignment="Stretch"  Grid.Row="2" Grid.Column="1" TextWrapping="Wrap" VerticalAlignment="Center" PlaceholderText="Ime kompanije" Background="#FFE4E1E1" />
         <TextBox x:Name="textBox1" HorizontalAlignment="Stretch" Grid.Row="3" Grid.Column="1" TextWrapping="Wrap" VerticalAlignment="Center" PlaceholderText="Broj vozila" Background="#FFE4E1E1" />
         <TextBox x:Name="textBox2" HorizontalAlignment="Stretch" Grid.Row="4" Grid.Column="1" TextWrapping="Wrap" VerticalAlignment="Center" PlaceholderText="Tip vozila" Background="#FFE4E1E1" />
-        <Button x:Name="button" Content="Nazad" HorizontalAlignment="Center" Grid.Row="6" VerticalAlignment="Center" Background="#33FFFFFF"  Grid.Column="2" Click="button_Click"/>
-        <Button x:Name="button1" Content="Registracija" HorizontalAlignment="Center" Grid.Row="6" VerticalAlignment="Center" Background="#33FFFFFF" Grid.Column="3" Click="button1_Click"/>
+        <Button x:Name="button" Content="Nazad" HorizontalAlignment="Center" Grid.Row="6" VerticalAlignment="Center"   Grid.Column="2" Click="button_Click"/>
+        <Button x:Name="button1" Content="Registracija" HorizontalAlignment="Center" Grid.Row="6" VerticalAlignment="Center"  Grid.Column="3" Click="button1_Click"/>
         <CheckBox x:Name="checkBox" Content="Vozila nisu istog tipa" Grid.Column="3" HorizontalAlignment="Left" Grid.Row="4" VerticalAlignment="Center"/>
         <ListView Grid.Row="5"
             x:Name="RoomsListView"

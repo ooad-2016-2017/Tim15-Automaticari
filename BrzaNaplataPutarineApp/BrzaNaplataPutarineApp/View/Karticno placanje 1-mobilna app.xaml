@@ -28,7 +28,7 @@
             <ComboBoxItem Content="Maestro" FontWeight="Normal" FontStyle="Normal"/>
             <ComboBoxItem Content="Visa" FontWeight="Normal" FontStyle="Normal"/>
         </ComboBox>
-        <Button x:Name="button" Content="Plati >" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="6" VerticalAlignment="Center"/>
+        <Button x:Name="button" Content="Dalje" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="6" VerticalAlignment="Center" Click="button_Click_1"/>
         <ComboBox x:Name="Mjesec" HorizontalAlignment="Center" VerticalAlignment="Center"  HorizontalContentAlignment="Stretch" SelectionChanged="OdaberiteKarticu_SelectionChanged" BorderBrush="{ThemeResource AppBarButtonForeground}" FontWeight="Light" Grid.Row="5" Grid.Column="1" >
             <ComboBoxItem Content="Januar" FontWeight="Normal" FontStyle="Normal"/>
             <ComboBoxItem Content="Februar" FontWeight="Normal" FontStyle="Normal"/>
@@ -60,6 +60,11 @@
         <TextBlock x:Name="textBlock1" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Broj kartice" VerticalAlignment="Center" Grid.Row="3" TextAlignment="Center"/>
         <TextBlock x:Name="textBlock2" HorizontalAlignment="Center" TextWrapping="Wrap" Text="CVV" VerticalAlignment="Center" Grid.Row="4" TextAlignment="Center"/>
         <TextBlock x:Name="textBlock3" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Datum isteka" VerticalAlignment="Center" Grid.Row="5" TextAlignment="Center"/>
-        <TextBlock x:Name="textBlock4" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Karticno placanje 1" VerticalAlignment="Center" Grid.Row="1" Grid.ColumnSpan="3" TextAlignment="Center" />
+        <TextBlock x:Name="textBlock4" HorizontalAlignment="Left" TextWrapping="Wrap"  VerticalAlignment="Center" Grid.Row="2" TextAlignment="Center"/>
+        <TextBlock x:Name="textBlock5" HorizontalAlignment="Left" TextWrapping="Wrap"  VerticalAlignment="Center" Grid.Row="3" TextAlignment="Center"/>
+        <TextBlock x:Name="textBlock6" HorizontalAlignment="Left" TextWrapping="Wrap"  VerticalAlignment="Center" Grid.Row="4" TextAlignment="Center"/>
+        <TextBlock x:Name="textBlock7" HorizontalAlignment="Left" TextWrapping="Wrap"  VerticalAlignment="Center" Grid.Row="5" TextAlignment="Center"/>
+        <TextBlock x:Name="textBlock8" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Karticno placanje 1" VerticalAlignment="Center" Grid.Row="1" Grid.ColumnSpan="3" TextAlignment="Center" />
+        <Button x:Name="button1" Content="Nazad" Grid.Column="0" HorizontalAlignment="Center"  Grid.Row="6" VerticalAlignment="Center" Click="button1_Click"/>
     </Grid>
 </Page>

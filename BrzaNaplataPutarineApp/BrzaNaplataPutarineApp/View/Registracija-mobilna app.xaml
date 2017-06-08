@@ -14,6 +14,7 @@
             <RowDefinition Height="3*"/>
             <RowDefinition Height="3*"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
@@ -23,5 +24,6 @@
         <TextBlock x:Name="textBlock" HorizontalAlignment="Stretch" TextWrapping="Wrap" Text="Registracija novog korisnika" VerticalAlignment="Center" TextAlignment="Center" Grid.Row="1" Grid.Column="1"/>
         <Button x:Name="button" Content="Fizicko lice" HorizontalAlignment="Stretch" Grid.Row="2" VerticalAlignment="Center" Grid.Column="1" Click="button_Click"/>
         <Button x:Name="button1" Content="Pravno lice" HorizontalAlignment="Stretch" Grid.Row="3" VerticalAlignment="Center" Grid.Column="1" Click="button1_Click"/>
+        <Button x:Name="button2" Content="Nazad" Grid.Column="1" HorizontalAlignment="Stretch"  Grid.Row="4" VerticalAlignment="Center" Click="button2_Click"/>
     </Grid>
 </Page>

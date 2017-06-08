@@ -41,5 +41,6 @@
         <TextBox x:Name="textBox4" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Row="6" Grid.Column="1" TextAlignment="Center"/>
         <TextBox x:Name="textBox5" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Row="7" Grid.Column="1" TextAlignment="Center"/>
         <TextBox x:Name="textBox6" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Row="8" Grid.Column="1" TextAlignment="Center"/>
+        <Button x:Name="button1" Content="Nazad" Grid.Column="0" HorizontalAlignment="Center"  Grid.Row="9" VerticalAlignment="Center" Click="button1_Click"/>
     </Grid>
 </Page>

@@ -32,7 +32,7 @@
         <TextBox x:Name="textBox2" HorizontalAlignment="Stretch" Grid.Row="4" TextWrapping="Wrap"  VerticalAlignment="Center" Grid.Column="2"  InputScope="Default" PlaceholderText="Vozilo" Background="#FFE4E1E1" />
         <TextBox x:Name="textBox3" HorizontalAlignment="Stretch"  Grid.Row="5" TextWrapping="Wrap" VerticalAlignment="Center" Grid.Column="2"  PlaceholderText="Broj registarskih oznaka" Background="#FFE4E1E1" />
         <TextBox x:Name="textBox4" HorizontalAlignment="Stretch"  Grid.Row="6" TextWrapping="Wrap"  VerticalAlignment="Center" Grid.Column="2"  PlaceholderText="Pocetni uplaceni iznos" Background="#FFE4E1E1" />
-        <Button x:Name="button" Content="Nazad" HorizontalAlignment="Left" Grid.Row="7" VerticalAlignment="Stretch" Background="#33FFFFFF" Grid.Column="2" Click="button_Click"/>
-        <Button x:Name="button1" Content="Registracija" HorizontalAlignment="Right" Grid.Row="7" VerticalAlignment="Stretch" Click="button1_Click" Background="#33FFFFFF"  Grid.Column="2" />
+        <Button x:Name="button" Content="Nazad" HorizontalAlignment="Left" Grid.Row="7" VerticalAlignment="Center"  Grid.Column="2" Click="button_Click"/>
+        <Button x:Name="button1" Content="Registracija" HorizontalAlignment="Right" Grid.Row="7" VerticalAlignment="Center" Click="button1_Click"   Grid.Column="2" />
     </Grid>
 </Page>
