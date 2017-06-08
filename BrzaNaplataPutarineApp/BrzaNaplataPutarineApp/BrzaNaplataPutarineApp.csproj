@@ -102,6 +102,15 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Model\Administrator.cs" />
+    <Compile Include="Model\Dostava.cs" />
+    <Compile Include="Model\Dostavljac.cs" />
+    <Compile Include="Model\FizickoLice.cs" />
+    <Compile Include="Model\Kartica.cs" />
+    <Compile Include="Model\Korisnik.cs" />
+    <Compile Include="Model\PravnoLice.cs" />
+    <Compile Include="Model\Uposlenik.cs" />
+    <Compile Include="Model\Vozilo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="View\Dostave.xaml.cs">
       <DependentUpon>Dostave.xaml</DependentUpon>
