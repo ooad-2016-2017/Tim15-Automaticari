@@ -22,7 +22,7 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="3*"/>
-            <ColumnDefinition Width="*2"/>
+            <ColumnDefinition Width="2*"/>
             <ColumnDefinition Width="9*"/>
         </Grid.ColumnDefinitions>
         <Image x:Name="Korisniik" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
