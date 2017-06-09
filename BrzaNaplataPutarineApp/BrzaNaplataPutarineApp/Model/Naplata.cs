@@ -25,7 +25,7 @@ namespace BrzaNaplataPutarineApp.Model
             }
         }
 
-        public Vrijednost Vrijednost
+        /*public Vrijednost Vrijednost
         {
             get
             {
@@ -36,7 +36,7 @@ namespace BrzaNaplataPutarineApp.Model
             {
                 vrijednost = value;
             }
-        }
+        }*/
 
         public event PropertyChangedEventHandler PropertyChanged;
     }

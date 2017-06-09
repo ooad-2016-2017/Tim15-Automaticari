@@ -54,7 +54,7 @@ namespace BrzaNaplataPutarineApp.Model
                 broj_vozila = value;
             }
         }
-        public TipVozila Tip_Vozila
+        /*public TipVozila Tip_Vozila
          {
              get
              {
@@ -64,6 +64,6 @@ namespace BrzaNaplataPutarineApp.Model
              {
                  tip_vozila = value;
              }
-         }
+         }*/
     }
 }

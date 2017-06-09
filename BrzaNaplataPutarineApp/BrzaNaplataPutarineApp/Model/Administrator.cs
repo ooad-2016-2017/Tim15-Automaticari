@@ -23,7 +23,10 @@ namespace BrzaNaplataPutarineApp.Model
 
             set
             {
-                prezime = value;
+                if (value != prezime)
+                {
+                    prezime = value;
+                }
             }
         }
 
@@ -36,7 +39,10 @@ namespace BrzaNaplataPutarineApp.Model
 
             set
             {
-                ime = value;
+                if (value != ime)
+                {
+                    ime = value;
+                }
             }
         }
     }

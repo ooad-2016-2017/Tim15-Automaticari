@@ -28,7 +28,10 @@ namespace BrzaNaplataPutarineApp.Model
 
             set
             {
-                kolicina = value;
+                if (value != kolicina)
+                {
+                    kolicina = value;
+                }
             }
         }
 
@@ -41,7 +44,10 @@ namespace BrzaNaplataPutarineApp.Model
 
             set
             {
-                dostavljac = value;
+                if (value != dostavljac)
+                {
+                    dostavljac = value;
+                }
             }
         }
 
@@ -54,7 +60,10 @@ namespace BrzaNaplataPutarineApp.Model
 
             set
             {
-                adresa = value;
+                if (value != adresa)
+                {
+                    adresa = value;
+                }
             }
         }
 
@@ -67,11 +76,14 @@ namespace BrzaNaplataPutarineApp.Model
 
             set
             {
-                datum_dostave = value;
+                if (value != datum_dostave)
+                {
+                    datum_dostave = value;
+                }
             }
         }
 
-        public Kartica Kartica
+        /*public Kartica Kartica
         {
             get
             {
@@ -80,9 +92,13 @@ namespace BrzaNaplataPutarineApp.Model
 
             set
             {
-                kartica = value;
+                if (value != kartica)
+                {
+
+                    kartica = value;
+                }
             }
-        }
+        }*/
 
         public StatusDostave Status_dostave
         {
@@ -93,11 +109,14 @@ namespace BrzaNaplataPutarineApp.Model
 
             set
             {
-                status_dostave = value;
+                if (value != status_dostave)
+                {
+                    status_dostave = value;
+                }
             }
         }
 
-        public Korisnik Korisnik
+       /* public Korisnik Korisnik
         {
             get
             {
@@ -106,8 +125,11 @@ namespace BrzaNaplataPutarineApp.Model
 
             set
             {
-                korisnik = value;
+                if (value != korisnik)
+                {
+                    korisnik = value;
+                }
             }
-        }
+        }*/
     }
 }
