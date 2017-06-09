@@ -1,16 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace BrzaNaplataPutarineApp.Model
 {
-    class Uposlenik
+    public class Uposlenik : INotifyPropertyChanged
     {
         private string ime;
         private string prezime;
         private string funkcija_uposlenika;
+
+        public event PropertyChangedEventHandler PropertyChanged;
 
         public string Ime
         {

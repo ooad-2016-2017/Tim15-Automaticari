@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace BrzaNaplataPutarineApp.Helper
 {
     class NavigationService : INavigationService
-    {/*
+    {
         //obicna navigacija bez parametra
         public void Navigate(Type sourcePage)
         {
@@ -25,6 +25,6 @@ namespace BrzaNaplataPutarineApp.Helper
         {
             var frame = (Frame)Window.Current.Content;
             frame.GoBack();
-        }*/
+        }
     }
 }

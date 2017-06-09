@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace BrzaNaplataPutarineApp.Model
 {
-    class FizickoLice
+    public class FizickoLice : INotifyPropertyChanged
     {
         private string ime;
         private string prezime;
@@ -36,5 +37,7 @@ namespace BrzaNaplataPutarineApp.Model
                 prezime = value;
             }
         }
+
+        public event PropertyChangedEventHandler PropertyChanged;
     }
 }

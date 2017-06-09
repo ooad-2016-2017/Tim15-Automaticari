@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace BrzaNaplataPutarineApp.Model
 {
-    class Dostavljac
+    public class Dostavljac : INotifyPropertyChanged
     {
         private string ime;
         private string prezime;
@@ -21,6 +22,7 @@ namespace BrzaNaplataPutarineApp.Model
             set
             {
                 ime = value;
+                
             }
         }
 
@@ -36,5 +38,7 @@ namespace BrzaNaplataPutarineApp.Model
                 prezime = value;
             }
         }
+
+        public event PropertyChangedEventHandler PropertyChanged;
     }
 }

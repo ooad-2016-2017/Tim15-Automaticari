@@ -1,17 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BrzaNaplataPutarineApp.Model
+namespace BrzaNaplataPutarineApp.Model 
 {
-    class PravnoLice
+    public class PravnoLice : INotifyPropertyChanged
     {
         private string naziv;
         private int id_broj;
         private int broj_vozila;
-        //private TipVozila tip_vozila;
+        private TipVozila tip_vozila;
+
+        public event PropertyChangedEventHandler PropertyChanged;
 
         public string Naziv
         {
@@ -51,7 +54,7 @@ namespace BrzaNaplataPutarineApp.Model
                 broj_vozila = value;
             }
         }
-        /* public TipVozila Tip_Vozila
+        public TipVozila Tip_Vozila
          {
              get
              {
@@ -60,8 +63,7 @@ namespace BrzaNaplataPutarineApp.Model
              set
              {
                  tip_vozila = value;
-                 OnPropertyChanged("TipVozila");
              }
-         }*/
+         }
     }
 }

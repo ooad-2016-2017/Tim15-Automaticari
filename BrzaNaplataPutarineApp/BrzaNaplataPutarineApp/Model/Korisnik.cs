@@ -1,17 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace BrzaNaplataPutarineApp.Model
 {
-    class Korisnik
+    public class Korisnik : INotifyPropertyChanged 
     {
         private string email;
         private string kontakt_telefon;
         private int broj_kreditne_kartice;
         private double stanje_na_racunu;
+
+        public event PropertyChangedEventHandler PropertyChanged;
 
         public string Email
         {

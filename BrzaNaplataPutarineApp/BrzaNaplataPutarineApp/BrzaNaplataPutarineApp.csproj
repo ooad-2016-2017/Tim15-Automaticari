@@ -108,9 +108,13 @@
     <Compile Include="Model\FizickoLice.cs" />
     <Compile Include="Model\Kartica.cs" />
     <Compile Include="Model\Korisnik.cs" />
+    <Compile Include="Model\Naplata.cs" />
     <Compile Include="Model\PravnoLice.cs" />
+    <Compile Include="Model\StatusDostave.cs" />
+    <Compile Include="Model\TipVozila.cs" />
     <Compile Include="Model\Uposlenik.cs" />
     <Compile Include="Model\Vozilo.cs" />
+    <Compile Include="Model\Vrijednost.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="View\Dostave.xaml.cs">
       <DependentUpon>Dostave.xaml</DependentUpon>

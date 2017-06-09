@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Input;
 
 namespace BrzaNaplataPutarineApp.Helper
-{/*
+{
     //Standardna relaycommand klasa koja se reuse u MVVM
     public class RelayCommand<T> : ICommand
     {
@@ -81,5 +82,5 @@ namespace BrzaNaplataPutarineApp.Helper
         }
 
         #endregion Protected Methods
-    }*/
+    }
 }

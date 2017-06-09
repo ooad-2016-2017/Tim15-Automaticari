@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace BrzaNaplataPutarineApp.Model
 {
-    class Kartica
+    public class Kartica : INotifyPropertyChanged
     {
         private int broj_kartice;
         private double stanje_na_racunu;
@@ -36,5 +37,7 @@ namespace BrzaNaplataPutarineApp.Model
                 stanje_na_racunu = value;
             }
         }
+
+        public event PropertyChangedEventHandler PropertyChanged;
     }
 }

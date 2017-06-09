@@ -1,18 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace BrzaNaplataPutarineApp.Model
 {
-    class Vozilo
+    public class Vozilo : INotifyPropertyChanged
     {
-        //private enum TipVozila tip_vozila;
+        private TipVozila tip_vozila;
         private string model;
         private int broj_kartice;
         private string registarske_oznake;
         private double visina;
+
+        public event PropertyChangedEventHandler PropertyChanged;
 
         public string Model
         {
@@ -63,6 +66,19 @@ namespace BrzaNaplataPutarineApp.Model
             set
             {
                 visina = value;
+            }
+        }
+
+        internal TipVozila Tip_vozila
+        {
+            get
+            {
+                return tip_vozila;
+            }
+
+            set
+            {
+                tip_vozila = value;
             }
         }
     }

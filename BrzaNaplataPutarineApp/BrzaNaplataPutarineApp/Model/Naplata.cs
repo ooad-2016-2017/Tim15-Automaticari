@@ -1,15 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace BrzaNaplataPutarineApp.Model
 {
-    class Naplata
+    public class Naplata : INotifyPropertyChanged
     {
         private int broj_naplate;
-        //private Vrijednost vrijednost;
+        private Vrijednost vrijednost;
 
         public int Broj_naplate
         {
@@ -23,5 +24,20 @@ namespace BrzaNaplataPutarineApp.Model
                 broj_naplate = value;
             }
         }
+
+        public Vrijednost Vrijednost
+        {
+            get
+            {
+                return vrijednost;
+            }
+
+            set
+            {
+                vrijednost = value;
+            }
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
     }
 }

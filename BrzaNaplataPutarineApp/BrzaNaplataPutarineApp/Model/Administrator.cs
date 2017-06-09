@@ -1,15 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace BrzaNaplataPutarineApp.Model
 {
-    class Administrator
+    public class Administrator : INotifyPropertyChanged
     {
         private string ime;
         private string prezime;
+
+        public event PropertyChangedEventHandler PropertyChanged;
 
         public string Prezime
         {
