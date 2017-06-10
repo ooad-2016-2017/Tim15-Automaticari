@@ -1,14 +1,14 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{11E55324-352E-46FE-9696-045207BF1DE4}</ProjectGuid>
+    <ProjectGuid>{5b515013-17be-46db-8c5a-7e14a986992e}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BrzaNaplataPutarineApp</RootNamespace>
-    <AssemblyName>BrzaNaplataPutarineApp</AssemblyName>
+    <RootNamespace>App1</RootNamespace>
+    <AssemblyName>App1</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.14393.0</TargetPlatformVersion>
@@ -16,7 +16,9 @@
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <PackageCertificateKeyFile>BrzaNaplataPutarineApp_TemporaryKey.pfx</PackageCertificateKeyFile>
+    
+    <PackageCertificateKeyFile>App1_TemporaryKey.pfx</PackageCertificateKeyFile>
+    
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <DebugSymbols>true</DebugSymbols>
@@ -95,52 +97,18 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Azure\Korisnici.cs" />
-    <Compile Include="Helper\INavigationService.cs" />
-    <Compile Include="Helper\NavigationService.cs" />
-    <Compile Include="Helper\RelayCommand.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Model\Administrator.cs" />
-    <Compile Include="Model\Dostava.cs" />
-    <Compile Include="Model\Dostavljac.cs" />
-    <Compile Include="Model\FizickoLice.cs" />
-    <Compile Include="Model\Kartica.cs" />
-    <Compile Include="Model\Korisnik.cs" />
-    <Compile Include="Model\Naplata.cs" />
-    <Compile Include="Model\PravnoLice.cs" />
-    <Compile Include="Model\Uposlenik.cs" />
-    <Compile Include="Model\Vozilo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ViewModel\KorisnikVM.cs" />
-    <Compile Include="View\Dostave.xaml.cs">
-      <DependentUpon>Dostave.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="View\Idi na.xaml.cs">
-      <DependentUpon>Idi na.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="View\Karticno placanje 1-mobilna app.xaml.cs" />
-    <Compile Include="View\Karticno placanje 2-mobilna app.xaml.cs" />
-    <Compile Include="View\Korisnik.xaml.cs">
-      <DependentUpon>Korisnik.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="View\Naslovna.xaml.cs" />
-    <Compile Include="View\Pocetni meni-mobilna app.xaml.cs" />
-    <Compile Include="View\Prijava administrator.xaml.cs">
-      <DependentUpon>Prijava administrator.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="View\Prijava-mobilna app.xaml.cs" />
-    <Compile Include="View\Profil korisnika-mobilna app.xaml.cs" />
-    <Compile Include="View\Registracija kompanijee.xaml.cs" />
-    <Compile Include="View\Registracija korisnikaa.xaml.cs" />
-    <Compile Include="View\Registracija-mobilna app.xaml.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
-    <None Include="BrzaNaplataPutarineApp_TemporaryKey.pfx" />
+    
+    <None Include="App1_TemporaryKey.pfx" />
+    
   </ItemGroup>
   <ItemGroup>
     <Content Include="Properties\Default.rd.xml" />
@@ -161,65 +129,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\Dostave.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="View\Idi na.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="View\Karticno placanje 1-mobilna app.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\Karticno placanje 2-mobilna app.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\Korisnik.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="View\Naslovna.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\Pocetni meni-mobilna app.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\Prijava administrator.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="View\Prijava-mobilna app.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\Profil korisnika-mobilna app.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\Registracija kompanijee.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\Registracija korisnikaa.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\Registracija-mobilna app.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Assets\NewFolder1\" />
-  </ItemGroup>
+  
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
+
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -59,10 +59,10 @@
                 </Style>
             </ListView.ItemContainerStyle>
         </ListView>
-        <Button x:Name="button" Content="Nazad" Grid.Column="1" HorizontalAlignment="Center"  Grid.Row="7" VerticalAlignment="Center" Click="button_Click"/>
-        <CheckBox x:Name="checkBox" Content="Dostavljeno" Grid.Column="2" HorizontalAlignment="Left" Grid.Row="3" VerticalAlignment="Center"/>
-        <CheckBox x:Name="checkBox1" Content="Dostavljeno" Grid.Column="2" HorizontalAlignment="Left" Grid.Row="4" VerticalAlignment="Center"/>
-        <CheckBox x:Name="checkBox2" Content="Dostavljeno" Grid.Column="2" HorizontalAlignment="Left" Grid.Row="5" VerticalAlignment="Center"/>
-        <CheckBox x:Name="checkBox3" Content="Dostavljeno" Grid.Column="2" HorizontalAlignment="Left" Grid.Row="6" VerticalAlignment="Center"/>
+        <Button x:Name="button" Content="Nazad"  Grid.Column="1" HorizontalAlignment="Center"  Grid.Row="7" VerticalAlignment="Center" Click="button_Click"/>
+        <CheckBox x:Name="checkBox" Content="Dostavljeno"   Grid.Column="2" HorizontalAlignment="Left" Grid.Row="3" VerticalAlignment="Center"/>
+        <CheckBox x:Name="checkBox1"  Grid.Column="2" HorizontalAlignment="Left" Grid.Row="4" VerticalAlignment="Center"/>
+        <CheckBox x:Name="checkBox2"  Grid.Column="2" HorizontalAlignment="Left" Grid.Row="5" VerticalAlignment="Center"/>
+        <CheckBox x:Name="checkBox3"  Grid.Column="2" HorizontalAlignment="Left" Grid.Row="6" VerticalAlignment="Center"/>
     </Grid>
 </Page>

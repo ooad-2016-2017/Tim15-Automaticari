@@ -26,12 +26,12 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Text="Meni" Grid.Row="1" Grid.Column="1" TextAlignment="Center"/>
-        <Button x:Name="button" Content="Profil" Grid.Column="1" HorizontalAlignment="Stretch" Grid.Row="2" VerticalAlignment="Center" Click="button_Click"/>
-        <Button x:Name="button1" Content="Nadopuni racun" Grid.Column="1" HorizontalAlignment="Stretch" Grid.Row="3" VerticalAlignment="Center" Click="button1_Click"/>
-        <Button x:Name="button2" Content="Lokacije" Grid.Column="1" HorizontalAlignment="Stretch" Grid.Row="4" VerticalAlignment="Center" />
-        <Button x:Name="button3" Content="Cjenovnik" Grid.Column="1" HorizontalAlignment="Stretch" Grid.Row="5" VerticalAlignment="Center"/>
-        <Button x:Name="button5" Content="Kontakt" Grid.Column="1" HorizontalAlignment="Stretch" Grid.Row="6" VerticalAlignment="Center"/>
-        <Button x:Name="button6" Content="Odjava" Grid.Column="1" HorizontalAlignment="Stretch" Grid.Row="7" VerticalAlignment="Center" Click="button6_Click"/>
-        <Button x:Name="button7" Content="Nazad" Grid.Column="1" HorizontalAlignment="Stretch"  Grid.Row="8" VerticalAlignment="Center" Click="button7_Click"/>
+        <Button x:Name="button" Content="Profil"  Grid.Column="1" HorizontalAlignment="Stretch" Grid.Row="2" VerticalAlignment="Center" Click="button_Click"/>
+        <Button x:Name="button1" Content="Nadopuni racun"  Grid.Column="1" HorizontalAlignment="Stretch" Grid.Row="3" VerticalAlignment="Center" Click="button1_Click"/>
+        <Button x:Name="button2" Content="Lokacije"   Grid.Column="1" HorizontalAlignment="Stretch" Grid.Row="4" VerticalAlignment="Center" />
+        <Button x:Name="button3" Content="Cjenovnik"  Grid.Column="1" HorizontalAlignment="Stretch" Grid.Row="5" VerticalAlignment="Center"/>
+        <Button x:Name="button5" Content="Kontakt"  Grid.Column="1" HorizontalAlignment="Stretch" Grid.Row="6" VerticalAlignment="Center"/>
+        <Button x:Name="button6" Content="Odjava"  Grid.Column="1" HorizontalAlignment="Stretch" Grid.Row="7" VerticalAlignment="Center" Click="button6_Click"/>
+        <Button x:Name="button7" Content="Nazad"  Grid.Column="1" HorizontalAlignment="Stretch"  Grid.Row="8" VerticalAlignment="Center" Click="button7_Click"/>
     </Grid>
 </Page>

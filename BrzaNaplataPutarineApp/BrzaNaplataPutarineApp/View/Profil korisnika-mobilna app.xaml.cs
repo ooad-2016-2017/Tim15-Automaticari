@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BrzaNaplataPutarineApp.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -25,6 +26,7 @@ namespace BrzaNaplataPutarineApp.View
         public Profil_korisnika_mobilna_app()
         {
             this.InitializeComponent();
+            DataContext = new KorisnikVM();
         }
 
         private void DopunaRacuna_SelectionChanged(object sender, SelectionChangedEventArgs e)

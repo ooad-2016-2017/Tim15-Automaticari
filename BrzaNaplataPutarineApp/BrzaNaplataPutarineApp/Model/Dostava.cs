@@ -14,7 +14,7 @@ namespace BrzaNaplataPutarineApp.Model
         private string adresa;
         private DateTime datum_dostave;
         private Kartica kartica;
-        private StatusDostave status_dostave;
+        private string status_dostave;
         private Korisnik korisnik;
 
         public event PropertyChangedEventHandler PropertyChanged;
@@ -83,7 +83,7 @@ namespace BrzaNaplataPutarineApp.Model
             }
         }
 
-        /*public Kartica Kartica
+        public Kartica Kartica
         {
             get
             {
@@ -98,9 +98,9 @@ namespace BrzaNaplataPutarineApp.Model
                     kartica = value;
                 }
             }
-        }*/
+        }
 
-        public StatusDostave Status_dostave
+        public string Status_dostave
         {
             get
             {
@@ -116,7 +116,7 @@ namespace BrzaNaplataPutarineApp.Model
             }
         }
 
-       /* public Korisnik Korisnik
+       public Korisnik Korisnik
         {
             get
             {
@@ -130,6 +130,6 @@ namespace BrzaNaplataPutarineApp.Model
                     korisnik = value;
                 }
             }
-        }*/
+        }
     }
 }

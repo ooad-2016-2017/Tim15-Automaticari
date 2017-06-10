@@ -12,7 +12,7 @@ namespace BrzaNaplataPutarineApp.Model
         private string naziv;
         private int id_broj;
         private int broj_vozila;
-        private TipVozila tip_vozila;
+        private string tip_vozila;
 
         public event PropertyChangedEventHandler PropertyChanged;
 
@@ -54,7 +54,7 @@ namespace BrzaNaplataPutarineApp.Model
                 broj_vozila = value;
             }
         }
-        /*public TipVozila Tip_Vozila
+        public string Tip_Vozila
          {
              get
              {
@@ -64,6 +64,6 @@ namespace BrzaNaplataPutarineApp.Model
              {
                  tip_vozila = value;
              }
-         }*/
+         }
     }
 }

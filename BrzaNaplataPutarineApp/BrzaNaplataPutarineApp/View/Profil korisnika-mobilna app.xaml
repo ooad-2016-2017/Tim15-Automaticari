@@ -3,6 +3,7 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:BrzaNaplataPutarineApp.View"
+    xmlns:viewmodel="using:BrzaNaplataPutarineApp.ViewModel"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
@@ -32,7 +33,7 @@
         <Button x:Name="button3" Content="Meni" HorizontalAlignment="Center"  Grid.Row="3" VerticalAlignment="Center" Grid.Column="0" Click="button3_Click"/>
         <Button x:Name="button4" Content="Nazad" Grid.Column="1" HorizontalAlignment="Stretch"  Grid.Row="7" VerticalAlignment="Center" Click="button4_Click"/>
         <TextBlock x:Name="textBlock1" HorizontalAlignment="Center"  Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Center" Text="Stanje racuna"/>
-        <TextBlock x:Name="textBlock2" Grid.Column="1" HorizontalAlignment="Center"  TextWrapping="Wrap" VerticalAlignment="Center" Grid.Row="2"  Text=""/>
+        <TextBlock x:Name="textBlock2" Grid.Column="1" HorizontalAlignment="Center"  TextWrapping="Wrap" VerticalAlignment="Center" Grid.Row="2"  Text="{Binding Path=korisnik.Stanje_na_racunu}"/>
         <TextBlock x:Name="textBlock3" Grid.Column="2" HorizontalAlignment="Left"  TextWrapping="Wrap" VerticalAlignment="Center" Grid.Row="2" />
         <TextBlock x:Name="textBlock4" Grid.Column="2" HorizontalAlignment="Center"  TextWrapping="Wrap" VerticalAlignment="Center" Grid.Row="2"  Text="KM"/>
         <ComboBox x:Name="DopunaRacuna" HorizontalAlignment="Stretch" VerticalAlignment="Top"  Grid.Column="1" HorizontalContentAlignment="Stretch" SelectionChanged="DopunaRacuna_SelectionChanged" FontWeight="Light" Grid.Row="3">

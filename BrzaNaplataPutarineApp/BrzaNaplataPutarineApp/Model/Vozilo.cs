@@ -9,7 +9,7 @@ namespace BrzaNaplataPutarineApp.Model
 {
     public class Vozilo : INotifyPropertyChanged
     {
-        private TipVozila tip_vozila;
+        private string tip_vozila;
         private string model;
         private int broj_kartice;
         private string registarske_oznake;
@@ -69,7 +69,7 @@ namespace BrzaNaplataPutarineApp.Model
             }
         }
 
-        internal TipVozila Tip_vozila
+        public string Tip_vozila
         {
             get
             {

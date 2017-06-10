@@ -10,7 +10,7 @@ namespace BrzaNaplataPutarineApp.Model
     public class Naplata : INotifyPropertyChanged
     {
         private int broj_naplate;
-        private Vrijednost vrijednost;
+        private string vrijednost;
 
         public int Broj_naplate
         {
@@ -25,7 +25,7 @@ namespace BrzaNaplataPutarineApp.Model
             }
         }
 
-        /*public Vrijednost Vrijednost
+        public string Vrijednost
         {
             get
             {
@@ -36,7 +36,7 @@ namespace BrzaNaplataPutarineApp.Model
             {
                 vrijednost = value;
             }
-        }*/
+        }
 
         public event PropertyChangedEventHandler PropertyChanged;
     }
