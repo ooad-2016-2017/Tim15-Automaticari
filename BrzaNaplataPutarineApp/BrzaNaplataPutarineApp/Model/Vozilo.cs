@@ -20,7 +20,7 @@ namespace BrzaNaplataPutarineApp.Model
         public string Model
         {
             get
-            {
+            { 
                 return model;
             }
 

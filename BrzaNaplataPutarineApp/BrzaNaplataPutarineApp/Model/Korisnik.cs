@@ -17,7 +17,7 @@ namespace BrzaNaplataPutarineApp.Model
         public event PropertyChangedEventHandler PropertyChanged;
 
         public string Email
-        {
+        { 
             get
             {
                 return email;

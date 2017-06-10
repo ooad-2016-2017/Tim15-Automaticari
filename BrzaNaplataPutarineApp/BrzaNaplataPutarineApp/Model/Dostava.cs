@@ -18,7 +18,7 @@ namespace BrzaNaplataPutarineApp.Model
         private Korisnik korisnik;
 
         public event PropertyChangedEventHandler PropertyChanged;
-
+         
         public int Kolicina
         {
             get

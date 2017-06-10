@@ -18,7 +18,7 @@ namespace BrzaNaplataPutarineApp.Model
 
         public string Naziv
         {
-            get
+            get 
             {
                 return naziv;
             }

@@ -16,7 +16,7 @@ namespace BrzaNaplataPutarineApp.Model
         {
             get
             {
-                return broj_naplate;
+                return broj_naplate; 
             }
 
             set

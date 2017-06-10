@@ -20,7 +20,7 @@ namespace BrzaNaplataPutarineApp.Model
             {
                 return prezime;
             }
-
+             
             set
             {
                 if (value != prezime)

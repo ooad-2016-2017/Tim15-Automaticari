@@ -23,7 +23,7 @@ namespace BrzaNaplataPutarineApp.Model
             }
 
             set
-            {
+            { 
                 ime = value;
             }
         }

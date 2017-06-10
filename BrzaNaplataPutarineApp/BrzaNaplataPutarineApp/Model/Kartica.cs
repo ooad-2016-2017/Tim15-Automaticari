@@ -14,7 +14,7 @@ namespace BrzaNaplataPutarineApp.Model
 
         public int Broj_kartice
         {
-            get
+            get 
             {
                 return broj_kartice;
             }
