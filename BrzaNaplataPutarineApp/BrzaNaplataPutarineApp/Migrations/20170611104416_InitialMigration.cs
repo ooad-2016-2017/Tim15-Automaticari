@@ -15,7 +15,7 @@ namespace BrzaNaplataPutarineAppMigrations
                 {
                     KarticaID = table.Column(type: "INTEGER", nullable: false),
                         //.Annotation("Sqlite:Autoincrement", true),
-                    Broj_Kartice = table.Column(type: "INTEGER", nullable: false),
+                    //Broj_Kartice = table.Column(type: "INTEGER", nullable: false),
                     Broj_kartice = table.Column(type: "INTEGER", nullable: false),
                     Stanje_na_racunu = table.Column(type: "REAL", nullable: false)
                 },
