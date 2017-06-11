@@ -103,13 +103,13 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Model\Administrator.cs" />
+    <Compile Include="Model\dbContext.cs" />
     <Compile Include="Model\Dostava.cs" />
     <Compile Include="Model\Dostavljac.cs" />
     <Compile Include="Model\FizickoLice.cs" />
     <Compile Include="Model\Kartica.cs" />
     <Compile Include="Model\Korisnik.cs" />
     <Compile Include="Model\Naplata.cs" />
-    <Compile Include="Model\NaplataDbContext.cs" />
     <Compile Include="Model\PravnoLice.cs" />
     <Compile Include="Model\Uposlenik.cs" />
     <Compile Include="Model\Vozilo.cs" />

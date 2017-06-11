@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -9,6 +9,7 @@ namespace BrzaNaplataPutarineApp.Model
 {
     public class Administrator : INotifyPropertyChanged
     {
+
         private string ime;
         private string prezime;
 

@@ -10,7 +10,7 @@ namespace BrzaNaplataPutarineApp.Model
 {
     public class Korisnik : INotifyPropertyChanged 
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        
         private int broj_kreditne_kartice;
         private string email;
         private string kontakt_telefon;
@@ -18,7 +18,7 @@ namespace BrzaNaplataPutarineApp.Model
 
         public event PropertyChangedEventHandler PropertyChanged;
 
-        public Korisnik() { }
+        //public Korisnik() { }
 
         public string Email
         { 
