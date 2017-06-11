@@ -99,6 +99,7 @@
     <Compile Include="Helper\INavigationService.cs" />
     <Compile Include="Helper\NavigationService.cs" />
     <Compile Include="Helper\RelayCommand.cs" />
+    <Compile Include="Helper\VMBase.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -121,6 +122,7 @@
     <Compile Include="Model\Vozilo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModel\KorisnikVM.cs" />
+    <Compile Include="ViewModel\PrijavaVM.cs" />
     <Compile Include="View\Dostave.xaml.cs">
       <DependentUpon>Dostave.xaml</DependentUpon>
     </Compile>

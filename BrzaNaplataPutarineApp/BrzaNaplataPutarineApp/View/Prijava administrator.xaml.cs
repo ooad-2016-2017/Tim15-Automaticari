@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -14,6 +14,8 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using BrzaNaplataPutarineApp.View;
 using BrzaNaplataPutarineApp.View;
+using BrzaNaplataPutarineApp.ViewModel;
+using BrzaNaplataPutarineApp.Helper;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -27,24 +29,27 @@ namespace BrzaNaplataPutarineApp.View
         public Prijava_administrator()
         {
             this.InitializeComponent();
+            this.DataContext = new PrijavaVM(new NavigationService());
         }
 
-        private void button_Click(object sender, RoutedEventArgs e)
-        {
-            Frame rootFrame = Window.Current.Content as Frame;
-            Frame.Navigate(typeof(Naslovna));
-        }
+        //private void button_Click(object sender, RoutedEventArgs e)
+        //{
+        //    Frame rootFrame = Window.Current.Content as Frame;
+        //    Frame.Navigate(typeof(Naslovna));
+        //}
 
-        private void button1_Click(object sender, RoutedEventArgs e)
-        {
-            Frame rootFrame = Window.Current.Content as Frame;
-            Frame.Navigate(typeof(Pocetni_meni_mobilna_app));
-        }
+        //private void button1_Click(object sender, RoutedEventArgs e)
+        //{
+        //    Frame rootFrame = Window.Current.Content as Frame;
+        //    Frame.Navigate(typeof(Pocetni_meni_mobilna_app));
+        //}
 
-        private void HyperlinkButton_Click(object sender, RoutedEventArgs e)
-        {
-            Frame rootFrame = Window.Current.Content as Frame;
-            Frame.Navigate(typeof(Zaboravljena_sifra));
-        }
+        //private void HyperlinkButton_Click(object sender, RoutedEventArgs e)
+        //{
+        //    Frame rootFrame = Window.Current.Content as Frame;
+        //    Frame.Navigate(typeof(Zaboravljena_sifra));
+        //}
+
+        
     }
 }
