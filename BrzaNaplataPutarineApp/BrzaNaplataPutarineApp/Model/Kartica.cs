@@ -17,9 +17,8 @@ namespace BrzaNaplataPutarineApp.Model
         private double stanje_na_racunu;
 
         
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        [Key]
-        public int KarticaID { get; set; }
+        
+        //public int KarticaID { get; set; }
         
         //public int Broj_Kartice { get; set; }
 

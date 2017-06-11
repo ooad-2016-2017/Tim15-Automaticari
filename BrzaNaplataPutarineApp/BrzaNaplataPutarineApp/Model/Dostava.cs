@@ -11,13 +11,14 @@ namespace BrzaNaplataPutarineApp.Model
 {
     public class Dostava : INotifyPropertyChanged
     {
-      /*  [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        [Key]*/
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [Key]
         public int DostavaID { get; set; }
 
-        private int dostavaID;
+       
         private int kolicina;
         private string dostavljac;
+        private string grad;
         private string adresa;
         private DateTime datum_dostave;
         private Kartica kartica;

@@ -10,15 +10,16 @@ namespace BrzaNaplataPutarineApp.Model
     {
         public static void Initialize(dbContext context)
         {
-            if (!context.Kartice.Any())
+            if (!context.Korisnici.Any())
             {
-                context.Kartice.AddRange(
-                new Kartica()
+                context.Korisnici.AddRange(
+                new Korisnik()
                 {
-                    Broj_kartice = 123,
-                    Stanje_na_racunu =10000,
+                    Email = "dkfljs.com",
+                    Kontakt_telefon = "062343344",
+                    Broj_kreditne_kartice = 333,
+                    Stanje_na_racunu =34.3
 
-                    
                 }
                 );
                 context.SaveChanges();

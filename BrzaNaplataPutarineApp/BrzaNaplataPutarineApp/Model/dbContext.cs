@@ -11,10 +11,12 @@ namespace BrzaNaplataPutarineApp.Model
 {
     class dbContext : DbContext
     {
-        public DbSet<Kartica> Kartice { get; set; }
-    
+        public DbSet<Korisnik> Korisnici { get; set; }
+        public DbSet<Administrator> Administratori { get; set; }
+        public DbSet<Dostava> Dostave { get; set; }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         string databaseFilePath = "Baza.db";
         try
@@ -30,7 +32,7 @@ namespace BrzaNaplataPutarineApp.Model
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         //jedno od polja je image da se zna šta je zapravo predstavlja byte[]
-        modelBuilder.Entity<Kartica>().Property(p => p.KarticaID).HasColumnType("INTEGER");
+        modelBuilder.Entity<Korisnik>().Property(p => p.KorisnikId).HasColumnType("INTEGER");
     }
     }
 }

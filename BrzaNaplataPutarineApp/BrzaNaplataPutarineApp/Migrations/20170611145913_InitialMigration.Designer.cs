@@ -7,9 +7,19 @@ using BrzaNaplataPutarineApp.Model;
 namespace BrzaNaplataPutarineAppMigrations
 {
     [ContextType(typeof(dbContext))]
-    partial class dbContextModelSnapshot : ModelSnapshot
+    partial class InitialMigration
     {
-        public override void BuildModel(ModelBuilder builder)
+        public override string Id
+        {
+            get { return "20170611145913_InitialMigration"; }
+        }
+
+        public override string ProductVersion
+        {
+            get { return "7.0.0-beta6-13815"; }
+        }
+
+        public override void BuildTargetModel(ModelBuilder builder)
         {
             builder
                 .Annotation("ProductVersion", "7.0.0-beta6-13815");
