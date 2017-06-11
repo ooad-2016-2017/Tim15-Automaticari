@@ -102,8 +102,14 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\20170611104416_InitialMigration.cs" />
+    <Compile Include="Migrations\20170611104416_InitialMigration.designer.cs">
+      <DependentUpon>20170611104416_InitialMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\dbContextModelSnapshot.cs" />
     <Compile Include="Model\Administrator.cs" />
     <Compile Include="Model\dbContext.cs" />
+    <Compile Include="Model\DefaultPodaci.cs" />
     <Compile Include="Model\Dostava.cs" />
     <Compile Include="Model\Dostavljac.cs" />
     <Compile Include="Model\FizickoLice.cs" />

@@ -11,7 +11,7 @@ namespace BrzaNaplataPutarineApp.Model
 {
     class dbContext : DbContext
     {
-        public DbSet<Dostava> Dostave { get; set; }
+        public DbSet<Kartica> Kartice { get; set; }
     
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -30,7 +30,7 @@ namespace BrzaNaplataPutarineApp.Model
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         //jedno od polja je image da se zna šta je zapravo predstavlja byte[]
-        modelBuilder.Entity<Dostava>().Property(p => p.DostavaID).HasColumnType("INTEGER");
+        modelBuilder.Entity<Kartica>().Property(p => p.KarticaID).HasColumnType("INTEGER");
     }
     }
 }

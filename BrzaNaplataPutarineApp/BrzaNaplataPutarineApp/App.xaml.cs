@@ -1,5 +1,5 @@
 using BrzaNaplataPutarineApp.Model;
-//using Microsoft.Data.Entity;
+using Microsoft.Data.Entity;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -36,11 +36,11 @@ namespace BrzaNaplataPutarineApp
         {
             this.InitializeComponent();
             this.Suspending += OnSuspending;
-           /* using (var db = new NaplataDbContext())
+            using (var db = new dbContext())
             {
                 db.Database.ApplyMigrations();
-                //DefaultPodaci.Initialize(db);
-            }*/
+                DefaultPodaci.Initialize(db);
+            }
         }
 
         /// <summary>

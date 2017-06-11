@@ -11,7 +11,8 @@ namespace BrzaNaplataPutarineApp.Model
 {
     public class Dostava : INotifyPropertyChanged
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+      /*  [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [Key]*/
         public int DostavaID { get; set; }
 
         private int dostavaID;
