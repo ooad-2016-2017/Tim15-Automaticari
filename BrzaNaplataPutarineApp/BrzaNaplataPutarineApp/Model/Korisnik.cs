@@ -1,6 +1,7 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,12 +10,15 @@ namespace BrzaNaplataPutarineApp.Model
 {
     public class Korisnik : INotifyPropertyChanged 
     {
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        private int broj_kreditne_kartice;
         private string email;
         private string kontakt_telefon;
-        private int broj_kreditne_kartice;
         private double stanje_na_racunu;
 
         public event PropertyChangedEventHandler PropertyChanged;
+
+        public Korisnik() { }
 
         public string Email
         { 
@@ -67,5 +71,6 @@ namespace BrzaNaplataPutarineApp.Model
                 stanje_na_racunu = value;
             }
         }
+
     }
 }

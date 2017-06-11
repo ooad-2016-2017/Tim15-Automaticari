@@ -109,6 +109,7 @@
     <Compile Include="Model\Kartica.cs" />
     <Compile Include="Model\Korisnik.cs" />
     <Compile Include="Model\Naplata.cs" />
+    <Compile Include="Model\NaplataDbContext.cs" />
     <Compile Include="Model\PravnoLice.cs" />
     <Compile Include="Model\Uposlenik.cs" />
     <Compile Include="Model\Vozilo.cs" />
