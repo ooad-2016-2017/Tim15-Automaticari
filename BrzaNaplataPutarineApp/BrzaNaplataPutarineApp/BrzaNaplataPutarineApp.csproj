@@ -121,8 +121,21 @@
     <Compile Include="Model\Uposlenik.cs" />
     <Compile Include="Model\Vozilo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModel\DostaveVM.cs" />
+    <Compile Include="ViewModel\IdiNaVM.cs" />
+    <Compile Include="ViewModel\Karticno placanje 1 mobilna appVM.cs" />
+    <Compile Include="ViewModel\Karticno placanje 2 mobilna appVM.cs" />
+    <Compile Include="ViewModel\KontaktVM.cs" />
     <Compile Include="ViewModel\KorisnikVM.cs" />
+    <Compile Include="ViewModel\NaslovnaVM.cs" />
+    <Compile Include="ViewModel\PocetniMeni mobilna appVM.cs" />
+    <Compile Include="ViewModel\Prijava mobilna appVM.cs" />
     <Compile Include="ViewModel\PrijavaVM.cs" />
+    <Compile Include="ViewModel\Profil korisnika mobilna appVM.cs" />
+    <Compile Include="ViewModel\Registracija kompanijeVM.cs" />
+    <Compile Include="ViewModel\Registracija korisnikaVM.cs" />
+    <Compile Include="ViewModel\Registracija mobilna appVM.cs" />
+    <Compile Include="ViewModel\Zaboravljena sifraVM.cs" />
     <Compile Include="View\Dostave.xaml.cs">
       <DependentUpon>Dostave.xaml</DependentUpon>
     </Compile>

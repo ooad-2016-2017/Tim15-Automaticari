@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="BrzaNaplataPutarineApp.View.Zaboravljena_sifra"
+    x:Class="BrzaNaplataPutarineApp.View.ZaboravljenaSifra"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:BrzaNaplataPutarineApp.View"
@@ -27,9 +27,9 @@
         <TextBlock x:Name="textBlock" HorizontalAlignment="Stretch" VerticalAlignment="Center" TextWrapping="Wrap" Text="Zaboravljena sifra" Grid.Row="1" Grid.Column="1" TextAlignment="Center"/>
         <TextBlock x:Name="textBlock1" HorizontalAlignment="Stretch" VerticalAlignment="Center" TextWrapping="Wrap" Text="Vasa email adresa" Grid.Row="2" Grid.Column="1" TextAlignment="Center"/>
         <TextBlock x:Name="textBlock2" HorizontalAlignment="Stretch" VerticalAlignment="Center" TextWrapping="Wrap" Text="Vas broj telefona" Grid.Row="4" Grid.Column="1" TextAlignment="Center"/>
-        <TextBox x:Name="textBox" HorizontalAlignment="Stretch"  Grid.Row="3" Grid.Column="1" TextWrapping="Wrap" VerticalAlignment="Center" PlaceholderText="mojemail@mail.com" Background="#FFE4E1E1" />
-        <TextBox x:Name="textBox1" HorizontalAlignment="Stretch"  Grid.Row="5" Grid.Column="1" TextWrapping="Wrap" VerticalAlignment="Center" PlaceholderText="+3876xxxxxxx" Background="#FFE4E1E1" />
+        <TextBox x:Name="textBox" HorizontalAlignment="Stretch"  Grid.Row="3" Grid.Column="1" TextWrapping="Wrap" Text="{Binding Vasa_email_adresa, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Center" PlaceholderText="mojemail@mail.com" Background="#FFE4E1E1" />
+        <TextBox x:Name="textBox1" HorizontalAlignment="Stretch"  Grid.Row="5" Grid.Column="1" TextWrapping="Wrap" Text="{Binding Vas_broj_telefona, UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Center" PlaceholderText="+3876xxxxxxx" Background="#FFE4E1E1" />
         <Button x:Name="button" Content="Posalji novu sifru" Grid.Column="1" HorizontalAlignment="Right" Grid.Row="6" VerticalAlignment="Center" />
-        <Button x:Name="button1" Content="Nazad" Grid.Column="1" HorizontalAlignment="Left"  Grid.Row="6" VerticalAlignment="Center" Click="button1_Click"/>
+        <Button x:Name="button1" Content="Nazad" Grid.Column="1" HorizontalAlignment="Left"  Grid.Row="6" VerticalAlignment="Center" Command="{Binding Nazad}"/>
     </Grid>
 </Page>

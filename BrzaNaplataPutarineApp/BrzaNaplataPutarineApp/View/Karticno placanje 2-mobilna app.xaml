@@ -25,7 +25,7 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="button" Content="Plati >" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="9" VerticalAlignment="Center"/>
+        <Button x:Name="button" Content="Plati" Command="{Binding Plati}" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="9" VerticalAlignment="Center"/>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Text="Karticno placanje 2" Grid.Row="1" Grid.ColumnSpan="2" TextAlignment="Center"/>
         <TextBlock x:Name="textBlock1" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Text="Ime i prezime" Grid.Row="2" Grid.Column="0" TextAlignment="Center"/>
         <TextBlock x:Name="textBlock2" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Text="Adresa" Grid.Row="3" Grid.Column="0" TextAlignment="Center"/>
@@ -34,13 +34,13 @@
         <TextBlock x:Name="textBlock5" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Text="Drzava" Grid.Row="6" Grid.Column="0" TextAlignment="Center"/>
         <TextBlock x:Name="textBlock6" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Text="Telefon" Grid.Row="7" Grid.Column="0" TextAlignment="Center"/>
         <TextBlock x:Name="textBlock7" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Text="Email" Grid.Row="8" Grid.Column="0" TextAlignment="Center"/>
-        <TextBox x:Name="textBox" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Row="2" Grid.Column="1" TextAlignment="Center"/>
-        <TextBox x:Name="textBox1" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Row="3" Grid.Column="1" TextAlignment="Center"/>
-        <TextBox x:Name="textBox2" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Row="4" Grid.Column="1" TextAlignment="Center"/>
-        <TextBox x:Name="textBox3" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Row="5" Grid.Column="1" TextAlignment="Center"/>
-        <TextBox x:Name="textBox4" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Row="6" Grid.Column="1" TextAlignment="Center"/>
-        <TextBox x:Name="textBox5" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Row="7" Grid.Column="1" TextAlignment="Center"/>
-        <TextBox x:Name="textBox6" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Grid.Row="8" Grid.Column="1" TextAlignment="Center"/>
-        <Button x:Name="button1" Content="Nazad" Grid.Column="0" HorizontalAlignment="Center"  Grid.Row="9" VerticalAlignment="Center" Click="button1_Click"/>
+        <TextBox x:Name="textBox"  HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Text="{Binding Ime i prezime, UpdateSourceTrigger=PropertyChanged}" Grid.Row="2" Grid.Column="1" TextAlignment="Center"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap"  Text="{Binding Adresa, UpdateSourceTrigger=PropertyChanged}" Grid.Row="3" Grid.Column="1" TextAlignment="Center"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap"  Text="{Binding Grad, UpdateSourceTrigger=PropertyChanged}" Grid.Row="4" Grid.Column="1" TextAlignment="Center"/>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Text="{Binding Postanski broj, UpdateSourceTrigger=PropertyChanged}" Grid.Row="5" Grid.Column="1" TextAlignment="Center"/>
+        <TextBox x:Name="textBox4" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Text="{Binding Drzava, UpdateSourceTrigger=PropertyChanged}" Grid.Row="6" Grid.Column="1" TextAlignment="Center"/>
+        <TextBox x:Name="textBox5" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Text="{Binding Telefon, UpdateSourceTrigger=PropertyChanged}" Grid.Row="7" Grid.Column="1" TextAlignment="Center"/>
+        <TextBox x:Name="textBox6" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" Text="{Binding Email, UpdateSourceTrigger=PropertyChanged}" Grid.Row="8" Grid.Column="1" TextAlignment="Center"/>
+        <Button x:Name="button1" Content="Nazad" Grid.Column="0" HorizontalAlignment="Center"  Grid.Row="9" VerticalAlignment="Center" Command="{Binding Nazad}"/>
     </Grid>
 </Page>

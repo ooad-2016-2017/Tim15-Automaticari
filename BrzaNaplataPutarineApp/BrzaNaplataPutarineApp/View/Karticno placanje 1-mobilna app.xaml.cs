@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BrzaNaplataPutarineApp.Helper;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -12,6 +13,8 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using BrzaNaplataPutarineApp.ViewModel;
+using BrzaNaplataPutarineApp.Helper;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -22,9 +25,12 @@ namespace BrzaNaplataPutarineApp.View
     /// </summary>
     public sealed partial class Karticno_placanje_1_mobilna_app : Page
     {
+        private object placanje;
+
         public Karticno_placanje_1_mobilna_app()
         {
             this.InitializeComponent();
+            this.DataContext = new Karticno_placanje_1_mobilna_appVM(new NavigationService());
         }
 
         private void OdaberiteKarticu_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -37,16 +43,16 @@ namespace BrzaNaplataPutarineApp.View
 
         }
 
-        private void button_Click_1(object sender, RoutedEventArgs e)
-        {
-            Frame rootFrame = Window.Current.Content as Frame;
-            Frame.Navigate(typeof(Karticno_placanje_2_mobilna_app));
-        }
+        //private void button_Click_1(object sender, RoutedEventArgs e)
+        //{
+        //    Frame rootFrame = Window.Current.Content as Frame;
+        //    Frame.Navigate(typeof(Karticno_placanje_2_mobilna_app));
+        //}
 
-        private void button1_Click(object sender, RoutedEventArgs e)
-        {
-            Frame rootFrame = Window.Current.Content as Frame;
-            Frame.Navigate(typeof(Profil_korisnika_mobilna_app));
-        }
+        //private void button1_Click(object sender, RoutedEventArgs e)
+        //{
+        //    Frame rootFrame = Window.Current.Content as Frame;
+        //    Frame.Navigate(typeof(Profil_korisnika_mobilna_app));
+        //}
     }
 }

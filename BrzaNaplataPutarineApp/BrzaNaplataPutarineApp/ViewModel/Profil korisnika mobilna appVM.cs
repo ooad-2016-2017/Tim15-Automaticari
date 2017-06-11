@@ -9,26 +9,34 @@ using BrzaNaplataPutarineApp.View;
 
 namespace BrzaNaplataPutarineApp.ViewModel
 {
-    class KorisnikVM : VMBase
+    class Profil_korisnika_mobilna_appVM
     {
-        public RelayCommand DopuniRacun { get; set; }
+        public RelayCommand Dopuna { get; set; }
         public RelayCommand Nazad { get; set; }
-
+        public RelayCommand Meni { get; set; }
+        
         private NavigationService navigationService = new NavigationService();
 
-        public KorisnikVM(NavigationService _navigationService)
+        public Profil_korisnika_mobilna_appVM(NavigationService _navigationService)
         {
-            DopuniRacun = new RelayCommand(IzvrsiDopunu);
+            Dopuna = new RelayCommand(IzvrsiDopunu);
             Nazad = new RelayCommand(IzvrsiNazad);
+            Meni = new RelayCommand(IdiNaMeni);
         }
 
         private void IzvrsiDopunu(object obj)
         {
             navigationService.Navigate(typeof(Karticno_placanje_1_mobilna_app));
         }
+
+        private void IdiNaMeni(object obj)
+        {
+            navigationService.Navigate(typeof(Idi_na));
+        }
+
         private void IzvrsiNazad(object obj)
         {
-            navigationService.Navigate(typeof(Naslovna));
+            navigationService.Navigate(typeof(Prijava_mobilna_app));
         }
     }
 }

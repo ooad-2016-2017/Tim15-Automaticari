@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BrzaNaplataPutarineApp.Helper;
+using BrzaNaplataPutarineApp.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -25,36 +27,37 @@ namespace BrzaNaplataPutarineApp.View
         public Idi_na()
         {
             this.InitializeComponent();
+            this.DataContext = new IdiNaVM(new NavigationService());
         }
 
-        private void button_Click(object sender, RoutedEventArgs e)
-        {
-            Frame rootFrame = Window.Current.Content as Frame;
-            Frame.Navigate(typeof(Profil_korisnika_mobilna_app));
-        }
+        //private void button_Click(object sender, RoutedEventArgs e)
+        //{
+        //    Frame rootFrame = Window.Current.Content as Frame;
+        //    Frame.Navigate(typeof(Profil_korisnika_mobilna_app));
+        //}
 
-        private void button1_Click(object sender, RoutedEventArgs e)
-        {
-            Frame rootFrame = Window.Current.Content as Frame;
-            Frame.Navigate(typeof(Karticno_placanje_1_mobilna_app));
-        }
+        //private void button1_Click(object sender, RoutedEventArgs e)
+        //{
+        //    Frame rootFrame = Window.Current.Content as Frame;
+        //    Frame.Navigate(typeof(Karticno_placanje_1_mobilna_app));
+        //}
 
-        private void button6_Click(object sender, RoutedEventArgs e)
-        {
-            Frame rootFrame = Window.Current.Content as Frame;
-            Frame.Navigate(typeof(Pocetni_meni_mobilna_app));
-        }
+        //private void button6_Click(object sender, RoutedEventArgs e)
+        //{
+        //    Frame rootFrame = Window.Current.Content as Frame;
+        //    Frame.Navigate(typeof(Pocetni_meni_mobilna_app));
+        //}
 
-        private void button7_Click(object sender, RoutedEventArgs e)
-        {
-            Frame rootFrame = Window.Current.Content as Frame;
-            Frame.Navigate(typeof(Profil_korisnika_mobilna_app));
-        }
+        //private void button7_Click(object sender, RoutedEventArgs e)
+        //{
+        //    Frame rootFrame = Window.Current.Content as Frame;
+        //    Frame.Navigate(typeof(Profil_korisnika_mobilna_app));
+        //}
 
-        private void button5_Click(object sender, RoutedEventArgs e)
-        {
-            Frame rootFrame = Window.Current.Content as Frame;
-            Frame.Navigate(typeof(Kontakt));
-        }
+        //private void button5_Click(object sender, RoutedEventArgs e)
+        //{
+        //    Frame rootFrame = Window.Current.Content as Frame;
+        //    Frame.Navigate(typeof(Kontakt));
+        //}
     }
 }

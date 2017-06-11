@@ -1,27 +1,26 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 using BrzaNaplataPutarineApp.ViewModel;
 using BrzaNaplataPutarineApp.Helper;
 using BrzaNaplataPutarineApp.View;
 
 namespace BrzaNaplataPutarineApp.ViewModel
 {
-    class PrijavaVM : VMBase
+    class Prijava_mobilna_appVM : VMBase
     {
         public RelayCommand Prijava { get; set; }
         public RelayCommand Nazad { get; set; }
         public RelayCommand zaboravljena_sifra { get; set; }
 
-        public string Email { get; set;  }
-        public string Password { get; set; }
+        public string Email { get; set; }
+        public string Lozinka { get; set; }
 
         private NavigationService navigationService = new NavigationService();
 
-        public PrijavaVM(NavigationService _navigationService)
+        public Prijava_mobilna_appVM(NavigationService _navigationService)
         {
             Prijava = new RelayCommand(IzvrsiPrijavu);
             Nazad = new RelayCommand(IzvrsiNazad);
@@ -30,7 +29,7 @@ namespace BrzaNaplataPutarineApp.ViewModel
 
         private void IzvrsiPrijavu(object obj)
         {
-            navigationService.Navigate(typeof(Naslovna));
+            navigationService.Navigate(typeof(Profil_korisnika_mobilna_app));
         }
 
         private void IzvrsiSifru(object obj)

@@ -12,6 +12,8 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using BrzaNaplataPutarineApp.ViewModel;
+using BrzaNaplataPutarineApp.Helper;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -25,12 +27,13 @@ namespace BrzaNaplataPutarineApp.View
         public Karticno_placanje_2_mobilna_app()
         {
             this.InitializeComponent();
+            this.DataContext = new Karticno_placanje_2_mobilna_appVM(new NavigationService());
         }
 
-        private void button1_Click(object sender, RoutedEventArgs e)
-        {
-            Frame rootFrame = Window.Current.Content as Frame;
-            Frame.Navigate(typeof(Karticno_placanje_1_mobilna_app));
-        }
+        //private void button1_Click(object sender, RoutedEventArgs e)
+        //{
+        //    Frame rootFrame = Window.Current.Content as Frame;
+        //    Frame.Navigate(typeof(Karticno_placanje_1_mobilna_app));
+        //}
     }
 }

@@ -29,9 +29,9 @@
         <TextBlock x:Name="textBlock" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center"  Grid.ColumnSpan="3" TextAlignment="Center" Grid.Row="1" Text="Profil"/>
         <Button x:Name="button" Content="Cjenovnik" HorizontalAlignment="Stretch" Grid.Row="5" VerticalAlignment="Center" Grid.Column="1" />
         <Button x:Name="button2" Content="Lokacije" HorizontalAlignment="Stretch"  Grid.Row="6" VerticalAlignment="Center" Grid.Column="1" />
-        <Button x:Name="button1" Content="Dopuna" Grid.Column="1" HorizontalAlignment="Stretch" Grid.Row="4" VerticalAlignment="Center" Click="button1_Click"/>
-        <Button x:Name="button3" Content="Meni" HorizontalAlignment="Center"  Grid.Row="3" VerticalAlignment="Center" Grid.Column="0" Click="button3_Click"/>
-        <Button x:Name="button4" Content="Nazad" Grid.Column="1" HorizontalAlignment="Stretch"  Grid.Row="7" VerticalAlignment="Center" Click="button4_Click"/>
+        <Button x:Name="button1" Content="Dopuna" Grid.Column="1" HorizontalAlignment="Stretch" Grid.Row="4" VerticalAlignment="Center" Command="{Binding Dopuna}"/>
+        <Button x:Name="button3" Content="Meni" HorizontalAlignment="Center"  Grid.Row="3" VerticalAlignment="Center" Grid.Column="0" Command="{Binding Meni}"/>
+        <Button x:Name="button4" Content="Nazad" Grid.Column="1" HorizontalAlignment="Stretch"  Grid.Row="7" VerticalAlignment="Center" Command="{Binding Nazad}"/>
         <TextBlock x:Name="textBlock1" HorizontalAlignment="Center"  Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Center" Text="Stanje racuna"/>
         <TextBlock x:Name="textBlock2" Grid.Column="1" HorizontalAlignment="Center"  TextWrapping="Wrap" VerticalAlignment="Center" Grid.Row="2"  Text="{Binding Path=korisnik.Stanje_na_racunu}"/>
         <TextBlock x:Name="textBlock3" Grid.Column="2" HorizontalAlignment="Left"  TextWrapping="Wrap" VerticalAlignment="Center" Grid.Row="2" />

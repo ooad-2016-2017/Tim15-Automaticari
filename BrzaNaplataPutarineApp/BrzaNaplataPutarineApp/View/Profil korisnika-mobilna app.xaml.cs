@@ -13,6 +13,8 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using BrzaNaplataPutarineApp.ViewModel;
+using BrzaNaplataPutarineApp.Helper;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -26,30 +28,32 @@ namespace BrzaNaplataPutarineApp.View
         public Profil_korisnika_mobilna_app()
         {
             this.InitializeComponent();
-            //DataContext = new KorisnikVM();
+             this.DataContext = new Profil_korisnika_mobilna_appVM(new NavigationService());
         }
+
+        
 
         private void DopunaRacuna_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
         }
 
-        private void button3_Click(object sender, RoutedEventArgs e)
-        {
-            Frame rootFrame = Window.Current.Content as Frame;
-            Frame.Navigate(typeof(Idi_na));
-        }
+    //    private void button3_Click(object sender, RoutedEventArgs e)
+    //    {
+    //        Frame rootFrame = Window.Current.Content as Frame;
+    //        Frame.Navigate(typeof(Idi_na));
+    //    }
 
-        private void button1_Click(object sender, RoutedEventArgs e)
-        {
-            Frame rootFrame = Window.Current.Content as Frame;
-            Frame.Navigate(typeof(Karticno_placanje_1_mobilna_app));
-        }
+    //    private void button1_Click(object sender, RoutedEventArgs e)
+    //    {
+    //        Frame rootFrame = Window.Current.Content as Frame;
+    //        Frame.Navigate(typeof(Karticno_placanje_1_mobilna_app));
+    //    }
 
-        private void button4_Click(object sender, RoutedEventArgs e)
-        {
-            Frame rootFrame = Window.Current.Content as Frame;
-            Frame.Navigate(typeof(Prijava_mobilna_app));
-        }
+    //    private void button4_Click(object sender, RoutedEventArgs e)
+    //    {
+    //        Frame rootFrame = Window.Current.Content as Frame;
+    //        Frame.Navigate(typeof(Prijava_mobilna_app));
+    //    }
     }
 }

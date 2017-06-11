@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BrzaNaplataPutarineApp.Helper;
+using BrzaNaplataPutarineApp.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -25,12 +27,13 @@ namespace BrzaNaplataPutarineApp.View
         public Dostave()
         {
             this.InitializeComponent();
+            this.DataContext = new DostaveVM(new NavigationService());
         }
 
-        private void button_Click(object sender, RoutedEventArgs e)
-        {
-            Frame rootFrame = Window.Current.Content as Frame;
-            Frame.Navigate(typeof(Naslovna));
-        }
+        //private void button_Click(object sender, RoutedEventArgs e)
+        //{
+        //    Frame rootFrame = Window.Current.Content as Frame;
+        //    Frame.Navigate(typeof(Naslovna));
+        //}
     }
 }

@@ -1,43 +1,38 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 using BrzaNaplataPutarineApp.ViewModel;
 using BrzaNaplataPutarineApp.Helper;
 using BrzaNaplataPutarineApp.View;
 
 namespace BrzaNaplataPutarineApp.ViewModel
 {
-    class PrijavaVM : VMBase
+    class Registracija_mobilna_appVM :VMBase
     {
-        public RelayCommand Prijava { get; set; }
+        public RelayCommand Fizicko_lice { get; set; }
+        public RelayCommand Pravno_lice { get; set; }
         public RelayCommand Nazad { get; set; }
-        public RelayCommand zaboravljena_sifra { get; set; }
-
-        public string Email { get; set;  }
-        public string Password { get; set; }
-
+        
         private NavigationService navigationService = new NavigationService();
 
-        public PrijavaVM(NavigationService _navigationService)
+        public Registracija_mobilna_appVM(NavigationService _navigationService)
         {
-            Prijava = new RelayCommand(IzvrsiPrijavu);
+
+            Fizicko_lice = new RelayCommand(RegistrujFizickoLice);
+            Pravno_lice = new RelayCommand(RegistrujPravnoLice);
             Nazad = new RelayCommand(IzvrsiNazad);
-            zaboravljena_sifra = new RelayCommand(IzvrsiSifru);
         }
 
-        private void IzvrsiPrijavu(object obj)
+        private void RegistrujFizickoLice(object obj)
         {
-            navigationService.Navigate(typeof(Naslovna));
+            navigationService.Navigate(typeof(Registracija_korisnikaa));
         }
-
-        private void IzvrsiSifru(object obj)
+        private void RegistrujPravnoLice(object obj)
         {
-            navigationService.Navigate(typeof(ZaboravljenaSifra));
+            navigationService.Navigate(typeof(Registracija_kompanijee));
         }
-
         private void IzvrsiNazad(object obj)
         {
             navigationService.Navigate(typeof(Pocetni_meni_mobilna_app));

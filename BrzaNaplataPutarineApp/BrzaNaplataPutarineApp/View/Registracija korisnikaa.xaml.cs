@@ -16,6 +16,8 @@ using Windows.UI.Xaml.Navigation;
 //using Windows.UI.Popups;
 //using BrzaNaplataPutarineApp.Azure;
 using BrzaNaplataPutarineApp.View;
+using BrzaNaplataPutarineApp.ViewModel;
+using BrzaNaplataPutarineApp.Helper;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -29,6 +31,7 @@ namespace BrzaNaplataPutarineApp.View
         public Registracija_korisnikaa()
         {
             this.InitializeComponent();
+            this.DataContext = new Registracija_korisnikaVM(new NavigationService());
         }
         /*IMobileServiceTable<Korisnici> userTableObj = App.MobileService.GetTable<Korisnici>();
 
@@ -54,17 +57,17 @@ namespace BrzaNaplataPutarineApp.View
                 msgDialogError.ShowAsync();
             }
         }*/
-        private void button_Click(object sender, RoutedEventArgs e)
-        {
-            Frame rootFrame = Window.Current.Content as Frame;
-            Frame.Navigate(typeof(Naslovna));
-        }
+        //private void button_Click(object sender, RoutedEventArgs e)
+        //{
+        //    Frame rootFrame = Window.Current.Content as Frame;
+        //    Frame.Navigate(typeof(Naslovna));
+        //}
 
 
-        private void button1_Click(object sender, RoutedEventArgs e)
-        {
-            Frame rootFrame = Window.Current.Content as Frame;
-            Frame.Navigate(typeof(Korisnik));
-        }
+        //private void button1_Click(object sender, RoutedEventArgs e)
+        //{
+        //    Frame rootFrame = Window.Current.Content as Frame;
+        //    Frame.Navigate(typeof(Korisnik));
+        //}
     }
 }

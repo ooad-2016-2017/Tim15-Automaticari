@@ -15,7 +15,9 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
-using BrzaNaplataPutarineApp.View;
+using BrzaNaplataPutarineApp.Helper;
+using BrzaNaplataPutarineApp.ViewModel;
+
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -29,23 +31,24 @@ namespace BrzaNaplataPutarineApp.View
         public Pocetni_meni_mobilna_app()
         {
             this.InitializeComponent();
+            this.DataContext = new PocetniMeni_mobilna_appVM(new NavigationService());
         }
-        public void prijavaClick(object sender, RoutedEventArgs e)
-        {
-            Frame rootFrame = Window.Current.Content as Frame;
-            Frame.Navigate(typeof(Prijava_mobilna_app));
-        }
+        //public void prijavaClick(object sender, RoutedEventArgs e)
+        //{
+        //    Frame rootFrame = Window.Current.Content as Frame;
+        //    Frame.Navigate(typeof(Prijava_mobilna_app));
+        //}
 
-        private void button2_Click(object sender, RoutedEventArgs e)
-        {
-            Frame rootFrame = Window.Current.Content as Frame;
-            Frame.Navigate(typeof(Registracija_mobilna_app));
-        }
+        //private void button2_Click(object sender, RoutedEventArgs e)
+        //{
+        //    Frame rootFrame = Window.Current.Content as Frame;
+        //    Frame.Navigate(typeof(Registracija_mobilna_app));
+        //}
 
-        private void button1_Click(object sender, RoutedEventArgs e)
-        {
-            Frame rootFrame = Window.Current.Content as Frame;
-            Frame.Navigate(typeof(Prijava_administrator));
-        }
+        //private void button1_Click(object sender, RoutedEventArgs e)
+        //{
+        //    Frame rootFrame = Window.Current.Content as Frame;
+        //    Frame.Navigate(typeof(Prijava_administrator));
+        //}
     }
 }

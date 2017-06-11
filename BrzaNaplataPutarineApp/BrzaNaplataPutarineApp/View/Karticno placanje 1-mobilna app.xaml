@@ -28,7 +28,7 @@
             <ComboBoxItem Content="Maestro" FontWeight="Normal" FontStyle="Normal"/>
             <ComboBoxItem Content="Visa" FontWeight="Normal" FontStyle="Normal"/>
         </ComboBox>
-        <Button x:Name="button" Content="Dalje" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="6" VerticalAlignment="Center" Click="button_Click_1"/>
+        <Button x:Name="button" Content="Dalje" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="6" VerticalAlignment="Center" Command="{Binding Dalje}"/>
         <ComboBox x:Name="Mjesec" HorizontalAlignment="Center" VerticalAlignment="Center"  HorizontalContentAlignment="Stretch" SelectionChanged="OdaberiteKarticu_SelectionChanged" BorderBrush="{ThemeResource AppBarButtonForeground}" FontWeight="Light" Grid.Row="5" Grid.Column="1" >
             <ComboBoxItem Content="Januar" FontWeight="Normal" FontStyle="Normal"/>
             <ComboBoxItem Content="Februar" FontWeight="Normal" FontStyle="Normal"/>
@@ -42,7 +42,6 @@
             <ComboBoxItem Content="Oktobar" FontWeight="Normal" FontStyle="Normal"/>
             <ComboBoxItem Content="Novembar" FontWeight="Normal" FontStyle="Normal"/>
             <ComboBoxItem Content="Decembar" FontWeight="Normal" FontStyle="Normal"/>
-
         </ComboBox>
         <ComboBox x:Name="Godina" HorizontalAlignment="Center" VerticalAlignment="Center"  HorizontalContentAlignment="Stretch" SelectionChanged="Godina_SelectionChanged" BorderBrush="{ThemeResource AppBarButtonForeground}" FontWeight="Light" Grid.Row="5" Grid.Column="2">
             <ComboBoxItem Content="2017" FontWeight="Normal" FontStyle="Normal"/>
@@ -65,6 +64,6 @@
         <TextBlock x:Name="textBlock6" HorizontalAlignment="Left" TextWrapping="Wrap"  VerticalAlignment="Center" Grid.Row="4" TextAlignment="Center"/>
         <TextBlock x:Name="textBlock7" HorizontalAlignment="Left" TextWrapping="Wrap"  VerticalAlignment="Center" Grid.Row="5" TextAlignment="Center"/>
         <TextBlock x:Name="textBlock8" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Karticno placanje 1" VerticalAlignment="Center" Grid.Row="1" Grid.ColumnSpan="3" TextAlignment="Center" />
-        <Button x:Name="button1" Content="Nazad" Grid.Column="0" HorizontalAlignment="Center"  Grid.Row="6" VerticalAlignment="Center" Click="button1_Click"/>
+        <Button x:Name="button1" Content="Nazad" Grid.Column="0" HorizontalAlignment="Center"  Grid.Row="6" VerticalAlignment="Center" Command="{Binding Nazad}"/>
     </Grid>
 </Page>
