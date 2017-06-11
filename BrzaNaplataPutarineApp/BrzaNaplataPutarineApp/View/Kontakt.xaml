@@ -18,7 +18,7 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
-   
+            <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
@@ -32,5 +32,6 @@
         <TextBlock x:Name="textBlock4" HorizontalAlignment="Stretch" VerticalAlignment="Center" TextWrapping="Wrap"  Grid.Row="5" Grid.Column="1" TextAlignment="Center"/>
         <TextBlock x:Name="textBlock5" HorizontalAlignment="Stretch" VerticalAlignment="Center" TextWrapping="Wrap" Text="Email adresa" Grid.Row="6" Grid.Column="1" TextAlignment="Center"/>
         <TextBlock x:Name="textBlock6" HorizontalAlignment="Stretch" VerticalAlignment="Center" TextWrapping="Wrap"  Grid.Row="7" Grid.Column="1" TextAlignment="Center"/>
-    </Grid>
+        <Button x:Name="button1" Content="Nazad" Grid.Column="1" HorizontalAlignment="Center"  Grid.Row="8" VerticalAlignment="Center" Click="button1_Click"/>
+</Grid>
 </Page>

@@ -26,5 +26,11 @@ namespace BrzaNaplataPutarineApp.View
         {
             this.InitializeComponent();
         }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            Frame rootFrame = Window.Current.Content as Frame;
+            Frame.Navigate(typeof(Idi_na));
+        }
     }
 }
