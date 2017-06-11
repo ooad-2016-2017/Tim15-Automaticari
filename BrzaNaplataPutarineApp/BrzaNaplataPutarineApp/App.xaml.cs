@@ -1,4 +1,6 @@
-﻿using System;
+using BrzaNaplataPutarineApp.Model;
+using Microsoft.Data.Entity;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -17,7 +19,8 @@ using Windows.UI.Xaml.Navigation;
 //using Microsoft.WindowsAzure.MobileServices;
 
 
-//public static MobileServiceClient MobileService = new MobileServiceClient("https://OOAD.azurewebsites.net");
+//public static MobileServiceClient MobileService = new MobileServiceClient("https://OOAD.azurewebsites.net");
+
 namespace BrzaNaplataPutarineApp
 {
     /// <summary>
@@ -33,6 +36,11 @@ namespace BrzaNaplataPutarineApp
         {
             this.InitializeComponent();
             this.Suspending += OnSuspending;
+            using (var db = new dbContext())
+            {
+                db.Database.ApplyMigrations();
+                DefaultPodaci.Initialize(db);
+            }
         }
 
         /// <summary>
