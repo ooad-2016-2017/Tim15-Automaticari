@@ -1,4 +1,4 @@
-﻿<Page
+<Page
     x:Class="BrzaNaplataPutarineApp.View.Naslovna"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -29,5 +29,7 @@
         <Button x:Name="button2" Content="Dostave" HorizontalAlignment="Stretch"  Grid.Row="3" VerticalAlignment="Center"  Grid.Column="3" Command="{Binding Dostave}"/>
         <Button x:Name="button3" Content="Baza podataka" HorizontalAlignment="Stretch" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" Command="{Binding Baza podataka}"/>
         <Button x:Name="button4" Content="Nazad" Grid.Column="1" HorizontalAlignment="Stretch"  Grid.Row="4" VerticalAlignment="Center" Command="{Binding Nazad}"/>
+        <Button x:Name="button5" Content="Senzor" Grid.Column="3" HorizontalAlignment="Stretch"  Grid.Row="4" VerticalAlignment="Center" Command="{Binding Senzor}"/>
+
     </Grid>
 </Page>

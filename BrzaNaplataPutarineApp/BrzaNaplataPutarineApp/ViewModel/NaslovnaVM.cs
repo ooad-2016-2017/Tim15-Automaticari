@@ -15,6 +15,7 @@ namespace BrzaNaplataPutarineApp.ViewModel
         public RelayCommand RegistracijaKompanije { get; set; }
         public RelayCommand Dostave { get; set; }
         public RelayCommand Nazad { get; set; }
+        public RelayCommand Senzor { get; set; }
         
 
         private NavigationService navigationService = new NavigationService();
@@ -25,13 +26,20 @@ namespace BrzaNaplataPutarineApp.ViewModel
             RegistracijaKompanije = new RelayCommand(IzvrsiRegistracijuKompanije);
             Dostave = new RelayCommand(IdiNaDostave);
             Nazad = new RelayCommand(IdiNazad);
+            Senzor = new RelayCommand(IdiNaSenzor);
         }
-        // ne radi ovaj
+
+        private void IdiNaSenzor(object obj)
+        {
+            navigationService.Navigate(typeof(InformacijeSenzor));
+        }
+
+       
         private void IzvrsiRegistracijuKorisnika(object obj)
         {
             navigationService.Navigate(typeof(Registracija_korisnikaa));
         }
-        // ni ovaj
+        
         private void IzvrsiRegistracijuKompanije(object obj)
         {
             navigationService.Navigate(typeof(Registracija_kompanijee));
