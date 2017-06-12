@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/pocetna.unity
-  isLoaded: 1
-  isActive: 1
