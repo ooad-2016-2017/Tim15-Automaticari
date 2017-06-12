@@ -26,7 +26,10 @@ namespace BrzaNaplataPutarineApp.Model
 
             set
             {
-                uredjaj = value;
+                if(value != uredjaj)
+                {
+                    uredjaj = value;
+                }
             }
         }
 

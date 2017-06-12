@@ -46,6 +46,7 @@ namespace BrzaNaplataPutarineApp.View
             uredjaji = new List<SerialDevice>();
             foreach (SerijskiUredjajIIme i in Arduino.serijskiUredjaji)
             {
+            //  Console.WriteLine(i.Ime)
                 stringovi.Add(i.Ime);
                 uredjaji.Add(i.Uredjaj);
             }
@@ -57,8 +58,9 @@ namespace BrzaNaplataPutarineApp.View
             string ime = OdaberiteUredaj.SelectedItem.ToString();
             if (ime != null)
             {
+                
                 uredjaj = new Arduino(uredjaji[stringovi.IndexOf(ime)]);
-                //uredjaj = new Arduino(uredjaji[0]);
+                uredjaj = new Arduino(uredjaji[0]);
 
             }
             await uredjaj.dajUdaljenost();
