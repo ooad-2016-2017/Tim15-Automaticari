@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -26,12 +26,12 @@ namespace BrzaNaplataPutarineApp.ViewModel
             Dostave = new RelayCommand(IdiNaDostave);
             Nazad = new RelayCommand(IdiNazad);
         }
-
+        // ne radi ovaj
         private void IzvrsiRegistracijuKorisnika(object obj)
         {
             navigationService.Navigate(typeof(Registracija_korisnikaa));
         }
-
+        // ni ovaj
         private void IzvrsiRegistracijuKompanije(object obj)
         {
             navigationService.Navigate(typeof(Registracija_kompanijee));
