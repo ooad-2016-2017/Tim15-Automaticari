@@ -24,8 +24,8 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <TextBlock x:Name="textBlock" Grid.Row="1" HorizontalAlignment="Center"  TextWrapping="Wrap" Text="Sistem za brzu naplatu putarine" Grid.ColumnSpan="5" VerticalAlignment="Center" TextAlignment="Center"/>
-        <Button x:Name="button" Content="Registracija korisnika" HorizontalAlignment="Stretch" Grid.Row="2" VerticalAlignment="Center"   Grid.Column="1" Command="{Binding Registracija korisnika}"/>
-        <Button x:Name="button1" Content="Registracija kompanije" Grid.Column="3" HorizontalAlignment="Stretch"  Grid.Row="2" VerticalAlignment="Center" Command="{Binding Registracija kompanije}"/>
+        <Button x:Name="button" Content="Registracija korisnika" HorizontalAlignment="Stretch" Grid.Row="2" VerticalAlignment="Center"   Grid.Column="1" Command="{Binding RegistracijaKorisnika}"/>
+        <Button x:Name="button1" Content="Registracija kompanije" Grid.Column="3" HorizontalAlignment="Stretch"  Grid.Row="2" VerticalAlignment="Center" Command="{Binding RegistracijaKompanije}"/>
         <Button x:Name="button2" Content="Dostave" HorizontalAlignment="Stretch"  Grid.Row="3" VerticalAlignment="Center"  Grid.Column="3" Command="{Binding Dostave}"/>
         <Button x:Name="button3" Content="Baza podataka" HorizontalAlignment="Stretch" Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" Command="{Binding Baza podataka}"/>
         <Button x:Name="button4" Content="Nazad" Grid.Column="1" HorizontalAlignment="Stretch"  Grid.Row="4" VerticalAlignment="Center" Command="{Binding Nazad}"/>

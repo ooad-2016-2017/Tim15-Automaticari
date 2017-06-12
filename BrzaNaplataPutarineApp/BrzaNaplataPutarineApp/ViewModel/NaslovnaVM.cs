@@ -11,8 +11,8 @@ namespace BrzaNaplataPutarineApp.ViewModel
 {
     class NaslovnaVM : VMBase
     {
-        public RelayCommand Registracija_korisnika { get; set; }
-        public RelayCommand Registracija_kompanije { get; set; }
+        public RelayCommand RegistracijaKorisnika { get; set; }
+        public RelayCommand RegistracijaKompanije { get; set; }
         public RelayCommand Dostave { get; set; }
         public RelayCommand Nazad { get; set; }
         
@@ -21,8 +21,8 @@ namespace BrzaNaplataPutarineApp.ViewModel
 
         public NaslovnaVM(NavigationService _navigationService)
         {
-            Registracija_korisnika = new RelayCommand(IzvrsiRegistracijuKorisnika);
-            Registracija_kompanije = new RelayCommand(IzvrsiRegistracijuKompanije);
+            RegistracijaKorisnika = new RelayCommand(IzvrsiRegistracijuKorisnika);
+            RegistracijaKompanije = new RelayCommand(IzvrsiRegistracijuKompanije);
             Dostave = new RelayCommand(IdiNaDostave);
             Nazad = new RelayCommand(IdiNazad);
         }
