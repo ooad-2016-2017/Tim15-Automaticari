@@ -15,7 +15,7 @@ Platform assembly: C:\Users\Mirza Hodovic\Tim15-Automaticari\OOADgame\FreeTollCo
 Loading C:\Users\Mirza Hodovic\Tim15-Automaticari\OOADgame\FreeTollCollector2D_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\Mirza Hodovic\Tim15-Automaticari\OOADgame\FreeTollCollector2D_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\Mirza Hodovic\Tim15-Automaticari\OOADgame\FreeTollCollector2D_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.228 seconds
+- Completed reload, in  0.056 seconds
 Platform assembly: C:\Users\Mirza Hodovic\Tim15-Automaticari\OOADgame\FreeTollCollector2D_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Mirza Hodovic\Tim15-Automaticari\OOADgame\FreeTollCollector2D_Data\Managed\System.dll (this message is harmless)
 desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
@@ -23,81 +23,49 @@ desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
 XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.751389 ms
+UnloadTime: 1.904130 ms
 The referenced script on this Behaviour (Game Object 'End') is missing!
  
 (Filename:  Line: 1743)
 
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 6.761655 ms
+UnloadTime: 10.879021 ms
 
 Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 276.
-Total: 0.290388 ms (FindLiveObjects: 0.024148 ms CreateObjectMapping: 0.028374 ms MarkObjects: 0.196208 ms  DeleteObjects: 0.040449 ms)
+Total: 0.400265 ms (FindLiveObjects: 0.036826 ms CreateObjectMapping: 0.028978 ms MarkObjects: 0.287370 ms  DeleteObjects: 0.046486 ms)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.132577 ms
+UnloadTime: 1.515335 ms
 
 Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 289.
-Total: 0.272277 ms (FindLiveObjects: 0.045882 ms CreateObjectMapping: 0.018111 ms MarkObjects: 0.191379 ms  DeleteObjects: 0.016300 ms)
+Total: 0.343516 ms (FindLiveObjects: 0.039845 ms CreateObjectMapping: 0.027771 ms MarkObjects: 0.252354 ms  DeleteObjects: 0.022941 ms)
 
 The referenced script on this Behaviour (Game Object 'End') is missing!
  
 (Filename:  Line: 1743)
 
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.499879 ms
+UnloadTime: 0.579570 ms
 
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 276.
-Total: 0.360420 ms (FindLiveObjects: 0.059768 ms CreateObjectMapping: 0.028374 ms MarkObjects: 0.236054 ms  DeleteObjects: 0.035015 ms)
+Total: 0.444337 ms (FindLiveObjects: 0.047693 ms CreateObjectMapping: 0.028978 ms MarkObjects: 0.315745 ms  DeleteObjects: 0.050108 ms)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.551799 ms
+UnloadTime: 0.623642 ms
 
 Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 289.
-Total: 0.261410 ms (FindLiveObjects: 0.029582 ms CreateObjectMapping: 0.019319 ms MarkObjects: 0.194397 ms  DeleteObjects: 0.018111 ms)
+Total: 0.324800 ms (FindLiveObjects: 0.034411 ms CreateObjectMapping: 0.018715 ms MarkObjects: 0.246921 ms  DeleteObjects: 0.023545 ms)
 
 The referenced script on this Behaviour (Game Object 'End') is missing!
  
 (Filename:  Line: 1743)
 
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.511953 ms
+UnloadTime: 0.650205 ms
 
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 276.
-Total: 0.298841 ms (FindLiveObjects: 0.023545 ms CreateObjectMapping: 0.018715 ms MarkObjects: 0.214924 ms  DeleteObjects: 0.041052 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.585003 ms
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 289.
-Total: 0.284351 ms (FindLiveObjects: 0.043467 ms CreateObjectMapping: 0.024752 ms MarkObjects: 0.197416 ms  DeleteObjects: 0.016904 ms)
-
-The referenced script on this Behaviour (Game Object 'End') is missing!
- 
-(Filename:  Line: 1743)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.522820 ms
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 276.
-Total: 0.306689 ms (FindLiveObjects: 0.023545 ms CreateObjectMapping: 0.019922 ms MarkObjects: 0.211905 ms  DeleteObjects: 0.041052 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.613982 ms
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 289.
-Total: 0.280125 ms (FindLiveObjects: 0.029582 ms CreateObjectMapping: 0.021733 ms MarkObjects: 0.210698 ms  DeleteObjects: 0.017507 ms)
-
-The referenced script on this Behaviour (Game Object 'End') is missing!
- 
-(Filename:  Line: 1743)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.580777 ms
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 276.
-Total: 0.289785 ms (FindLiveObjects: 0.024148 ms CreateObjectMapping: 0.018715 ms MarkObjects: 0.214320 ms  DeleteObjects: 0.031997 ms)
+Total: 0.417170 ms (FindLiveObjects: 0.037430 ms CreateObjectMapping: 0.029582 ms MarkObjects: 0.301859 ms  DeleteObjects: 0.047090 ms)
 
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 2c90 -> priority: 1 
-  Thread -> id: 31bc -> priority: 1 
+  Thread -> id: 3168 -> priority: 1 
+  Thread -> id: 1dac -> priority: 1 
