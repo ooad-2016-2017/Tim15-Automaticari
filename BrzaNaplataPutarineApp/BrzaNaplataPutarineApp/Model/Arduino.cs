@@ -1,17 +1,3 @@
-//using System;
-//using System.Collections.Generic;
-//using System.Linq;
-//using System.Text;
-//using System.Threading.Tasks;
-
-//namespace BrzaNaplataPutarineApp.Model
-//{
-//    class Arduino
-//    {
-
-//    }
-//}
-
 
 using BrzaNaplataPutarineApp.Model;
 using System;
@@ -28,7 +14,7 @@ namespace BrzaNaplataPutarineApp.Model
     public class Arduino
     {
         SerialDevice uredjaj;
-        public static List<BrzaNaplataPutarineApp.Model.SerijskiUredjajIIme> serijskiUredjaji;
+        public static List<SerijskiUredjajIIme> serijskiUredjaji;
         public String udaljenost;
 
         public SerialDevice Uredjaj

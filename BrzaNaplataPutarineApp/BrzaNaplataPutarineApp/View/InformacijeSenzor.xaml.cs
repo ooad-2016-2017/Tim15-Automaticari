@@ -31,7 +31,7 @@ namespace BrzaNaplataPutarineApp.View
         List<string> stringovi;
         List<SerialDevice> uredjaji;
         public const String UDALJENOST = "Udaljenost";
-        private object lista;
+        
 
         public InformacijeSenzor()
         {
@@ -49,6 +49,7 @@ namespace BrzaNaplataPutarineApp.View
                 stringovi.Add(i.Ime);
                 uredjaji.Add(i.Uredjaj);
             }
+            OdaberiteUredaj.ItemsSource = stringovi;
         }
 
         private async void OdaberiteUredaj_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -56,13 +57,13 @@ namespace BrzaNaplataPutarineApp.View
             string ime = OdaberiteUredaj.SelectedItem.ToString();
             if (ime != null)
             {
-                //uredjaj = new Arduino(uredjaji[stringovi.IndexOf(ime)]);
-                uredjaj = new Arduino(uredjaji[0]);
+                uredjaj = new Arduino(uredjaji[stringovi.IndexOf(ime)]);
+                //uredjaj = new Arduino(uredjaji[0]);
 
             }
             await uredjaj.dajUdaljenost();
             textBox.Text = uredjaj.udaljenost;
-            uredjaj.udaljenost = "Nije o�itano";
+            uredjaj.udaljenost = "Nije ocitano";
         }
 
     }
