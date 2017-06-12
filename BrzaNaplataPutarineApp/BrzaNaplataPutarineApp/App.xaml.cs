@@ -38,8 +38,8 @@ namespace BrzaNaplataPutarineApp
             this.Suspending += OnSuspending;
             using (var db = new dbContext())
             {
-               // db.Database.ApplyMigrations();
-                //DefaultPodaci.Initialize(db);
+               db.Database.ApplyMigrations();
+                DefaultPodaci.Initialize(db);
             }
         }
 

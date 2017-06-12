@@ -11,8 +11,10 @@ namespace BrzaNaplataPutarineApp.Model
 {
     public class Kartica : INotifyPropertyChanged
     {
-        
-        
+
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [Key]
+        public int KarticaID { get; set; }
         private int broj_kartice;
         private double stanje_na_racunu;
 

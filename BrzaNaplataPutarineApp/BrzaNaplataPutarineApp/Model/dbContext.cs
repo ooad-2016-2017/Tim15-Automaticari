@@ -11,6 +11,7 @@ namespace BrzaNaplataPutarineApp.Model
 {
     class dbContext : DbContext
     {
+        public DbSet<Kartica> Kartice { get; set; }
         public DbSet<Korisnik> Korisnici { get; set; }
         public DbSet<Administrator> Administratori { get; set; }
         public DbSet<Dostava> Dostave { get; set; }

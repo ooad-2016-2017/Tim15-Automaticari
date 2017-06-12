@@ -15,15 +15,31 @@ namespace BrzaNaplataPutarineApp.Model
                 context.Korisnici.AddRange(
                 new Korisnik()
                 {
-                    Email = "dkfljs.com",
-                    Kontakt_telefon = "062343344",
-                    Broj_kreditne_kartice = 333,
-                    Stanje_na_racunu =34.3
+                    Email = "mirza.hodovic@hotmail.com",
+                    Kontakt_telefon = "033333333",
+                    Broj_kreditne_kartice = 67347,
+                    Stanje_na_racunu = 34.3
+
+                }
+            );
+                context.SaveChanges();
+            }
+
+            if (!context.Administratori.Any())
+            {
+                context.Administratori.AddRange(
+                new Administrator()
+                {
+                    Email = "administrator@mail.com",
+                    Lozinka = "papapapa"
 
                 }
                 );
                 context.SaveChanges();
             }
+
+            
+            
         }
     }
 }

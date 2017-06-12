@@ -11,7 +11,7 @@ namespace BrzaNaplataPutarineAppMigrations
     {
         public override string Id
         {
-            get { return "20170611145913_InitialMigration"; }
+            get { return "20170612141956_InitialMigration"; }
         }
 
         public override string ProductVersion
