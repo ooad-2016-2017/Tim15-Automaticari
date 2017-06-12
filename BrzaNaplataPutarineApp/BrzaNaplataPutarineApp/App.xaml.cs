@@ -38,8 +38,8 @@ namespace BrzaNaplataPutarineApp
             this.Suspending += OnSuspending;
             using (var db = new dbContext())
             {
-               db.Database.ApplyMigrations();
-                DefaultPodaci.Initialize(db);
+               //db.Database.ApplyMigrations();
+                //DefaultPodaci.Initialize(db);
             }
         }
 
@@ -53,7 +53,7 @@ namespace BrzaNaplataPutarineApp
 #if DEBUG
             if (System.Diagnostics.Debugger.IsAttached)
             {
-                this.DebugSettings.EnableFrameRateCounter = true;
+               // this.DebugSettings.EnableFrameRateCounter = true;
             }
 #endif
             Frame rootFrame = Window.Current.Content as Frame;
