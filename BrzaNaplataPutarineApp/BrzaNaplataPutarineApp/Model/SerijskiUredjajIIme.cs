@@ -14,8 +14,8 @@ namespace BrzaNaplataPutarineApp.Model
 
         public SerijskiUredjajIIme(SerialDevice uredjaj, string ime)
         {
-            this.Uredjaj = uredjaj;
-            this.Ime = ime;
+            this.uredjaj = uredjaj;
+            this.ime = ime;
         }
         public SerialDevice Uredjaj
         {

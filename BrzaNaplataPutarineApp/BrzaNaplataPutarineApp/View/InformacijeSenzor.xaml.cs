@@ -37,6 +37,7 @@ namespace BrzaNaplataPutarineApp.View
         {
             this.InitializeComponent();
             this.DataContext = new InformacijeSenzorVM(new NavigationService());
+
         }
 
         private async void button_Click(object sender, RoutedEventArgs e)
@@ -59,7 +60,7 @@ namespace BrzaNaplataPutarineApp.View
             if (ime != null)
             {
                 
-                uredjaj = new Arduino(uredjaji[stringovi.IndexOf(ime)]);
+               // uredjaj = new Arduino(uredjaji[stringovi.IndexOf(ime)]);
                 uredjaj = new Arduino(uredjaji[0]);
 
             }

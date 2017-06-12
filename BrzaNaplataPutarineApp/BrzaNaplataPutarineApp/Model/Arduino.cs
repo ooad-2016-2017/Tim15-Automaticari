@@ -26,10 +26,9 @@ namespace BrzaNaplataPutarineApp.Model
 
             set
             {
-                if(value != uredjaj)
-                {
+                
                     uredjaj = value;
-                }
+                
             }
         }
 
@@ -45,6 +44,7 @@ namespace BrzaNaplataPutarineApp.Model
             uredjaj.ReadTimeout = TimeSpan.FromMilliseconds(1000);
             uredjaj.WriteTimeout = TimeSpan.FromMilliseconds(1000);
         }
+
         public async static Task skenirajPortove()
         {
             serijskiUredjaji = new List<SerijskiUredjajIIme>();
